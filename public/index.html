@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalog and Orders</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Catalog and Orders</h1>
+
+  <h2>Products</h2>
+  <div class="row">
+    <select id="category"></select>
+    <button id="prev">Prev</button>
+    <span id="pageinfo" class="muted"></span>
+    <button id="next">Next</button>
+  </div>
+  <div id="products" class="list" style="margin-top:12px;"></div>
+
+  <h2>Cart</h2>
+  <div id="cart" class="card"></div>
+  <div class="row" style="margin-top:8px;">
+    <input id="name" placeholder="Name" />
+    <input id="email" placeholder="Email" />
+    <button id="checkout">Checkout</button>
+  </div>
+  <div id="confirm" class="muted" style="margin-top:8px;"></div>
+
+  <h2>Diagnostics</h2>
+  <div class="row">
+    <button id="runReport">Run /api/report</button>
+  </div>
+  <div id="diag" class="diag"></div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
