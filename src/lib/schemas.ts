@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from "zod";
 
 export const productQuerySchema = z.object({
   limit: z.coerce.number().int().min(1).max(100).default(20),
@@ -14,10 +14,14 @@ export const orderItemSchema = z.object({
 export const createOrderSchema = z.object({
   customerName: z.string().min(1).max(100),
   customerEmail: z.string().email(),
-  items: z.array(orderItemSchema).min(1).max(10).refine(
-    (items) => new Set(items.map((i) => i.productId)).size === items.length,
-    { message: 'duplicate productId' }
-  ),
+  items: z
+    .array(orderItemSchema)
+    .min(1)
+    .max(10)
+    .refine(
+      (items) => new Set(items.map((i) => i.productId)).size === items.length,
+      { message: "duplicate productId" },
+    ),
 });
 
 export const reportQuerySchema = z.object({

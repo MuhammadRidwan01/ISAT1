@@ -10,17 +10,17 @@ Load tests for the Catalog and Orders app. The same scripts run against the VPS 
 
 ## Files
 
-| File | What it does |
-|---|---|
-| `s1-steady-read.js` | Constant reads (70% list, 30% detail). Default 50 VUs, 5 min. |
-| `s2-write.js` | Constant `POST /api/orders`. Default 20 VUs, 3 min. |
-| `s3-spike.js` | 0 to 300 VUs in 30 s, hold 120 s, down in 30 s. Mix 80% read, 15% write, 5% report. |
-| `s4-cpu.js` | Constant `GET /api/report?complexity=3`. Default 10 VUs, 3 min. |
-| `s5-cold-start.js` | Idle, then one cold request and one warm request. Default 10 rounds, 15 min idle. |
-| `lib/common.js` | Shared requests, metrics, instance sampler, summary writer. |
-| `run.sh` | Runs one scenario and saves the console log with the results. |
-| `summarize.sh` | Merges all per-run CSV files into `results/all.csv`. |
-| `mock-server.js` | Stand-in app for dry runs only. Not for measurements. |
+| File                | What it does                                                                        |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| `s1-steady-read.js` | Constant reads (70% list, 30% detail). Default 50 VUs, 5 min.                       |
+| `s2-write.js`       | Constant `POST /api/orders`. Default 20 VUs, 3 min.                                 |
+| `s3-spike.js`       | 0 to 300 VUs in 30 s, hold 120 s, down in 30 s. Mix 80% read, 15% write, 5% report. |
+| `s4-cpu.js`         | Constant `GET /api/report?complexity=3`. Default 10 VUs, 3 min.                     |
+| `s5-cold-start.js`  | Idle, then one cold request and one warm request. Default 10 rounds, 15 min idle.   |
+| `lib/common.js`     | Shared requests, metrics, instance sampler, summary writer.                         |
+| `run.sh`            | Runs one scenario and saves the console log with the results.                       |
+| `summarize.sh`      | Merges all per-run CSV files into `results/all.csv`.                                |
+| `mock-server.js`    | Stand-in app for dry runs only. Not for measurements.                               |
 
 ## Run
 
@@ -55,17 +55,17 @@ The mock uses a lighter CPU workload than the real `/api/report`, so only check 
 
 Pass with `-e NAME=value` (extra arguments after the base URL in `run.sh`).
 
-| Name | Default | Used by |
-|---|---|---|
-| `BASE_URL` | `http://localhost:8080` | all (set by `run.sh`) |
-| `ENV_NAME` | `local` | all (set by `run.sh`) |
-| `MAX_PRODUCT_ID` | 1000 | all. Product ids must be 1..N (a freshly seeded database). |
-| `SAMPLER` | 1 | S1-S4. Set 0 to turn off the `/health` sampler. |
-| `VUS`, `DURATION_S`, `THINK_TIME_S` | per scenario | S1, S2, S4 |
-| `LIST_SHARE` | 0.7 | S1 |
-| `PEAK_VUS`, `RAMP_UP_S`, `HOLD_S`, `RAMP_DOWN_S` | 300, 30, 120, 30 | S3 |
-| `COMPLEXITY` | 3 | S3, S4 |
-| `ITERATIONS`, `IDLE_SECONDS`, `SKIP_FIRST_IDLE` | 10, 900, 0 | S5 |
+| Name                                             | Default                 | Used by                                                    |
+| ------------------------------------------------ | ----------------------- | ---------------------------------------------------------- |
+| `BASE_URL`                                       | `http://localhost:8080` | all (set by `run.sh`)                                      |
+| `ENV_NAME`                                       | `local`                 | all (set by `run.sh`)                                      |
+| `MAX_PRODUCT_ID`                                 | 1000                    | all. Product ids must be 1..N (a freshly seeded database). |
+| `SAMPLER`                                        | 1                       | S1-S4. Set 0 to turn off the `/health` sampler.            |
+| `VUS`, `DURATION_S`, `THINK_TIME_S`              | per scenario            | S1, S2, S4                                                 |
+| `LIST_SHARE`                                     | 0.7                     | S1                                                         |
+| `PEAK_VUS`, `RAMP_UP_S`, `HOLD_S`, `RAMP_DOWN_S` | 300, 30, 120, 30        | S3                                                         |
+| `COMPLEXITY`                                     | 3                       | S3, S4                                                     |
+| `ITERATIONS`, `IDLE_SECONDS`, `SKIP_FIRST_IDLE`  | 10, 900, 0              | S5                                                         |
 
 Think time (`THINK_TIME_S`) is the pause between requests of one virtual user. It was not fixed by the PRD, so the defaults (0.5 s, and 0.2 s for the CPU test) are assumptions. Use the same values for every environment.
 

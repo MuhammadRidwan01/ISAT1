@@ -1,8 +1,8 @@
-import { getPool, closePool } from './pool.js';
+import { getPool, closePool } from "./pool.js";
 
 async function main() {
   const pool = getPool();
-  const res = await pool.query('DELETE FROM orders WHERE is_seed = false');
+  const res = await pool.query("DELETE FROM orders WHERE is_seed = false");
   console.log(`deleted ${res.rowCount} non-seed orders`);
   await closePool();
 }

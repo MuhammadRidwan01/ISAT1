@@ -1,0 +1,4 @@
+env,scenario,timestamp,metric,avg_ms,p50_ms,p95_ms,p99_ms,max_ms,rps,error_rate
+azure-vm,s2-write,2026-11-19T16-08-04-902Z,latency_all,62.24,61.59,80.50,92.10,335.58,35.39,0.00
+azure-vm,s2-write,2026-11-19T16-08-04-902Z,latency_orders_create,62.24,61.59,80.50,92.10,335.58,,
+azure-vm,s2-write,2026-11-19T16-08-04-902Z,server_time_ms,54.92,54.30,73.10,85.01,326.40,,

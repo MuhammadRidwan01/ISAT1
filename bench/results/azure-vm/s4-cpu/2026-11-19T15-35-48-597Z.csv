@@ -1,0 +1,4 @@
+env,scenario,timestamp,metric,avg_ms,p50_ms,p95_ms,p99_ms,max_ms,rps,error_rate
+azure-vm,s4-cpu,2026-11-19T15-35-48-597Z,latency_all,10949.07,11067.93,13507.64,14428.06,15528.95,0.87,0.00
+azure-vm,s4-cpu,2026-11-19T15-35-48-597Z,latency_report,10949.07,11067.93,13507.64,14428.06,15528.95,,
+azure-vm,s4-cpu,2026-11-19T15-35-48-597Z,server_time_ms,8255.97,8440.00,10973.29,12485.92,12714.50,,

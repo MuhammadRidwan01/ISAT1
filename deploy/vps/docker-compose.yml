@@ -1,0 +1,14 @@
+services:
+  app:
+    image: ${IMAGE:-your-registry/catalog-orders:latest}
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+      DATABASE_URL: ${DATABASE_URL}
+      DB_POOL_MAX: "${DB_POOL_MAX:-5}"
+      DB_SSL: "${DB_SSL:-true}"
+      INSTANCE_ID: ""
+      LOG_LEVEL: "${LOG_LEVEL:-info}"
+      APP_VERSION: "${APP_VERSION:-0.1.0}"

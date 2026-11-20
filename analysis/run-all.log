@@ -1,0 +1,83 @@
+[14:24:51Z] Preflight: k6 version
+[14:24:51Z] Preflight: k6 v2.4.0 (commit/dd9395906d, go1.26.11, linux/amd64)
+[14:24:51Z] Preflight: health/db azure-vm=200 azure-aca=200
+[14:24:52Z] Preflight: baseline written
+[14:24:52Z] Warmup start
+[14:24:52Z] START warmup s1 warmup rep=1 peak=
+[14:25:13Z] DONE warmup s1 warmup rep=1 ec=0 err=0.00
+[14:25:13Z] START warmup s1 warmup rep=1 peak=
+[14:25:34Z] DONE warmup s1 warmup rep=1 ec=0 err=0.00
+[14:25:34Z] Warmup done
+[14:25:34Z] Phase 1 start
+[14:25:34Z] START phase1 s1 azure-vm rep=1 peak=
+[14:30:35Z] DONE phase1 s1 azure-vm rep=1 ec=0 err=0.00
+[14:32:35Z] START phase1 s1 azure-aca rep=1 peak=
+[14:37:36Z] DONE phase1 s1 azure-aca rep=1 ec=0 err=0.00
+[14:39:37Z] START phase1 s2 azure-vm rep=1 peak=
+[14:42:38Z] DONE phase1 s2 azure-vm rep=1 ec=0 err=0.00
+[14:44:45Z] START phase1 s2 azure-aca rep=1 peak=
+[14:47:46Z] DONE phase1 s2 azure-aca rep=1 ec=0 err=0.00
+[14:49:53Z] START phase1 s4 azure-vm rep=1 peak=
+[14:53:05Z] DONE phase1 s4 azure-vm rep=1 ec=0 err=0.00
+[15:03:06Z] START phase1 s4 azure-aca rep=1 peak=
+[15:06:18Z] DONE phase1 s4 azure-aca rep=1 ec=0 err=0.00
+[15:08:18Z] START phase1 s1 azure-vm rep=2 peak=
+[15:13:19Z] DONE phase1 s1 azure-vm rep=2 ec=0 err=0.00
+[15:15:20Z] START phase1 s1 azure-aca rep=2 peak=
+[15:20:21Z] DONE phase1 s1 azure-aca rep=2 ec=0 err=0.00
+[15:22:21Z] START phase1 s2 azure-vm rep=2 peak=
+[15:25:22Z] DONE phase1 s2 azure-vm rep=2 ec=0 err=0.00
+[15:27:29Z] START phase1 s2 azure-aca rep=2 peak=
+[15:30:30Z] DONE phase1 s2 azure-aca rep=2 ec=0 err=0.00
+[15:32:37Z] START phase1 s4 azure-vm rep=2 peak=
+[15:35:48Z] DONE phase1 s4 azure-vm rep=2 ec=0 err=0.00
+[15:45:50Z] START phase1 s4 azure-aca rep=2 peak=
+[15:49:01Z] DONE phase1 s4 azure-aca rep=2 ec=0 err=0.00
+[15:51:01Z] START phase1 s1 azure-vm rep=3 peak=
+[15:56:02Z] DONE phase1 s1 azure-vm rep=3 ec=0 err=0.00
+[15:58:02Z] START phase1 s1 azure-aca rep=3 peak=
+[16:03:03Z] DONE phase1 s1 azure-aca rep=3 ec=0 err=0.00
+[16:05:04Z] START phase1 s2 azure-vm rep=3 peak=
+[16:08:05Z] DONE phase1 s2 azure-vm rep=3 ec=0 err=0.00
+[16:10:12Z] START phase1 s2 azure-aca rep=3 peak=
+[16:13:13Z] DONE phase1 s2 azure-aca rep=3 ec=0 err=0.00
+[16:15:19Z] START phase1 s4 azure-vm rep=3 peak=
+[16:18:30Z] DONE phase1 s4 azure-vm rep=3 ec=0 err=0.00
+[16:28:32Z] START phase1 s4 azure-aca rep=3 peak=
+[16:31:43Z] DONE phase1 s4 azure-aca rep=3 ec=0 err=0.00
+[16:33:43Z] Phase 1 done
+[16:33:43Z] Phase 2 start
+[16:33:44Z] START phase2 s3 azure-vm rep=1 peak=50
+[16:36:44Z] DONE phase2 s3 azure-vm rep=1 ec=0 err=0.00
+[16:46:46Z] START phase2 s3 azure-aca rep=1 peak=50
+[16:49:46Z] DONE phase2 s3 azure-aca rep=1 ec=0 err=0.00
+[16:59:46Z] Phase 2 level 50 OK
+[16:59:48Z] START phase2 s3 azure-vm rep=1 peak=150
+[17:02:51Z] DONE phase2 s3 azure-vm rep=1 ec=0 err=0.00
+[17:12:53Z] START phase2 s3 azure-aca rep=1 peak=150
+[17:15:54Z] DONE phase2 s3 azure-aca rep=1 ec=0 err=0.00
+[17:25:54Z] Phase 2 level 150 OK
+[17:25:56Z] START phase2 s3 azure-vm rep=1 peak=300
+[17:29:19Z] DONE phase2 s3 azure-vm rep=1 ec=0 err=0.00
+[17:39:20Z] START phase2 s3 azure-aca rep=1 peak=300
+[17:42:26Z] DONE phase2 s3 azure-aca rep=1 ec=0 err=0.00
+[17:52:26Z] Phase 2 level 300 OK
+[17:52:26Z] Phase 2 final level=300; running 2 more reps
+[17:52:28Z] START phase2 s3 azure-vm rep=2 peak=300
+[17:55:44Z] DONE phase2 s3 azure-vm rep=2 ec=0 err=0.00
+[18:05:46Z] START phase2 s3 azure-aca rep=2 peak=300
+[18:09:01Z] DONE phase2 s3 azure-aca rep=2 ec=0 err=0.00
+[18:19:03Z] START phase2 s3 azure-vm rep=3 peak=300
+[18:22:20Z] DONE phase2 s3 azure-vm rep=3 ec=0 err=0.00
+[18:32:21Z] START phase2 s3 azure-aca rep=3 peak=300
+[18:35:38Z] DONE phase2 s3 azure-aca rep=3 ec=0 err=0.00
+[18:45:38Z] Phase 2 done
+[18:45:38Z] Phase 3 start
+[18:45:38Z] START phase3 s5 azure-vm rep=1 peak=
+[18:45:38Z] START phase3 s5 azure-aca rep=1 peak=
+[20:00:44Z] DONE phase3 s5 azure-vm rep=1 ec=0 err=0.00
+[20:00:44Z] DONE phase3 s5 azure-aca rep=1 ec=0 err=0.00
+[20:00:44Z] Phase 3 done
+[20:00:44Z] Summarize
+[20:00:44Z] ALL DONE
+Shutdown scheduled for Thu 2026-11-19 22:00:44 UTC, use 'shutdown -c' to cancel.

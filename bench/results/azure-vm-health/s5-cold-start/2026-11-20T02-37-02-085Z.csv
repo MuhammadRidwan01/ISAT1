@@ -1,0 +1,4 @@
+env,scenario,timestamp,metric,avg_ms,p50_ms,p95_ms,p99_ms,max_ms,rps,error_rate
+azure-vm-health,s5-cold-start,2026-11-20T02-37-02-085Z,cold_start_ms,7.65,7.52,8.08,8.11,8.12,,0.00
+azure-vm-health,s5-cold-start,2026-11-20T02-37-02-085Z,cold_start_ttfb_ms,7.50,7.35,7.92,7.95,7.95,,
+azure-vm-health,s5-cold-start,2026-11-20T02-37-02-085Z,warm_followup_ms,7.12,7.05,7.49,7.53,7.54,,

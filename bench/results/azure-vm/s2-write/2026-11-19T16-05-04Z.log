@@ -1,0 +1,932 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: s2-write.js
+        output: -
+
+     scenarios: (100.00%) 2 scenarios, 22 max VUs, 3m30s max duration (incl. graceful stop):
+              * sampler: 1.00 iterations/s for 3m0s (maxVUs: 1-2, exec: sampler, gracefulStop: 30s)
+              * write: 20 looping VUs for 3m0s (gracefulStop: 30s)
+
+time="2026-11-19T16:05:04Z" level=info msg="SAMPLER,2026-11-19T16:05:04.224Z,9577a35e0df4,200,7" source=console
+
+running (0m01.0s), 20/21 VUs, 21 complete and 0 interrupted iterations
+sampler   [   1% ] 0/1 VUs  0m01.0s/3m0s  1.00 iters/s
+write     [   1% ] 20 VUs   0m01.0s/3m0s 
+time="2026-11-19T16:05:05Z" level=info msg="SAMPLER,2026-11-19T16:05:05.216Z,9577a35e0df4,200,7" source=console
+
+running (0m02.0s), 20/21 VUs, 56 complete and 0 interrupted iterations
+sampler   [   1% ] 0/1 VUs  0m02.0s/3m0s  1.00 iters/s
+write     [   1% ] 20 VUs   0m02.0s/3m0s 
+time="2026-11-19T16:05:06Z" level=info msg="SAMPLER,2026-11-19T16:05:06.217Z,9577a35e0df4,200,7" source=console
+
+running (0m03.0s), 20/21 VUs, 93 complete and 0 interrupted iterations
+sampler   [   2% ] 0/1 VUs  0m03.0s/3m0s  1.00 iters/s
+write     [   2% ] 20 VUs   0m03.0s/3m0s 
+time="2026-11-19T16:05:07Z" level=info msg="SAMPLER,2026-11-19T16:05:07.217Z,9577a35e0df4,200,7" source=console
+
+running (0m04.0s), 20/21 VUs, 127 complete and 0 interrupted iterations
+sampler   [   2% ] 0/1 VUs  0m04.0s/3m0s  1.00 iters/s
+write     [   2% ] 20 VUs   0m04.0s/3m0s 
+time="2026-11-19T16:05:08Z" level=info msg="SAMPLER,2026-11-19T16:05:08.217Z,9577a35e0df4,200,7" source=console
+
+running (0m05.0s), 20/21 VUs, 165 complete and 0 interrupted iterations
+sampler   [   3% ] 0/1 VUs  0m05.0s/3m0s  1.00 iters/s
+write     [   3% ] 20 VUs   0m05.0s/3m0s 
+time="2026-11-19T16:05:09Z" level=info msg="SAMPLER,2026-11-19T16:05:09.216Z,9577a35e0df4,200,7" source=console
+
+running (0m06.0s), 20/21 VUs, 201 complete and 0 interrupted iterations
+sampler   [   3% ] 0/1 VUs  0m06.0s/3m0s  1.00 iters/s
+write     [   3% ] 20 VUs   0m06.0s/3m0s 
+time="2026-11-19T16:05:10Z" level=info msg="SAMPLER,2026-11-19T16:05:10.217Z,9577a35e0df4,200,7" source=console
+
+running (0m07.0s), 20/21 VUs, 237 complete and 0 interrupted iterations
+sampler   [   4% ] 0/1 VUs  0m07.0s/3m0s  1.00 iters/s
+write     [   4% ] 20 VUs   0m07.0s/3m0s 
+time="2026-11-19T16:05:11Z" level=info msg="SAMPLER,2026-11-19T16:05:11.217Z,9577a35e0df4,200,7" source=console
+
+running (0m08.0s), 20/21 VUs, 277 complete and 0 interrupted iterations
+sampler   [   4% ] 0/1 VUs  0m08.0s/3m0s  1.00 iters/s
+write     [   4% ] 20 VUs   0m08.0s/3m0s 
+time="2026-11-19T16:05:12Z" level=info msg="SAMPLER,2026-11-19T16:05:12.217Z,9577a35e0df4,200,7" source=console
+
+running (0m09.0s), 20/21 VUs, 317 complete and 0 interrupted iterations
+sampler   [   5% ] 0/1 VUs  0m09.0s/3m0s  1.00 iters/s
+write     [   5% ] 20 VUs   0m09.0s/3m0s 
+time="2026-11-19T16:05:13Z" level=info msg="SAMPLER,2026-11-19T16:05:13.216Z,9577a35e0df4,200,7" source=console
+
+running (0m10.0s), 20/21 VUs, 353 complete and 0 interrupted iterations
+sampler   [   6% ] 0/1 VUs  0m10.0s/3m0s  1.00 iters/s
+write     [   6% ] 20 VUs   0m10.0s/3m0s 
+time="2026-11-19T16:05:14Z" level=info msg="SAMPLER,2026-11-19T16:05:14.217Z,9577a35e0df4,200,7" source=console
+
+running (0m11.0s), 20/21 VUs, 393 complete and 0 interrupted iterations
+sampler   [   6% ] 0/1 VUs  0m11.0s/3m0s  1.00 iters/s
+write     [   6% ] 20 VUs   0m11.0s/3m0s 
+time="2026-11-19T16:05:15Z" level=info msg="SAMPLER,2026-11-19T16:05:15.217Z,9577a35e0df4,200,7" source=console
+
+running (0m12.0s), 20/21 VUs, 428 complete and 0 interrupted iterations
+sampler   [   7% ] 0/1 VUs  0m12.0s/3m0s  1.00 iters/s
+write     [   7% ] 20 VUs   0m12.0s/3m0s 
+time="2026-11-19T16:05:16Z" level=info msg="SAMPLER,2026-11-19T16:05:16.217Z,9577a35e0df4,200,7" source=console
+
+running (0m13.0s), 20/21 VUs, 468 complete and 0 interrupted iterations
+sampler   [   7% ] 0/1 VUs  0m13.0s/3m0s  1.00 iters/s
+write     [   7% ] 20 VUs   0m13.0s/3m0s 
+time="2026-11-19T16:05:17Z" level=info msg="SAMPLER,2026-11-19T16:05:17.216Z,9577a35e0df4,200,7" source=console
+
+running (0m14.0s), 20/21 VUs, 499 complete and 0 interrupted iterations
+sampler   [   8% ] 0/1 VUs  0m14.0s/3m0s  1.00 iters/s
+write     [   8% ] 20 VUs   0m14.0s/3m0s 
+time="2026-11-19T16:05:18Z" level=info msg="SAMPLER,2026-11-19T16:05:18.217Z,9577a35e0df4,200,7" source=console
+
+running (0m15.0s), 20/21 VUs, 540 complete and 0 interrupted iterations
+sampler   [   8% ] 0/1 VUs  0m15.0s/3m0s  1.00 iters/s
+write     [   8% ] 20 VUs   0m15.0s/3m0s 
+time="2026-11-19T16:05:19Z" level=info msg="SAMPLER,2026-11-19T16:05:19.217Z,9577a35e0df4,200,7" source=console
+
+running (0m16.0s), 20/21 VUs, 572 complete and 0 interrupted iterations
+sampler   [   9% ] 0/1 VUs  0m16.0s/3m0s  1.00 iters/s
+write     [   9% ] 20 VUs   0m16.0s/3m0s 
+time="2026-11-19T16:05:20Z" level=info msg="SAMPLER,2026-11-19T16:05:20.217Z,9577a35e0df4,200,7" source=console
+
+running (0m17.0s), 20/21 VUs, 612 complete and 0 interrupted iterations
+sampler   [   9% ] 0/1 VUs  0m17.0s/3m0s  1.00 iters/s
+write     [   9% ] 20 VUs   0m17.0s/3m0s 
+time="2026-11-19T16:05:21Z" level=info msg="SAMPLER,2026-11-19T16:05:21.217Z,9577a35e0df4,200,7" source=console
+
+running (0m18.0s), 20/21 VUs, 649 complete and 0 interrupted iterations
+sampler   [  10% ] 0/1 VUs  0m18.0s/3m0s  1.00 iters/s
+write     [  10% ] 20 VUs   0m18.0s/3m0s 
+time="2026-11-19T16:05:22Z" level=info msg="SAMPLER,2026-11-19T16:05:22.217Z,9577a35e0df4,200,7" source=console
+
+running (0m19.0s), 20/21 VUs, 686 complete and 0 interrupted iterations
+sampler   [  11% ] 0/1 VUs  0m19.0s/3m0s  1.00 iters/s
+write     [  11% ] 20 VUs   0m19.0s/3m0s 
+time="2026-11-19T16:05:23Z" level=info msg="SAMPLER,2026-11-19T16:05:23.216Z,9577a35e0df4,200,7" source=console
+
+running (0m20.0s), 20/21 VUs, 717 complete and 0 interrupted iterations
+sampler   [  11% ] 0/1 VUs  0m20.0s/3m0s  1.00 iters/s
+write     [  11% ] 20 VUs   0m20.0s/3m0s 
+time="2026-11-19T16:05:24Z" level=info msg="SAMPLER,2026-11-19T16:05:24.217Z,9577a35e0df4,200,8" source=console
+
+running (0m21.0s), 20/21 VUs, 755 complete and 0 interrupted iterations
+sampler   [  12% ] 0/1 VUs  0m21.0s/3m0s  1.00 iters/s
+write     [  12% ] 20 VUs   0m21.0s/3m0s 
+time="2026-11-19T16:05:25Z" level=info msg="SAMPLER,2026-11-19T16:05:25.216Z,9577a35e0df4,200,7" source=console
+
+running (0m22.0s), 20/21 VUs, 797 complete and 0 interrupted iterations
+sampler   [  12% ] 0/1 VUs  0m22.0s/3m0s  1.00 iters/s
+write     [  12% ] 20 VUs   0m22.0s/3m0s 
+time="2026-11-19T16:05:26Z" level=info msg="SAMPLER,2026-11-19T16:05:26.217Z,9577a35e0df4,200,7" source=console
+
+running (0m23.0s), 20/21 VUs, 829 complete and 0 interrupted iterations
+sampler   [  13% ] 0/1 VUs  0m23.0s/3m0s  1.00 iters/s
+write     [  13% ] 20 VUs   0m23.0s/3m0s 
+time="2026-11-19T16:05:27Z" level=info msg="SAMPLER,2026-11-19T16:05:27.217Z,9577a35e0df4,200,7" source=console
+
+running (0m24.0s), 20/21 VUs, 865 complete and 0 interrupted iterations
+sampler   [  13% ] 0/1 VUs  0m24.0s/3m0s  1.00 iters/s
+write     [  13% ] 20 VUs   0m24.0s/3m0s 
+time="2026-11-19T16:05:28Z" level=info msg="SAMPLER,2026-11-19T16:05:28.217Z,9577a35e0df4,200,8" source=console
+
+running (0m25.0s), 20/21 VUs, 904 complete and 0 interrupted iterations
+sampler   [  14% ] 0/1 VUs  0m25.0s/3m0s  1.00 iters/s
+write     [  14% ] 20 VUs   0m25.0s/3m0s 
+time="2026-11-19T16:05:29Z" level=info msg="SAMPLER,2026-11-19T16:05:29.217Z,9577a35e0df4,200,7" source=console
+
+running (0m26.0s), 20/21 VUs, 939 complete and 0 interrupted iterations
+sampler   [  14% ] 0/1 VUs  0m26.0s/3m0s  1.00 iters/s
+write     [  14% ] 20 VUs   0m26.0s/3m0s 
+time="2026-11-19T16:05:30Z" level=info msg="SAMPLER,2026-11-19T16:05:30.217Z,9577a35e0df4,200,7" source=console
+
+running (0m27.0s), 20/21 VUs, 974 complete and 0 interrupted iterations
+sampler   [  15% ] 0/1 VUs  0m27.0s/3m0s  1.00 iters/s
+write     [  15% ] 20 VUs   0m27.0s/3m0s 
+time="2026-11-19T16:05:31Z" level=info msg="SAMPLER,2026-11-19T16:05:31.217Z,9577a35e0df4,200,7" source=console
+
+running (0m28.0s), 20/21 VUs, 1010 complete and 0 interrupted iterations
+sampler   [  16% ] 0/1 VUs  0m28.0s/3m0s  1.00 iters/s
+write     [  16% ] 20 VUs   0m28.0s/3m0s 
+time="2026-11-19T16:05:32Z" level=info msg="SAMPLER,2026-11-19T16:05:32.217Z,9577a35e0df4,200,8" source=console
+
+running (0m29.0s), 20/21 VUs, 1044 complete and 0 interrupted iterations
+sampler   [  16% ] 0/1 VUs  0m29.0s/3m0s  1.00 iters/s
+write     [  16% ] 20 VUs   0m29.0s/3m0s 
+time="2026-11-19T16:05:33Z" level=info msg="SAMPLER,2026-11-19T16:05:33.217Z,9577a35e0df4,200,7" source=console
+
+running (0m30.0s), 20/21 VUs, 1082 complete and 0 interrupted iterations
+sampler   [  17% ] 0/1 VUs  0m30.0s/3m0s  1.00 iters/s
+write     [  17% ] 20 VUs   0m30.0s/3m0s 
+time="2026-11-19T16:05:34Z" level=info msg="SAMPLER,2026-11-19T16:05:34.217Z,9577a35e0df4,200,7" source=console
+
+running (0m31.0s), 20/21 VUs, 1120 complete and 0 interrupted iterations
+sampler   [  17% ] 0/1 VUs  0m31.0s/3m0s  1.00 iters/s
+write     [  17% ] 20 VUs   0m31.0s/3m0s 
+time="2026-11-19T16:05:35Z" level=info msg="SAMPLER,2026-11-19T16:05:35.217Z,9577a35e0df4,200,7" source=console
+
+running (0m32.0s), 20/21 VUs, 1153 complete and 0 interrupted iterations
+sampler   [  18% ] 0/1 VUs  0m32.0s/3m0s  1.00 iters/s
+write     [  18% ] 20 VUs   0m32.0s/3m0s 
+time="2026-11-19T16:05:36Z" level=info msg="SAMPLER,2026-11-19T16:05:36.216Z,9577a35e0df4,200,7" source=console
+
+running (0m33.0s), 20/21 VUs, 1193 complete and 0 interrupted iterations
+sampler   [  18% ] 0/1 VUs  0m33.0s/3m0s  1.00 iters/s
+write     [  18% ] 20 VUs   0m33.0s/3m0s 
+time="2026-11-19T16:05:37Z" level=info msg="SAMPLER,2026-11-19T16:05:37.217Z,9577a35e0df4,200,7" source=console
+
+running (0m34.0s), 20/21 VUs, 1228 complete and 0 interrupted iterations
+sampler   [  19% ] 0/1 VUs  0m34.0s/3m0s  1.00 iters/s
+write     [  19% ] 20 VUs   0m34.0s/3m0s 
+time="2026-11-19T16:05:38Z" level=info msg="SAMPLER,2026-11-19T16:05:38.217Z,9577a35e0df4,200,7" source=console
+
+running (0m35.0s), 20/21 VUs, 1265 complete and 0 interrupted iterations
+sampler   [  19% ] 0/1 VUs  0m35.0s/3m0s  1.00 iters/s
+write     [  19% ] 20 VUs   0m35.0s/3m0s 
+time="2026-11-19T16:05:39Z" level=info msg="SAMPLER,2026-11-19T16:05:39.217Z,9577a35e0df4,200,7" source=console
+
+running (0m36.0s), 20/21 VUs, 1300 complete and 0 interrupted iterations
+sampler   [  20% ] 0/1 VUs  0m36.0s/3m0s  1.00 iters/s
+write     [  20% ] 20 VUs   0m36.0s/3m0s 
+time="2026-11-19T16:05:40Z" level=info msg="SAMPLER,2026-11-19T16:05:40.216Z,9577a35e0df4,200,7" source=console
+
+running (0m37.0s), 20/21 VUs, 1336 complete and 0 interrupted iterations
+sampler   [  21% ] 0/1 VUs  0m37.0s/3m0s  1.00 iters/s
+write     [  21% ] 20 VUs   0m37.0s/3m0s 
+time="2026-11-19T16:05:41Z" level=info msg="SAMPLER,2026-11-19T16:05:41.217Z,9577a35e0df4,200,7" source=console
+
+running (0m38.0s), 20/21 VUs, 1376 complete and 0 interrupted iterations
+sampler   [  21% ] 0/1 VUs  0m38.0s/3m0s  1.00 iters/s
+write     [  21% ] 20 VUs   0m38.0s/3m0s 
+time="2026-11-19T16:05:42Z" level=info msg="SAMPLER,2026-11-19T16:05:42.217Z,9577a35e0df4,200,7" source=console
+
+running (0m39.0s), 20/21 VUs, 1417 complete and 0 interrupted iterations
+sampler   [  22% ] 0/1 VUs  0m39.0s/3m0s  1.00 iters/s
+write     [  22% ] 20 VUs   0m39.0s/3m0s 
+time="2026-11-19T16:05:43Z" level=info msg="SAMPLER,2026-11-19T16:05:43.217Z,9577a35e0df4,200,7" source=console
+
+running (0m40.0s), 20/21 VUs, 1449 complete and 0 interrupted iterations
+sampler   [  22% ] 0/1 VUs  0m40.0s/3m0s  1.00 iters/s
+write     [  22% ] 20 VUs   0m40.0s/3m0s 
+time="2026-11-19T16:05:44Z" level=info msg="SAMPLER,2026-11-19T16:05:44.217Z,9577a35e0df4,200,7" source=console
+
+running (0m41.0s), 20/21 VUs, 1488 complete and 0 interrupted iterations
+sampler   [  23% ] 0/1 VUs  0m41.0s/3m0s  1.00 iters/s
+write     [  23% ] 20 VUs   0m41.0s/3m0s 
+time="2026-11-19T16:05:45Z" level=info msg="SAMPLER,2026-11-19T16:05:45.217Z,9577a35e0df4,200,7" source=console
+
+running (0m42.0s), 20/21 VUs, 1521 complete and 0 interrupted iterations
+sampler   [  23% ] 0/1 VUs  0m42.0s/3m0s  1.00 iters/s
+write     [  23% ] 20 VUs   0m42.0s/3m0s 
+time="2026-11-19T16:05:46Z" level=info msg="SAMPLER,2026-11-19T16:05:46.217Z,9577a35e0df4,200,7" source=console
+
+running (0m43.0s), 20/21 VUs, 1562 complete and 0 interrupted iterations
+sampler   [  24% ] 0/1 VUs  0m43.0s/3m0s  1.00 iters/s
+write     [  24% ] 20 VUs   0m43.0s/3m0s 
+time="2026-11-19T16:05:47Z" level=info msg="SAMPLER,2026-11-19T16:05:47.217Z,9577a35e0df4,200,7" source=console
+
+running (0m44.0s), 20/21 VUs, 1596 complete and 0 interrupted iterations
+sampler   [  24% ] 0/1 VUs  0m44.0s/3m0s  1.00 iters/s
+write     [  24% ] 20 VUs   0m44.0s/3m0s 
+time="2026-11-19T16:05:48Z" level=info msg="SAMPLER,2026-11-19T16:05:48.217Z,9577a35e0df4,200,7" source=console
+
+running (0m45.0s), 20/21 VUs, 1635 complete and 0 interrupted iterations
+sampler   [  25% ] 0/1 VUs  0m45.0s/3m0s  1.00 iters/s
+write     [  25% ] 20 VUs   0m45.0s/3m0s 
+time="2026-11-19T16:05:49Z" level=info msg="SAMPLER,2026-11-19T16:05:49.217Z,9577a35e0df4,200,7" source=console
+
+running (0m46.0s), 20/21 VUs, 1671 complete and 0 interrupted iterations
+sampler   [  26% ] 0/1 VUs  0m46.0s/3m0s  1.00 iters/s
+write     [  26% ] 20 VUs   0m46.0s/3m0s 
+time="2026-11-19T16:05:50Z" level=info msg="SAMPLER,2026-11-19T16:05:50.217Z,9577a35e0df4,200,7" source=console
+
+running (0m47.0s), 20/21 VUs, 1706 complete and 0 interrupted iterations
+sampler   [  26% ] 0/1 VUs  0m47.0s/3m0s  1.00 iters/s
+write     [  26% ] 20 VUs   0m47.0s/3m0s 
+time="2026-11-19T16:05:51Z" level=info msg="SAMPLER,2026-11-19T16:05:51.217Z,9577a35e0df4,200,7" source=console
+
+running (0m48.0s), 20/21 VUs, 1743 complete and 0 interrupted iterations
+sampler   [  27% ] 0/1 VUs  0m48.0s/3m0s  1.00 iters/s
+write     [  27% ] 20 VUs   0m48.0s/3m0s 
+time="2026-11-19T16:05:52Z" level=info msg="SAMPLER,2026-11-19T16:05:52.216Z,9577a35e0df4,200,7" source=console
+
+running (0m49.0s), 20/21 VUs, 1778 complete and 0 interrupted iterations
+sampler   [  27% ] 0/1 VUs  0m49.0s/3m0s  1.00 iters/s
+write     [  27% ] 20 VUs   0m49.0s/3m0s 
+time="2026-11-19T16:05:53Z" level=info msg="SAMPLER,2026-11-19T16:05:53.216Z,9577a35e0df4,200,7" source=console
+
+running (0m50.0s), 20/21 VUs, 1815 complete and 0 interrupted iterations
+sampler   [  28% ] 0/1 VUs  0m50.0s/3m0s  1.00 iters/s
+write     [  28% ] 20 VUs   0m50.0s/3m0s 
+time="2026-11-19T16:05:54Z" level=info msg="SAMPLER,2026-11-19T16:05:54.217Z,9577a35e0df4,200,7" source=console
+
+running (0m51.0s), 20/21 VUs, 1849 complete and 0 interrupted iterations
+sampler   [  28% ] 0/1 VUs  0m51.0s/3m0s  1.00 iters/s
+write     [  28% ] 20 VUs   0m51.0s/3m0s 
+time="2026-11-19T16:05:55Z" level=info msg="SAMPLER,2026-11-19T16:05:55.217Z,9577a35e0df4,200,8" source=console
+
+running (0m52.0s), 20/21 VUs, 1886 complete and 0 interrupted iterations
+sampler   [  29% ] 0/1 VUs  0m52.0s/3m0s  1.00 iters/s
+write     [  29% ] 20 VUs   0m52.0s/3m0s 
+time="2026-11-19T16:05:56Z" level=info msg="SAMPLER,2026-11-19T16:05:56.217Z,9577a35e0df4,200,7" source=console
+
+running (0m53.0s), 20/21 VUs, 1924 complete and 0 interrupted iterations
+sampler   [  29% ] 0/1 VUs  0m53.0s/3m0s  1.00 iters/s
+write     [  29% ] 20 VUs   0m53.0s/3m0s 
+time="2026-11-19T16:05:57Z" level=info msg="SAMPLER,2026-11-19T16:05:57.217Z,9577a35e0df4,200,7" source=console
+
+running (0m54.0s), 20/21 VUs, 1958 complete and 0 interrupted iterations
+sampler   [  30% ] 0/1 VUs  0m54.0s/3m0s  1.00 iters/s
+write     [  30% ] 20 VUs   0m54.0s/3m0s 
+time="2026-11-19T16:05:58Z" level=info msg="SAMPLER,2026-11-19T16:05:58.216Z,9577a35e0df4,200,7" source=console
+
+running (0m55.0s), 20/21 VUs, 1998 complete and 0 interrupted iterations
+sampler   [  31% ] 0/1 VUs  0m55.0s/3m0s  1.00 iters/s
+write     [  31% ] 20 VUs   0m55.0s/3m0s 
+time="2026-11-19T16:05:59Z" level=info msg="SAMPLER,2026-11-19T16:05:59.217Z,9577a35e0df4,200,7" source=console
+
+running (0m56.0s), 20/21 VUs, 2033 complete and 0 interrupted iterations
+sampler   [  31% ] 0/1 VUs  0m56.0s/3m0s  1.00 iters/s
+write     [  31% ] 20 VUs   0m56.0s/3m0s 
+time="2026-11-19T16:06:00Z" level=info msg="SAMPLER,2026-11-19T16:06:00.216Z,9577a35e0df4,200,7" source=console
+
+running (0m57.0s), 20/21 VUs, 2065 complete and 0 interrupted iterations
+sampler   [  32% ] 0/1 VUs  0m57.0s/3m0s  1.00 iters/s
+write     [  32% ] 20 VUs   0m57.0s/3m0s 
+time="2026-11-19T16:06:01Z" level=info msg="SAMPLER,2026-11-19T16:06:01.217Z,9577a35e0df4,200,7" source=console
+
+running (0m58.0s), 20/21 VUs, 2101 complete and 0 interrupted iterations
+sampler   [  32% ] 0/1 VUs  0m58.0s/3m0s  1.00 iters/s
+write     [  32% ] 20 VUs   0m58.0s/3m0s 
+time="2026-11-19T16:06:02Z" level=info msg="SAMPLER,2026-11-19T16:06:02.217Z,9577a35e0df4,200,7" source=console
+
+running (0m59.0s), 20/21 VUs, 2139 complete and 0 interrupted iterations
+sampler   [  33% ] 0/1 VUs  0m59.0s/3m0s  1.00 iters/s
+write     [  33% ] 20 VUs   0m59.0s/3m0s 
+time="2026-11-19T16:06:03Z" level=info msg="SAMPLER,2026-11-19T16:06:03.217Z,9577a35e0df4,200,7" source=console
+
+running (1m00.0s), 20/21 VUs, 2181 complete and 0 interrupted iterations
+sampler   [  33% ] 0/1 VUs  1m00.0s/3m0s  1.00 iters/s
+write     [  33% ] 20 VUs   1m00.0s/3m0s 
+time="2026-11-19T16:06:04Z" level=info msg="SAMPLER,2026-11-19T16:06:04.217Z,9577a35e0df4,200,8" source=console
+
+running (1m01.0s), 20/21 VUs, 2220 complete and 0 interrupted iterations
+sampler   [  34% ] 0/1 VUs  1m01.0s/3m0s  1.00 iters/s
+write     [  34% ] 20 VUs   1m01.0s/3m0s 
+time="2026-11-19T16:06:05Z" level=info msg="SAMPLER,2026-11-19T16:06:05.217Z,9577a35e0df4,200,7" source=console
+
+running (1m02.0s), 20/21 VUs, 2257 complete and 0 interrupted iterations
+sampler   [  34% ] 0/1 VUs  1m02.0s/3m0s  1.00 iters/s
+write     [  34% ] 20 VUs   1m02.0s/3m0s 
+time="2026-11-19T16:06:06Z" level=info msg="SAMPLER,2026-11-19T16:06:06.217Z,9577a35e0df4,200,8" source=console
+
+running (1m03.0s), 20/21 VUs, 2290 complete and 0 interrupted iterations
+sampler   [  35% ] 0/1 VUs  1m03.0s/3m0s  1.00 iters/s
+write     [  35% ] 20 VUs   1m03.0s/3m0s 
+time="2026-11-19T16:06:07Z" level=info msg="SAMPLER,2026-11-19T16:06:07.217Z,9577a35e0df4,200,7" source=console
+
+running (1m04.0s), 20/21 VUs, 2326 complete and 0 interrupted iterations
+sampler   [  36% ] 0/1 VUs  1m04.0s/3m0s  1.00 iters/s
+write     [  36% ] 20 VUs   1m04.0s/3m0s 
+time="2026-11-19T16:06:08Z" level=info msg="SAMPLER,2026-11-19T16:06:08.218Z,9577a35e0df4,200,8" source=console
+
+running (1m05.0s), 20/21 VUs, 2363 complete and 0 interrupted iterations
+sampler   [  36% ] 0/1 VUs  1m05.0s/3m0s  1.00 iters/s
+write     [  36% ] 20 VUs   1m05.0s/3m0s 
+time="2026-11-19T16:06:09Z" level=info msg="SAMPLER,2026-11-19T16:06:09.217Z,9577a35e0df4,200,7" source=console
+
+running (1m06.0s), 20/21 VUs, 2398 complete and 0 interrupted iterations
+sampler   [  37% ] 0/1 VUs  1m06.0s/3m0s  1.00 iters/s
+write     [  37% ] 20 VUs   1m06.0s/3m0s 
+time="2026-11-19T16:06:10Z" level=info msg="SAMPLER,2026-11-19T16:06:10.216Z,9577a35e0df4,200,7" source=console
+
+running (1m07.0s), 20/21 VUs, 2436 complete and 0 interrupted iterations
+sampler   [  37% ] 0/1 VUs  1m07.0s/3m0s  1.00 iters/s
+write     [  37% ] 20 VUs   1m07.0s/3m0s 
+time="2026-11-19T16:06:11Z" level=info msg="SAMPLER,2026-11-19T16:06:11.217Z,9577a35e0df4,200,7" source=console
+
+running (1m08.0s), 20/21 VUs, 2470 complete and 0 interrupted iterations
+sampler   [  38% ] 0/1 VUs  1m08.0s/3m0s  1.00 iters/s
+write     [  38% ] 20 VUs   1m08.0s/3m0s 
+time="2026-11-19T16:06:12Z" level=info msg="SAMPLER,2026-11-19T16:06:12.216Z,9577a35e0df4,200,7" source=console
+
+running (1m09.0s), 20/21 VUs, 2508 complete and 0 interrupted iterations
+sampler   [  38% ] 0/1 VUs  1m09.0s/3m0s  1.00 iters/s
+write     [  38% ] 20 VUs   1m09.0s/3m0s 
+time="2026-11-19T16:06:13Z" level=info msg="SAMPLER,2026-11-19T16:06:13.216Z,9577a35e0df4,200,7" source=console
+
+running (1m10.0s), 20/21 VUs, 2544 complete and 0 interrupted iterations
+sampler   [  39% ] 0/1 VUs  1m10.0s/3m0s  1.00 iters/s
+write     [  39% ] 20 VUs   1m10.0s/3m0s 
+time="2026-11-19T16:06:14Z" level=info msg="SAMPLER,2026-11-19T16:06:14.217Z,9577a35e0df4,200,7" source=console
+
+running (1m11.0s), 20/21 VUs, 2582 complete and 0 interrupted iterations
+sampler   [  39% ] 0/1 VUs  1m11.0s/3m0s  1.00 iters/s
+write     [  39% ] 20 VUs   1m11.0s/3m0s 
+time="2026-11-19T16:06:15Z" level=info msg="SAMPLER,2026-11-19T16:06:15.217Z,9577a35e0df4,200,7" source=console
+
+running (1m12.0s), 20/21 VUs, 2618 complete and 0 interrupted iterations
+sampler   [  40% ] 0/1 VUs  1m12.0s/3m0s  1.00 iters/s
+write     [  40% ] 20 VUs   1m12.0s/3m0s 
+time="2026-11-19T16:06:16Z" level=info msg="SAMPLER,2026-11-19T16:06:16.217Z,9577a35e0df4,200,8" source=console
+
+running (1m13.0s), 20/21 VUs, 2655 complete and 0 interrupted iterations
+sampler   [  41% ] 0/1 VUs  1m13.0s/3m0s  1.00 iters/s
+write     [  41% ] 20 VUs   1m13.0s/3m0s 
+time="2026-11-19T16:06:17Z" level=info msg="SAMPLER,2026-11-19T16:06:17.217Z,9577a35e0df4,200,7" source=console
+
+running (1m14.0s), 20/21 VUs, 2690 complete and 0 interrupted iterations
+sampler   [  41% ] 0/1 VUs  1m14.0s/3m0s  1.00 iters/s
+write     [  41% ] 20 VUs   1m14.0s/3m0s 
+time="2026-11-19T16:06:18Z" level=info msg="SAMPLER,2026-11-19T16:06:18.216Z,9577a35e0df4,200,7" source=console
+
+running (1m15.0s), 20/21 VUs, 2726 complete and 0 interrupted iterations
+sampler   [  42% ] 0/1 VUs  1m15.0s/3m0s  1.00 iters/s
+write     [  42% ] 20 VUs   1m15.0s/3m0s 
+time="2026-11-19T16:06:19Z" level=info msg="SAMPLER,2026-11-19T16:06:19.224Z,9577a35e0df4,200,14" source=console
+
+running (1m16.0s), 20/21 VUs, 2763 complete and 0 interrupted iterations
+sampler   [  42% ] 0/1 VUs  1m16.0s/3m0s  1.00 iters/s
+write     [  42% ] 20 VUs   1m16.0s/3m0s 
+time="2026-11-19T16:06:20Z" level=info msg="SAMPLER,2026-11-19T16:06:20.216Z,9577a35e0df4,200,7" source=console
+
+running (1m17.0s), 20/21 VUs, 2799 complete and 0 interrupted iterations
+sampler   [  43% ] 0/1 VUs  1m17.0s/3m0s  1.00 iters/s
+write     [  43% ] 20 VUs   1m17.0s/3m0s 
+time="2026-11-19T16:06:21Z" level=info msg="SAMPLER,2026-11-19T16:06:21.217Z,9577a35e0df4,200,7" source=console
+
+running (1m18.0s), 20/21 VUs, 2834 complete and 0 interrupted iterations
+sampler   [  43% ] 0/1 VUs  1m18.0s/3m0s  1.00 iters/s
+write     [  43% ] 20 VUs   1m18.0s/3m0s 
+time="2026-11-19T16:06:22Z" level=info msg="SAMPLER,2026-11-19T16:06:22.217Z,9577a35e0df4,200,7" source=console
+
+running (1m19.0s), 20/21 VUs, 2873 complete and 0 interrupted iterations
+sampler   [  44% ] 0/1 VUs  1m19.0s/3m0s  1.00 iters/s
+write     [  44% ] 20 VUs   1m19.0s/3m0s 
+time="2026-11-19T16:06:23Z" level=info msg="SAMPLER,2026-11-19T16:06:23.217Z,9577a35e0df4,200,7" source=console
+
+running (1m20.0s), 20/21 VUs, 2908 complete and 0 interrupted iterations
+sampler   [  44% ] 0/1 VUs  1m20.0s/3m0s  1.00 iters/s
+write     [  44% ] 20 VUs   1m20.0s/3m0s 
+time="2026-11-19T16:06:24Z" level=info msg="SAMPLER,2026-11-19T16:06:24.217Z,9577a35e0df4,200,7" source=console
+
+running (1m21.0s), 20/21 VUs, 2945 complete and 0 interrupted iterations
+sampler   [  45% ] 0/1 VUs  1m21.0s/3m0s  1.00 iters/s
+write     [  45% ] 20 VUs   1m21.0s/3m0s 
+time="2026-11-19T16:06:25Z" level=info msg="SAMPLER,2026-11-19T16:06:25.217Z,9577a35e0df4,200,7" source=console
+
+running (1m22.0s), 20/21 VUs, 2985 complete and 0 interrupted iterations
+sampler   [  46% ] 0/1 VUs  1m22.0s/3m0s  1.00 iters/s
+write     [  46% ] 20 VUs   1m22.0s/3m0s 
+time="2026-11-19T16:06:26Z" level=info msg="SAMPLER,2026-11-19T16:06:26.220Z,9577a35e0df4,200,10" source=console
+
+running (1m23.0s), 20/21 VUs, 3023 complete and 0 interrupted iterations
+sampler   [  46% ] 0/1 VUs  1m23.0s/3m0s  1.00 iters/s
+write     [  46% ] 20 VUs   1m23.0s/3m0s 
+time="2026-11-19T16:06:27Z" level=info msg="SAMPLER,2026-11-19T16:06:27.217Z,9577a35e0df4,200,7" source=console
+
+running (1m24.0s), 20/21 VUs, 3060 complete and 0 interrupted iterations
+sampler   [  47% ] 0/1 VUs  1m24.0s/3m0s  1.00 iters/s
+write     [  47% ] 20 VUs   1m24.0s/3m0s 
+time="2026-11-19T16:06:28Z" level=info msg="SAMPLER,2026-11-19T16:06:28.217Z,9577a35e0df4,200,7" source=console
+
+running (1m25.0s), 20/21 VUs, 3095 complete and 0 interrupted iterations
+sampler   [  47% ] 0/1 VUs  1m25.0s/3m0s  1.00 iters/s
+write     [  47% ] 20 VUs   1m25.0s/3m0s 
+time="2026-11-19T16:06:29Z" level=info msg="SAMPLER,2026-11-19T16:06:29.217Z,9577a35e0df4,200,7" source=console
+
+running (1m26.0s), 20/21 VUs, 3131 complete and 0 interrupted iterations
+sampler   [  48% ] 0/1 VUs  1m26.0s/3m0s  1.00 iters/s
+write     [  48% ] 20 VUs   1m26.0s/3m0s 
+time="2026-11-19T16:06:30Z" level=info msg="SAMPLER,2026-11-19T16:06:30.217Z,9577a35e0df4,200,7" source=console
+
+running (1m27.0s), 20/21 VUs, 3170 complete and 0 interrupted iterations
+sampler   [  48% ] 0/1 VUs  1m27.0s/3m0s  1.00 iters/s
+write     [  48% ] 20 VUs   1m27.0s/3m0s 
+time="2026-11-19T16:06:31Z" level=info msg="SAMPLER,2026-11-19T16:06:31.217Z,9577a35e0df4,200,8" source=console
+
+running (1m28.0s), 20/21 VUs, 3206 complete and 0 interrupted iterations
+sampler   [  49% ] 0/1 VUs  1m28.0s/3m0s  1.00 iters/s
+write     [  49% ] 20 VUs   1m28.0s/3m0s 
+time="2026-11-19T16:06:32Z" level=info msg="SAMPLER,2026-11-19T16:06:32.216Z,9577a35e0df4,200,7" source=console
+
+running (1m29.0s), 20/21 VUs, 3240 complete and 0 interrupted iterations
+sampler   [  49% ] 0/1 VUs  1m29.0s/3m0s  1.00 iters/s
+write     [  49% ] 20 VUs   1m29.0s/3m0s 
+time="2026-11-19T16:06:33Z" level=info msg="SAMPLER,2026-11-19T16:06:33.217Z,9577a35e0df4,200,7" source=console
+
+running (1m30.0s), 20/21 VUs, 3269 complete and 0 interrupted iterations
+sampler   [  50% ] 0/1 VUs  1m30.0s/3m0s  1.00 iters/s
+write     [  50% ] 20 VUs   1m30.0s/3m0s 
+time="2026-11-19T16:06:34Z" level=info msg="SAMPLER,2026-11-19T16:06:34.218Z,9577a35e0df4,200,9" source=console
+
+running (1m31.0s), 20/21 VUs, 3307 complete and 0 interrupted iterations
+sampler   [  51% ] 0/1 VUs  1m31.0s/3m0s  1.00 iters/s
+write     [  51% ] 20 VUs   1m31.0s/3m0s 
+time="2026-11-19T16:06:35Z" level=info msg="SAMPLER,2026-11-19T16:06:35.217Z,9577a35e0df4,200,7" source=console
+
+running (1m32.0s), 20/21 VUs, 3346 complete and 0 interrupted iterations
+sampler   [  51% ] 0/1 VUs  1m32.0s/3m0s  1.00 iters/s
+write     [  51% ] 20 VUs   1m32.0s/3m0s 
+time="2026-11-19T16:06:36Z" level=info msg="SAMPLER,2026-11-19T16:06:36.217Z,9577a35e0df4,200,7" source=console
+
+running (1m33.0s), 20/21 VUs, 3385 complete and 0 interrupted iterations
+sampler   [  52% ] 0/1 VUs  1m33.0s/3m0s  1.00 iters/s
+write     [  52% ] 20 VUs   1m33.0s/3m0s 
+time="2026-11-19T16:06:37Z" level=info msg="SAMPLER,2026-11-19T16:06:37.216Z,9577a35e0df4,200,7" source=console
+
+running (1m34.0s), 20/21 VUs, 3419 complete and 0 interrupted iterations
+sampler   [  52% ] 0/1 VUs  1m34.0s/3m0s  1.00 iters/s
+write     [  52% ] 20 VUs   1m34.0s/3m0s 
+time="2026-11-19T16:06:38Z" level=info msg="SAMPLER,2026-11-19T16:06:38.217Z,9577a35e0df4,200,7" source=console
+
+running (1m35.0s), 20/21 VUs, 3457 complete and 0 interrupted iterations
+sampler   [  53% ] 0/1 VUs  1m35.0s/3m0s  1.00 iters/s
+write     [  53% ] 20 VUs   1m35.0s/3m0s 
+time="2026-11-19T16:06:39Z" level=info msg="SAMPLER,2026-11-19T16:06:39.216Z,9577a35e0df4,200,7" source=console
+
+running (1m36.0s), 20/21 VUs, 3493 complete and 0 interrupted iterations
+sampler   [  53% ] 0/1 VUs  1m36.0s/3m0s  1.00 iters/s
+write     [  53% ] 20 VUs   1m36.0s/3m0s 
+time="2026-11-19T16:06:40Z" level=info msg="SAMPLER,2026-11-19T16:06:40.216Z,9577a35e0df4,200,7" source=console
+
+running (1m37.0s), 20/21 VUs, 3530 complete and 0 interrupted iterations
+sampler   [  54% ] 0/1 VUs  1m37.0s/3m0s  1.00 iters/s
+write     [  54% ] 20 VUs   1m37.0s/3m0s 
+time="2026-11-19T16:06:41Z" level=info msg="SAMPLER,2026-11-19T16:06:41.217Z,9577a35e0df4,200,7" source=console
+
+running (1m38.0s), 20/21 VUs, 3565 complete and 0 interrupted iterations
+sampler   [  54% ] 0/1 VUs  1m38.0s/3m0s  1.00 iters/s
+write     [  54% ] 20 VUs   1m38.0s/3m0s 
+time="2026-11-19T16:06:42Z" level=info msg="SAMPLER,2026-11-19T16:06:42.216Z,9577a35e0df4,200,7" source=console
+
+running (1m39.0s), 20/21 VUs, 3603 complete and 0 interrupted iterations
+sampler   [  55% ] 0/1 VUs  1m39.0s/3m0s  1.00 iters/s
+write     [  55% ] 20 VUs   1m39.0s/3m0s 
+time="2026-11-19T16:06:43Z" level=info msg="SAMPLER,2026-11-19T16:06:43.218Z,9577a35e0df4,200,8" source=console
+
+running (1m40.0s), 20/21 VUs, 3638 complete and 0 interrupted iterations
+sampler   [  56% ] 0/1 VUs  1m40.0s/3m0s  1.00 iters/s
+write     [  56% ] 20 VUs   1m40.0s/3m0s 
+time="2026-11-19T16:06:44Z" level=info msg="SAMPLER,2026-11-19T16:06:44.217Z,9577a35e0df4,200,7" source=console
+
+running (1m41.0s), 20/21 VUs, 3676 complete and 0 interrupted iterations
+sampler   [  56% ] 0/1 VUs  1m41.0s/3m0s  1.00 iters/s
+write     [  56% ] 20 VUs   1m41.0s/3m0s 
+time="2026-11-19T16:06:45Z" level=info msg="SAMPLER,2026-11-19T16:06:45.217Z,9577a35e0df4,200,7" source=console
+
+running (1m42.0s), 20/21 VUs, 3712 complete and 0 interrupted iterations
+sampler   [  57% ] 0/1 VUs  1m42.0s/3m0s  1.00 iters/s
+write     [  57% ] 20 VUs   1m42.0s/3m0s 
+time="2026-11-19T16:06:46Z" level=info msg="SAMPLER,2026-11-19T16:06:46.216Z,9577a35e0df4,200,7" source=console
+
+running (1m43.0s), 20/21 VUs, 3749 complete and 0 interrupted iterations
+sampler   [  57% ] 0/1 VUs  1m43.0s/3m0s  1.00 iters/s
+write     [  57% ] 20 VUs   1m43.0s/3m0s 
+time="2026-11-19T16:06:47Z" level=info msg="SAMPLER,2026-11-19T16:06:47.217Z,9577a35e0df4,200,7" source=console
+
+running (1m44.0s), 20/21 VUs, 3787 complete and 0 interrupted iterations
+sampler   [  58% ] 0/1 VUs  1m44.0s/3m0s  1.00 iters/s
+write     [  58% ] 20 VUs   1m44.0s/3m0s 
+time="2026-11-19T16:06:48Z" level=info msg="SAMPLER,2026-11-19T16:06:48.217Z,9577a35e0df4,200,7" source=console
+
+running (1m45.0s), 20/21 VUs, 3823 complete and 0 interrupted iterations
+sampler   [  58% ] 0/1 VUs  1m45.0s/3m0s  1.00 iters/s
+write     [  58% ] 20 VUs   1m45.0s/3m0s 
+time="2026-11-19T16:06:49Z" level=info msg="SAMPLER,2026-11-19T16:06:49.217Z,9577a35e0df4,200,7" source=console
+
+running (1m46.0s), 20/21 VUs, 3862 complete and 0 interrupted iterations
+sampler   [  59% ] 0/1 VUs  1m46.0s/3m0s  1.00 iters/s
+write     [  59% ] 20 VUs   1m46.0s/3m0s 
+time="2026-11-19T16:06:50Z" level=info msg="SAMPLER,2026-11-19T16:06:50.217Z,9577a35e0df4,200,7" source=console
+
+running (1m47.0s), 20/21 VUs, 3893 complete and 0 interrupted iterations
+sampler   [  59% ] 0/1 VUs  1m47.0s/3m0s  1.00 iters/s
+write     [  59% ] 20 VUs   1m47.0s/3m0s 
+time="2026-11-19T16:06:51Z" level=info msg="SAMPLER,2026-11-19T16:06:51.217Z,9577a35e0df4,200,7" source=console
+
+running (1m48.0s), 20/21 VUs, 3927 complete and 0 interrupted iterations
+sampler   [  60% ] 0/1 VUs  1m48.0s/3m0s  1.00 iters/s
+write     [  60% ] 20 VUs   1m48.0s/3m0s 
+time="2026-11-19T16:06:52Z" level=info msg="SAMPLER,2026-11-19T16:06:52.217Z,9577a35e0df4,200,7" source=console
+
+running (1m49.0s), 20/21 VUs, 3966 complete and 0 interrupted iterations
+sampler   [  61% ] 0/1 VUs  1m49.0s/3m0s  1.00 iters/s
+write     [  61% ] 20 VUs   1m49.0s/3m0s 
+time="2026-11-19T16:06:53Z" level=info msg="SAMPLER,2026-11-19T16:06:53.217Z,9577a35e0df4,200,7" source=console
+
+running (1m50.0s), 20/21 VUs, 4001 complete and 0 interrupted iterations
+sampler   [  61% ] 0/1 VUs  1m50.0s/3m0s  1.00 iters/s
+write     [  61% ] 20 VUs   1m50.0s/3m0s 
+time="2026-11-19T16:06:54Z" level=info msg="SAMPLER,2026-11-19T16:06:54.217Z,9577a35e0df4,200,8" source=console
+
+running (1m51.0s), 20/21 VUs, 4040 complete and 0 interrupted iterations
+sampler   [  62% ] 0/1 VUs  1m51.0s/3m0s  1.00 iters/s
+write     [  62% ] 20 VUs   1m51.0s/3m0s 
+time="2026-11-19T16:06:55Z" level=info msg="SAMPLER,2026-11-19T16:06:55.216Z,9577a35e0df4,200,7" source=console
+
+running (1m52.0s), 20/21 VUs, 4077 complete and 0 interrupted iterations
+sampler   [  62% ] 0/1 VUs  1m52.0s/3m0s  1.00 iters/s
+write     [  62% ] 20 VUs   1m52.0s/3m0s 
+time="2026-11-19T16:06:56Z" level=info msg="SAMPLER,2026-11-19T16:06:56.216Z,9577a35e0df4,200,7" source=console
+
+running (1m53.0s), 20/21 VUs, 4111 complete and 0 interrupted iterations
+sampler   [  63% ] 0/1 VUs  1m53.0s/3m0s  1.00 iters/s
+write     [  63% ] 20 VUs   1m53.0s/3m0s 
+time="2026-11-19T16:06:57Z" level=info msg="SAMPLER,2026-11-19T16:06:57.217Z,9577a35e0df4,200,7" source=console
+
+running (1m54.0s), 20/21 VUs, 4154 complete and 0 interrupted iterations
+sampler   [  63% ] 0/1 VUs  1m54.0s/3m0s  1.00 iters/s
+write     [  63% ] 20 VUs   1m54.0s/3m0s 
+time="2026-11-19T16:06:58Z" level=info msg="SAMPLER,2026-11-19T16:06:58.217Z,9577a35e0df4,200,7" source=console
+
+running (1m55.0s), 20/21 VUs, 4188 complete and 0 interrupted iterations
+sampler   [  64% ] 0/1 VUs  1m55.0s/3m0s  1.00 iters/s
+write     [  64% ] 20 VUs   1m55.0s/3m0s 
+time="2026-11-19T16:06:59Z" level=info msg="SAMPLER,2026-11-19T16:06:59.217Z,9577a35e0df4,200,7" source=console
+
+running (1m56.0s), 20/21 VUs, 4223 complete and 0 interrupted iterations
+sampler   [  64% ] 0/1 VUs  1m56.0s/3m0s  1.00 iters/s
+write     [  64% ] 20 VUs   1m56.0s/3m0s 
+time="2026-11-19T16:07:00Z" level=info msg="SAMPLER,2026-11-19T16:07:00.217Z,9577a35e0df4,200,7" source=console
+
+running (1m57.0s), 20/21 VUs, 4265 complete and 0 interrupted iterations
+sampler   [  65% ] 0/1 VUs  1m57.0s/3m0s  1.00 iters/s
+write     [  65% ] 20 VUs   1m57.0s/3m0s 
+time="2026-11-19T16:07:01Z" level=info msg="SAMPLER,2026-11-19T16:07:01.217Z,9577a35e0df4,200,7" source=console
+
+running (1m58.0s), 20/21 VUs, 4301 complete and 0 interrupted iterations
+sampler   [  66% ] 0/1 VUs  1m58.0s/3m0s  1.00 iters/s
+write     [  66% ] 20 VUs   1m58.0s/3m0s 
+time="2026-11-19T16:07:02Z" level=info msg="SAMPLER,2026-11-19T16:07:02.217Z,9577a35e0df4,200,7" source=console
+
+running (1m59.0s), 20/21 VUs, 4334 complete and 0 interrupted iterations
+sampler   [  66% ] 0/1 VUs  1m59.0s/3m0s  1.00 iters/s
+write     [  66% ] 20 VUs   1m59.0s/3m0s 
+time="2026-11-19T16:07:03Z" level=info msg="SAMPLER,2026-11-19T16:07:03.217Z,9577a35e0df4,200,7" source=console
+
+running (2m00.0s), 20/21 VUs, 4372 complete and 0 interrupted iterations
+sampler   [  67% ] 0/1 VUs  2m00.0s/3m0s  1.00 iters/s
+write     [  67% ] 20 VUs   2m00.0s/3m0s 
+time="2026-11-19T16:07:04Z" level=info msg="SAMPLER,2026-11-19T16:07:04.217Z,9577a35e0df4,200,7" source=console
+
+running (2m01.0s), 20/21 VUs, 4406 complete and 0 interrupted iterations
+sampler   [  67% ] 0/1 VUs  2m01.0s/3m0s  1.00 iters/s
+write     [  67% ] 20 VUs   2m01.0s/3m0s 
+time="2026-11-19T16:07:05Z" level=info msg="SAMPLER,2026-11-19T16:07:05.217Z,9577a35e0df4,200,7" source=console
+
+running (2m02.0s), 20/21 VUs, 4445 complete and 0 interrupted iterations
+sampler   [  68% ] 0/1 VUs  2m02.0s/3m0s  1.00 iters/s
+write     [  68% ] 20 VUs   2m02.0s/3m0s 
+time="2026-11-19T16:07:06Z" level=info msg="SAMPLER,2026-11-19T16:07:06.217Z,9577a35e0df4,200,7" source=console
+
+running (2m03.0s), 20/21 VUs, 4481 complete and 0 interrupted iterations
+sampler   [  68% ] 0/1 VUs  2m03.0s/3m0s  1.00 iters/s
+write     [  68% ] 20 VUs   2m03.0s/3m0s 
+time="2026-11-19T16:07:07Z" level=info msg="SAMPLER,2026-11-19T16:07:07.217Z,9577a35e0df4,200,8" source=console
+
+running (2m04.0s), 20/21 VUs, 4516 complete and 0 interrupted iterations
+sampler   [  69% ] 0/1 VUs  2m04.0s/3m0s  1.00 iters/s
+write     [  69% ] 20 VUs   2m04.0s/3m0s 
+time="2026-11-19T16:07:08Z" level=info msg="SAMPLER,2026-11-19T16:07:08.217Z,9577a35e0df4,200,7" source=console
+
+running (2m05.0s), 20/21 VUs, 4551 complete and 0 interrupted iterations
+sampler   [  69% ] 0/1 VUs  2m05.0s/3m0s  1.00 iters/s
+write     [  69% ] 20 VUs   2m05.0s/3m0s 
+time="2026-11-19T16:07:09Z" level=info msg="SAMPLER,2026-11-19T16:07:09.217Z,9577a35e0df4,200,7" source=console
+
+running (2m06.0s), 20/21 VUs, 4590 complete and 0 interrupted iterations
+sampler   [  70% ] 0/1 VUs  2m06.0s/3m0s  1.00 iters/s
+write     [  70% ] 20 VUs   2m06.0s/3m0s 
+time="2026-11-19T16:07:10Z" level=info msg="SAMPLER,2026-11-19T16:07:10.216Z,9577a35e0df4,200,7" source=console
+
+running (2m07.0s), 20/21 VUs, 4622 complete and 0 interrupted iterations
+sampler   [  71% ] 0/1 VUs  2m07.0s/3m0s  1.00 iters/s
+write     [  71% ] 20 VUs   2m07.0s/3m0s 
+time="2026-11-19T16:07:11Z" level=info msg="SAMPLER,2026-11-19T16:07:11.217Z,9577a35e0df4,200,7" source=console
+
+running (2m08.0s), 20/21 VUs, 4658 complete and 0 interrupted iterations
+sampler   [  71% ] 0/1 VUs  2m08.0s/3m0s  1.00 iters/s
+write     [  71% ] 20 VUs   2m08.0s/3m0s 
+time="2026-11-19T16:07:12Z" level=info msg="SAMPLER,2026-11-19T16:07:12.216Z,9577a35e0df4,200,7" source=console
+
+running (2m09.0s), 20/21 VUs, 4696 complete and 0 interrupted iterations
+sampler   [  72% ] 0/1 VUs  2m09.0s/3m0s  1.00 iters/s
+write     [  72% ] 20 VUs   2m09.0s/3m0s 
+time="2026-11-19T16:07:13Z" level=info msg="SAMPLER,2026-11-19T16:07:13.217Z,9577a35e0df4,200,8" source=console
+
+running (2m10.0s), 20/21 VUs, 4729 complete and 0 interrupted iterations
+sampler   [  72% ] 0/1 VUs  2m10.0s/3m0s  1.00 iters/s
+write     [  72% ] 20 VUs   2m10.0s/3m0s 
+time="2026-11-19T16:07:14Z" level=info msg="SAMPLER,2026-11-19T16:07:14.217Z,9577a35e0df4,200,7" source=console
+
+running (2m11.0s), 20/21 VUs, 4769 complete and 0 interrupted iterations
+sampler   [  73% ] 0/1 VUs  2m11.0s/3m0s  1.00 iters/s
+write     [  73% ] 20 VUs   2m11.0s/3m0s 
+time="2026-11-19T16:07:15Z" level=info msg="SAMPLER,2026-11-19T16:07:15.217Z,9577a35e0df4,200,7" source=console
+
+running (2m12.0s), 20/21 VUs, 4807 complete and 0 interrupted iterations
+sampler   [  73% ] 0/1 VUs  2m12.0s/3m0s  1.00 iters/s
+write     [  73% ] 20 VUs   2m12.0s/3m0s 
+time="2026-11-19T16:07:16Z" level=info msg="SAMPLER,2026-11-19T16:07:16.217Z,9577a35e0df4,200,7" source=console
+
+running (2m13.0s), 20/21 VUs, 4840 complete and 0 interrupted iterations
+sampler   [  74% ] 0/1 VUs  2m13.0s/3m0s  1.00 iters/s
+write     [  74% ] 20 VUs   2m13.0s/3m0s 
+time="2026-11-19T16:07:17Z" level=info msg="SAMPLER,2026-11-19T16:07:17.216Z,9577a35e0df4,200,7" source=console
+
+running (2m14.0s), 20/21 VUs, 4877 complete and 0 interrupted iterations
+sampler   [  74% ] 0/1 VUs  2m14.0s/3m0s  1.00 iters/s
+write     [  74% ] 20 VUs   2m14.0s/3m0s 
+time="2026-11-19T16:07:18Z" level=info msg="SAMPLER,2026-11-19T16:07:18.217Z,9577a35e0df4,200,7" source=console
+
+running (2m15.0s), 20/21 VUs, 4914 complete and 0 interrupted iterations
+sampler   [  75% ] 0/1 VUs  2m15.0s/3m0s  1.00 iters/s
+write     [  75% ] 20 VUs   2m15.0s/3m0s 
+time="2026-11-19T16:07:19Z" level=info msg="SAMPLER,2026-11-19T16:07:19.217Z,9577a35e0df4,200,7" source=console
+
+running (2m16.0s), 20/21 VUs, 4953 complete and 0 interrupted iterations
+sampler   [  76% ] 0/1 VUs  2m16.0s/3m0s  1.00 iters/s
+write     [  76% ] 20 VUs   2m16.0s/3m0s 
+time="2026-11-19T16:07:20Z" level=info msg="SAMPLER,2026-11-19T16:07:20.216Z,9577a35e0df4,200,7" source=console
+
+running (2m17.0s), 20/21 VUs, 4992 complete and 0 interrupted iterations
+sampler   [  76% ] 0/1 VUs  2m17.0s/3m0s  1.00 iters/s
+write     [  76% ] 20 VUs   2m17.0s/3m0s 
+time="2026-11-19T16:07:21Z" level=info msg="SAMPLER,2026-11-19T16:07:21.217Z,9577a35e0df4,200,8" source=console
+
+running (2m18.0s), 20/21 VUs, 5026 complete and 0 interrupted iterations
+sampler   [  77% ] 0/1 VUs  2m18.0s/3m0s  1.00 iters/s
+write     [  77% ] 20 VUs   2m18.0s/3m0s 
+time="2026-11-19T16:07:22Z" level=info msg="SAMPLER,2026-11-19T16:07:22.217Z,9577a35e0df4,200,7" source=console
+
+running (2m19.0s), 20/21 VUs, 5065 complete and 0 interrupted iterations
+sampler   [  77% ] 0/1 VUs  2m19.0s/3m0s  1.00 iters/s
+write     [  77% ] 20 VUs   2m19.0s/3m0s 
+time="2026-11-19T16:07:23Z" level=info msg="SAMPLER,2026-11-19T16:07:23.217Z,9577a35e0df4,200,7" source=console
+
+running (2m20.0s), 20/21 VUs, 5099 complete and 0 interrupted iterations
+sampler   [  78% ] 0/1 VUs  2m20.0s/3m0s  1.00 iters/s
+write     [  78% ] 20 VUs   2m20.0s/3m0s 
+time="2026-11-19T16:07:24Z" level=info msg="SAMPLER,2026-11-19T16:07:24.217Z,9577a35e0df4,200,7" source=console
+
+running (2m21.0s), 20/21 VUs, 5138 complete and 0 interrupted iterations
+sampler   [  78% ] 0/1 VUs  2m21.0s/3m0s  1.00 iters/s
+write     [  78% ] 20 VUs   2m21.0s/3m0s 
+time="2026-11-19T16:07:25Z" level=info msg="SAMPLER,2026-11-19T16:07:25.217Z,9577a35e0df4,200,8" source=console
+
+running (2m22.0s), 20/21 VUs, 5174 complete and 0 interrupted iterations
+sampler   [  79% ] 0/1 VUs  2m22.0s/3m0s  1.00 iters/s
+write     [  79% ] 20 VUs   2m22.0s/3m0s 
+time="2026-11-19T16:07:26Z" level=info msg="SAMPLER,2026-11-19T16:07:26.217Z,9577a35e0df4,200,7" source=console
+
+running (2m23.0s), 20/21 VUs, 5212 complete and 0 interrupted iterations
+sampler   [  79% ] 0/1 VUs  2m23.0s/3m0s  1.00 iters/s
+write     [  79% ] 20 VUs   2m23.0s/3m0s 
+time="2026-11-19T16:07:27Z" level=info msg="SAMPLER,2026-11-19T16:07:27.217Z,9577a35e0df4,200,7" source=console
+
+running (2m24.0s), 20/21 VUs, 5247 complete and 0 interrupted iterations
+sampler   [  80% ] 0/1 VUs  2m24.0s/3m0s  1.00 iters/s
+write     [  80% ] 20 VUs   2m24.0s/3m0s 
+time="2026-11-19T16:07:28Z" level=info msg="SAMPLER,2026-11-19T16:07:28.217Z,9577a35e0df4,200,7" source=console
+
+running (2m25.0s), 20/21 VUs, 5285 complete and 0 interrupted iterations
+sampler   [  81% ] 0/1 VUs  2m25.0s/3m0s  1.00 iters/s
+write     [  81% ] 20 VUs   2m25.0s/3m0s 
+time="2026-11-19T16:07:29Z" level=info msg="SAMPLER,2026-11-19T16:07:29.217Z,9577a35e0df4,200,7" source=console
+
+running (2m26.0s), 20/21 VUs, 5321 complete and 0 interrupted iterations
+sampler   [  81% ] 0/1 VUs  2m26.0s/3m0s  1.00 iters/s
+write     [  81% ] 20 VUs   2m26.0s/3m0s 
+time="2026-11-19T16:07:30Z" level=info msg="SAMPLER,2026-11-19T16:07:30.217Z,9577a35e0df4,200,8" source=console
+
+running (2m27.0s), 20/21 VUs, 5360 complete and 0 interrupted iterations
+sampler   [  82% ] 0/1 VUs  2m27.0s/3m0s  1.00 iters/s
+write     [  82% ] 20 VUs   2m27.0s/3m0s 
+time="2026-11-19T16:07:31Z" level=info msg="SAMPLER,2026-11-19T16:07:31.217Z,9577a35e0df4,200,8" source=console
+
+running (2m28.0s), 20/21 VUs, 5390 complete and 0 interrupted iterations
+sampler   [  82% ] 0/1 VUs  2m28.0s/3m0s  1.00 iters/s
+write     [  82% ] 20 VUs   2m28.0s/3m0s 
+time="2026-11-19T16:07:32Z" level=info msg="SAMPLER,2026-11-19T16:07:32.216Z,9577a35e0df4,200,7" source=console
+
+running (2m29.0s), 20/21 VUs, 5429 complete and 0 interrupted iterations
+sampler   [  83% ] 0/1 VUs  2m29.0s/3m0s  1.00 iters/s
+write     [  83% ] 20 VUs   2m29.0s/3m0s 
+time="2026-11-19T16:07:33Z" level=info msg="SAMPLER,2026-11-19T16:07:33.218Z,9577a35e0df4,200,8" source=console
+
+running (2m30.0s), 20/21 VUs, 5466 complete and 0 interrupted iterations
+sampler   [  83% ] 0/1 VUs  2m30.0s/3m0s  1.00 iters/s
+write     [  83% ] 20 VUs   2m30.0s/3m0s 
+time="2026-11-19T16:07:34Z" level=info msg="SAMPLER,2026-11-19T16:07:34.217Z,9577a35e0df4,200,7" source=console
+
+running (2m31.0s), 20/21 VUs, 5501 complete and 0 interrupted iterations
+sampler   [  84% ] 0/1 VUs  2m31.0s/3m0s  1.00 iters/s
+write     [  84% ] 20 VUs   2m31.0s/3m0s 
+time="2026-11-19T16:07:35Z" level=info msg="SAMPLER,2026-11-19T16:07:35.217Z,9577a35e0df4,200,7" source=console
+
+running (2m32.0s), 20/21 VUs, 5538 complete and 0 interrupted iterations
+sampler   [  84% ] 0/1 VUs  2m32.0s/3m0s  1.00 iters/s
+write     [  84% ] 20 VUs   2m32.0s/3m0s 
+time="2026-11-19T16:07:36Z" level=info msg="SAMPLER,2026-11-19T16:07:36.217Z,9577a35e0df4,200,7" source=console
+
+running (2m33.0s), 20/21 VUs, 5573 complete and 0 interrupted iterations
+sampler   [  85% ] 0/1 VUs  2m33.0s/3m0s  1.00 iters/s
+write     [  85% ] 20 VUs   2m33.0s/3m0s 
+time="2026-11-19T16:07:37Z" level=info msg="SAMPLER,2026-11-19T16:07:37.216Z,9577a35e0df4,200,7" source=console
+
+running (2m34.0s), 20/21 VUs, 5610 complete and 0 interrupted iterations
+sampler   [  86% ] 0/1 VUs  2m34.0s/3m0s  1.00 iters/s
+write     [  86% ] 20 VUs   2m34.0s/3m0s 
+time="2026-11-19T16:07:38Z" level=info msg="SAMPLER,2026-11-19T16:07:38.217Z,9577a35e0df4,200,8" source=console
+
+running (2m35.0s), 20/21 VUs, 5648 complete and 0 interrupted iterations
+sampler   [  86% ] 0/1 VUs  2m35.0s/3m0s  1.00 iters/s
+write     [  86% ] 20 VUs   2m35.0s/3m0s 
+time="2026-11-19T16:07:39Z" level=info msg="SAMPLER,2026-11-19T16:07:39.217Z,9577a35e0df4,200,7" source=console
+
+running (2m36.0s), 20/21 VUs, 5685 complete and 0 interrupted iterations
+sampler   [  87% ] 0/1 VUs  2m36.0s/3m0s  1.00 iters/s
+write     [  87% ] 20 VUs   2m36.0s/3m0s 
+time="2026-11-19T16:07:40Z" level=info msg="SAMPLER,2026-11-19T16:07:40.216Z,9577a35e0df4,200,7" source=console
+
+running (2m37.0s), 20/21 VUs, 5720 complete and 0 interrupted iterations
+sampler   [  87% ] 0/1 VUs  2m37.0s/3m0s  1.00 iters/s
+write     [  87% ] 20 VUs   2m37.0s/3m0s 
+time="2026-11-19T16:07:41Z" level=info msg="SAMPLER,2026-11-19T16:07:41.217Z,9577a35e0df4,200,7" source=console
+
+running (2m38.0s), 20/21 VUs, 5756 complete and 0 interrupted iterations
+sampler   [  88% ] 0/1 VUs  2m38.0s/3m0s  1.00 iters/s
+write     [  88% ] 20 VUs   2m38.0s/3m0s 
+time="2026-11-19T16:07:42Z" level=info msg="SAMPLER,2026-11-19T16:07:42.217Z,9577a35e0df4,200,7" source=console
+
+running (2m39.0s), 20/21 VUs, 5794 complete and 0 interrupted iterations
+sampler   [  88% ] 0/1 VUs  2m39.0s/3m0s  1.00 iters/s
+write     [  88% ] 20 VUs   2m39.0s/3m0s 
+time="2026-11-19T16:07:43Z" level=info msg="SAMPLER,2026-11-19T16:07:43.217Z,9577a35e0df4,200,7" source=console
+
+running (2m40.0s), 20/21 VUs, 5833 complete and 0 interrupted iterations
+sampler   [  89% ] 0/1 VUs  2m40.0s/3m0s  1.00 iters/s
+write     [  89% ] 20 VUs   2m40.0s/3m0s 
+time="2026-11-19T16:07:44Z" level=info msg="SAMPLER,2026-11-19T16:07:44.217Z,9577a35e0df4,200,8" source=console
+
+running (2m41.0s), 20/21 VUs, 5868 complete and 0 interrupted iterations
+sampler   [  89% ] 0/1 VUs  2m41.0s/3m0s  1.00 iters/s
+write     [  89% ] 20 VUs   2m41.0s/3m0s 
+time="2026-11-19T16:07:45Z" level=info msg="SAMPLER,2026-11-19T16:07:45.216Z,9577a35e0df4,200,7" source=console
+
+running (2m42.0s), 20/21 VUs, 5902 complete and 0 interrupted iterations
+sampler   [  90% ] 0/1 VUs  2m42.0s/3m0s  1.00 iters/s
+write     [  90% ] 20 VUs   2m42.0s/3m0s 
+time="2026-11-19T16:07:46Z" level=info msg="SAMPLER,2026-11-19T16:07:46.216Z,9577a35e0df4,200,7" source=console
+
+running (2m43.0s), 20/21 VUs, 5940 complete and 0 interrupted iterations
+sampler   [  91% ] 0/1 VUs  2m43.0s/3m0s  1.00 iters/s
+write     [  91% ] 20 VUs   2m43.0s/3m0s 
+time="2026-11-19T16:07:47Z" level=info msg="SAMPLER,2026-11-19T16:07:47.217Z,9577a35e0df4,200,8" source=console
+
+running (2m44.0s), 20/21 VUs, 5974 complete and 0 interrupted iterations
+sampler   [  91% ] 0/1 VUs  2m44.0s/3m0s  1.00 iters/s
+write     [  91% ] 20 VUs   2m44.0s/3m0s 
+time="2026-11-19T16:07:48Z" level=info msg="SAMPLER,2026-11-19T16:07:48.217Z,9577a35e0df4,200,7" source=console
+
+running (2m45.0s), 20/21 VUs, 6015 complete and 0 interrupted iterations
+sampler   [  92% ] 0/1 VUs  2m45.0s/3m0s  1.00 iters/s
+write     [  92% ] 20 VUs   2m45.0s/3m0s 
+time="2026-11-19T16:07:49Z" level=info msg="SAMPLER,2026-11-19T16:07:49.217Z,9577a35e0df4,200,8" source=console
+
+running (2m46.0s), 20/21 VUs, 6048 complete and 0 interrupted iterations
+sampler   [  92% ] 0/1 VUs  2m46.0s/3m0s  1.00 iters/s
+write     [  92% ] 20 VUs   2m46.0s/3m0s 
+time="2026-11-19T16:07:50Z" level=info msg="SAMPLER,2026-11-19T16:07:50.217Z,9577a35e0df4,200,7" source=console
+
+running (2m47.0s), 20/21 VUs, 6085 complete and 0 interrupted iterations
+sampler   [  93% ] 0/1 VUs  2m47.0s/3m0s  1.00 iters/s
+write     [  93% ] 20 VUs   2m47.0s/3m0s 
+time="2026-11-19T16:07:51Z" level=info msg="SAMPLER,2026-11-19T16:07:51.217Z,9577a35e0df4,200,7" source=console
+
+running (2m48.0s), 20/21 VUs, 6122 complete and 0 interrupted iterations
+sampler   [  93% ] 0/1 VUs  2m48.0s/3m0s  1.00 iters/s
+write     [  93% ] 20 VUs   2m48.0s/3m0s 
+time="2026-11-19T16:07:52Z" level=info msg="SAMPLER,2026-11-19T16:07:52.217Z,9577a35e0df4,200,7" source=console
+
+running (2m49.0s), 20/21 VUs, 6156 complete and 0 interrupted iterations
+sampler   [  94% ] 0/1 VUs  2m49.0s/3m0s  1.00 iters/s
+write     [  94% ] 20 VUs   2m49.0s/3m0s 
+time="2026-11-19T16:07:53Z" level=info msg="SAMPLER,2026-11-19T16:07:53.216Z,9577a35e0df4,200,7" source=console
+
+running (2m50.0s), 20/21 VUs, 6189 complete and 0 interrupted iterations
+sampler   [  94% ] 0/1 VUs  2m50.0s/3m0s  1.00 iters/s
+write     [  94% ] 20 VUs   2m50.0s/3m0s 
+time="2026-11-19T16:07:54Z" level=info msg="SAMPLER,2026-11-19T16:07:54.216Z,9577a35e0df4,200,7" source=console
+
+running (2m51.0s), 20/21 VUs, 6227 complete and 0 interrupted iterations
+sampler   [  95% ] 0/1 VUs  2m51.0s/3m0s  1.00 iters/s
+write     [  95% ] 20 VUs   2m51.0s/3m0s 
+time="2026-11-19T16:07:55Z" level=info msg="SAMPLER,2026-11-19T16:07:55.217Z,9577a35e0df4,200,7" source=console
+
+running (2m52.0s), 20/21 VUs, 6262 complete and 0 interrupted iterations
+sampler   [  96% ] 0/1 VUs  2m52.0s/3m0s  1.00 iters/s
+write     [  96% ] 20 VUs   2m52.0s/3m0s 
+time="2026-11-19T16:07:56Z" level=info msg="SAMPLER,2026-11-19T16:07:56.217Z,9577a35e0df4,200,7" source=console
+
+running (2m53.0s), 20/21 VUs, 6300 complete and 0 interrupted iterations
+sampler   [  96% ] 0/1 VUs  2m53.0s/3m0s  1.00 iters/s
+write     [  96% ] 20 VUs   2m53.0s/3m0s 
+time="2026-11-19T16:07:57Z" level=info msg="SAMPLER,2026-11-19T16:07:57.217Z,9577a35e0df4,200,7" source=console
+
+running (2m54.0s), 20/21 VUs, 6335 complete and 0 interrupted iterations
+sampler   [  97% ] 0/1 VUs  2m54.0s/3m0s  1.00 iters/s
+write     [  97% ] 20 VUs   2m54.0s/3m0s 
+time="2026-11-19T16:07:58Z" level=info msg="SAMPLER,2026-11-19T16:07:58.217Z,9577a35e0df4,200,7" source=console
+
+running (2m55.0s), 20/21 VUs, 6372 complete and 0 interrupted iterations
+sampler   [  97% ] 0/1 VUs  2m55.0s/3m0s  1.00 iters/s
+write     [  97% ] 20 VUs   2m55.0s/3m0s 
+time="2026-11-19T16:07:59Z" level=info msg="SAMPLER,2026-11-19T16:07:59.216Z,9577a35e0df4,200,7" source=console
+
+running (2m56.0s), 20/21 VUs, 6409 complete and 0 interrupted iterations
+sampler   [  98% ] 0/1 VUs  2m56.0s/3m0s  1.00 iters/s
+write     [  98% ] 20 VUs   2m56.0s/3m0s 
+time="2026-11-19T16:08:00Z" level=info msg="SAMPLER,2026-11-19T16:08:00.217Z,9577a35e0df4,200,7" source=console
+
+running (2m57.0s), 20/21 VUs, 6447 complete and 0 interrupted iterations
+sampler   [  98% ] 0/1 VUs  2m57.0s/3m0s  1.00 iters/s
+write     [  98% ] 20 VUs   2m57.0s/3m0s 
+time="2026-11-19T16:08:01Z" level=info msg="SAMPLER,2026-11-19T16:08:01.217Z,9577a35e0df4,200,7" source=console
+
+running (2m58.0s), 20/21 VUs, 6479 complete and 0 interrupted iterations
+sampler   [  99% ] 0/1 VUs  2m58.0s/3m0s  1.00 iters/s
+write     [  99% ] 20 VUs   2m58.0s/3m0s 
+time="2026-11-19T16:08:02Z" level=info msg="SAMPLER,2026-11-19T16:08:02.217Z,9577a35e0df4,200,8" source=console
+
+running (2m59.0s), 20/21 VUs, 6516 complete and 0 interrupted iterations
+sampler   [  99% ] 0/1 VUs  2m59.0s/3m0s  1.00 iters/s
+write     [  99% ] 20 VUs   2m59.0s/3m0s 
+time="2026-11-19T16:08:03Z" level=info msg="SAMPLER,2026-11-19T16:08:03.217Z,9577a35e0df4,200,7" source=console
+
+running (3m00.0s), 20/21 VUs, 6554 complete and 0 interrupted iterations
+sampler   [ 100% ] 0/1 VUs  3m00.0s/3m0s  1.00 iters/s
+write     [ 100% ] 20 VUs   3m00.0s/3m0s 
+time="2026-11-19T16:08:04Z" level=info msg="SAMPLER,2026-11-19T16:08:04.217Z,9577a35e0df4,200,8" source=console
+
+Scenario: s2-write   Environment: azure-vm   Target: http://85.211.182.199
+
+metric                       avg      p50      p95      p99      max   (ms)
+latency_all                   62.24    61.59    80.50    92.10   335.58
+latency_orders_create         62.24    61.59    80.50    92.10   335.58
+server_time_ms                54.92    54.30    73.10    85.01   326.40
+
+requests: 6394   rate: 35.39 req/s
+error rate: 0.00 %
+files: results/azure-vm/s2-write/2026-11-19T16-08-04-902Z.json, results/azure-vm/s2-write/2026-11-19T16-08-04-902Z.csv
+
+running (3m00.7s), 00/21 VUs, 6575 complete and 0 interrupted iterations
+sampler ✓ [ 100% ] 0/1 VUs  3m0s  1.00 iters/s
+write   ✓ [ 100% ] 20 VUs   3m0s 

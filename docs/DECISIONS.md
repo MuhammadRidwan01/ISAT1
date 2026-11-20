@@ -14,3 +14,8 @@
 - DB_SSL defaults to true; set false for local.
 - ESLint ignores `bench/` (k6 globals).
 - Container calibration (1 vCPU) deferred to M3; dev measurement recorded in docs/CALIBRATION.md.
+
+## M6
+
+- Cost calculator outputs CSV + SVG; break-even computed by linear interpolation between volume points.
+- Rates left null in pricing.json per PRD.

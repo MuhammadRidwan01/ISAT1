@@ -1,14 +1,20 @@
-import type { FastifyInstance } from 'fastify';
-import crypto from 'node:crypto';
-import { getPool } from '../db/pool.js';
-import { reportQuerySchema } from '../lib/schemas.js';
+import type { FastifyInstance } from "fastify";
+import crypto from "node:crypto";
+import { getPool } from "../db/pool.js";
+import { reportQuerySchema } from "../lib/schemas.js";
 
 export default async function reportRoutes(app: FastifyInstance) {
-  app.get('/api/report', async (req, reply) => {
+  app.get("/api/report", async (req, reply) => {
     const parsed = reportQuerySchema.safeParse(req.query);
     if (!parsed.success) {
       reply.status(400);
-      return { error: { code: 'validation_error', message: 'Invalid query', details: parsed.error.flatten() } };
+      return {
+        error: {
+          code: "validation_error",
+          message: "Invalid query",
+          details: parsed.error.flatten(),
+        },
+      };
     }
     const complexity = parsed.data.complexity;
     const pool = getPool();
@@ -59,13 +65,17 @@ export default async function reportRoutes(app: FastifyInstance) {
     const t0 = process.hrtime.bigint();
     let h: Buffer = buf;
     for (let i = 0; i < iterations; i++) {
-      h = crypto.createHash('sha256').update(h).digest();
+      h = crypto.createHash("sha256").update(h).digest();
     }
     const durationMs = Number(process.hrtime.bigint() - t0) / 1e6;
 
     return {
       aggregates: { revenuePerCategory, topProducts, revenuePerDay },
-      cpu: { iterations, durationMs: Math.round(durationMs), checksum: h.toString('hex') },
+      cpu: {
+        iterations,
+        durationMs: Math.round(durationMs),
+        checksum: h.toString("hex"),
+      },
     };
   });
 }

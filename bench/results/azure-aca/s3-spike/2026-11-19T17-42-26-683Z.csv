@@ -1,0 +1,7 @@
+env,scenario,timestamp,metric,avg_ms,p50_ms,p95_ms,p99_ms,max_ms,rps,error_rate
+azure-aca,s3-spike,2026-11-19T17-42-26-683Z,latency_all,9308.21,6879.97,25458.48,31381.56,44799.88,25.74,0.00
+azure-aca,s3-spike,2026-11-19T17-42-26-683Z,latency_products_list,11827.80,11899.01,27921.29,31136.21,31379.43,,
+azure-aca,s3-spike,2026-11-19T17-42-26-683Z,latency_products_detail,6587.40,5694.89,16002.13,20759.42,21127.29,,
+azure-aca,s3-spike,2026-11-19T17-42-26-683Z,latency_orders_create,7081.96,6542.72,16257.55,20800.26,21091.64,,
+azure-aca,s3-spike,2026-11-19T17-42-26-683Z,latency_report,18093.45,18222.84,38579.99,43337.68,44799.88,,
+azure-aca,s3-spike,2026-11-19T17-42-26-683Z,server_time_ms,7846.90,5588.00,24333.80,30155.06,43886.60,,

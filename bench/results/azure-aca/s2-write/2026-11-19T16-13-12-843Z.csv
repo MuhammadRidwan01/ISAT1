@@ -1,0 +1,4 @@
+env,scenario,timestamp,metric,avg_ms,p50_ms,p95_ms,p99_ms,max_ms,rps,error_rate
+azure-aca,s2-write,2026-11-19T16-13-12-843Z,latency_all,86.66,74.13,130.87,189.84,2290.32,33.98,0.00
+azure-aca,s2-write,2026-11-19T16-13-12-843Z,latency_orders_create,86.66,74.13,130.87,189.84,2290.32,,
+azure-aca,s2-write,2026-11-19T16-13-12-843Z,server_time_ms,61.30,57.20,105.31,144.90,261.80,,

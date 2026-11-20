@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "read": { "*": "allow", "*.env": "deny", "*.env.*": "deny", "*.env.example": "allow" },
+    "edit": { "*": "deny", "analysis/*": "allow", "docs/RESULTS.md": "allow" },
+    "bash": {
+      "*": "ask",
+      "k6 *": "allow",
+      "curl *": "allow",
+      "./bench/*": "allow",
+      "bash analysis/*": "allow",
+      "node analysis/*": "allow",
+      "nohup *": "allow",
+      "setsid *": "allow",
+      "sleep *": "allow",
+      "tail *": "allow",
+      "ls *": "allow",
+      "cat analysis/*": "allow",
+      "npm run db:reset-orders*": "allow",
+      "*.env*": "deny",
+      "env": "deny",
+      "env *": "deny",
+      "printenv*": "deny"
+    }
+  }
+}

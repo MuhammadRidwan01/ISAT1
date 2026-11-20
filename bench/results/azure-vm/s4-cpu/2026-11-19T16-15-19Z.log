@@ -1,0 +1,900 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: s4-cpu.js
+        output: -
+
+     scenarios: (100.00%) 2 scenarios, 12 max VUs, 3m30s max duration (incl. graceful stop):
+              * cpu: 10 looping VUs for 3m0s (gracefulStop: 30s)
+              * sampler: 1.00 iterations/s for 3m0s (maxVUs: 1-2, exec: sampler, gracefulStop: 30s)
+
+time="2026-11-19T16:15:19Z" level=info msg="SAMPLER,2026-11-19T16:15:19.861Z,9577a35e0df4,200,8" source=console
+
+running (0m01.0s), 10/11 VUs, 1 complete and 0 interrupted iterations
+cpu       [   1% ] 10 VUs   0m01.0s/3m0s 
+sampler   [   1% ] 0/1 VUs  0m01.0s/3m0s  1.00 iters/s
+
+running (0m02.0s), 11/11 VUs, 2 complete and 0 interrupted iterations
+cpu       [   1% ] 10 VUs   0m02.0s/3m0s 
+sampler   [   1% ] 1/1 VUs  0m02.0s/3m0s  1.00 iters/s
+
+running (0m03.0s), 11/12 VUs, 3 complete and 0 interrupted iterations
+cpu       [   2% ] 10 VUs   0m03.0s/3m0s 
+sampler   [   2% ] 1/2 VUs  0m03.0s/3m0s  1.00 iters/s
+
+running (0m04.0s), 12/12 VUs, 4 complete and 0 interrupted iterations
+cpu       [   2% ] 10 VUs   0m04.0s/3m0s 
+sampler   [   2% ] 2/2 VUs  0m04.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:23Z" level=warning msg="Insufficient VUs, reached 2 active VUs and cannot initialize more" executor=constant-arrival-rate scenario=sampler
+
+running (0m05.0s), 12/12 VUs, 5 complete and 0 interrupted iterations
+cpu       [   3% ] 10 VUs   0m05.0s/3m0s 
+sampler   [   3% ] 2/2 VUs  0m05.0s/3m0s  1.00 iters/s
+
+running (0m06.0s), 12/12 VUs, 6 complete and 0 interrupted iterations
+cpu       [   3% ] 10 VUs   0m06.0s/3m0s 
+sampler   [   3% ] 2/2 VUs  0m06.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:26Z" level=info msg="SAMPLER,2026-11-19T16:15:26.693Z,9577a35e0df4,200,5848" source=console
+
+running (0m07.0s), 11/12 VUs, 7 complete and 0 interrupted iterations
+cpu       [   4% ] 10 VUs   0m07.0s/3m0s 
+sampler   [   4% ] 1/2 VUs  0m07.0s/3m0s  1.00 iters/s
+
+running (0m08.0s), 12/12 VUs, 8 complete and 0 interrupted iterations
+cpu       [   4% ] 10 VUs   0m08.0s/3m0s 
+sampler   [   4% ] 2/2 VUs  0m08.0s/3m0s  1.00 iters/s
+
+running (0m09.0s), 12/12 VUs, 9 complete and 0 interrupted iterations
+cpu       [   5% ] 10 VUs   0m09.0s/3m0s 
+sampler   [   5% ] 2/2 VUs  0m09.0s/3m0s  1.00 iters/s
+
+running (0m10.0s), 12/12 VUs, 10 complete and 0 interrupted iterations
+cpu       [   6% ] 10 VUs   0m10.0s/3m0s 
+sampler   [   6% ] 2/2 VUs  0m10.0s/3m0s  1.00 iters/s
+
+running (0m11.0s), 12/12 VUs, 11 complete and 0 interrupted iterations
+cpu       [   6% ] 10 VUs   0m11.0s/3m0s 
+sampler   [   6% ] 2/2 VUs  0m11.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:31Z" level=info msg="SAMPLER,2026-11-19T16:15:31.068Z,9577a35e0df4,200,4223" source=console
+time="2026-11-19T16:15:31Z" level=info msg="SAMPLER,2026-11-19T16:15:31.068Z,9577a35e0df4,200,8216" source=console
+
+running (0m12.0s), 10/12 VUs, 14 complete and 0 interrupted iterations
+cpu       [   7% ] 10 VUs   0m12.0s/3m0s 
+sampler   [   7% ] 0/2 VUs  0m12.0s/3m0s  1.00 iters/s
+
+running (0m13.0s), 11/12 VUs, 15 complete and 0 interrupted iterations
+cpu       [   7% ] 10 VUs   0m13.0s/3m0s 
+sampler   [   7% ] 1/2 VUs  0m13.0s/3m0s  1.00 iters/s
+
+running (0m14.0s), 12/12 VUs, 16 complete and 0 interrupted iterations
+cpu       [   8% ] 10 VUs   0m14.0s/3m0s 
+sampler   [   8% ] 2/2 VUs  0m14.0s/3m0s  1.00 iters/s
+
+running (0m15.0s), 12/12 VUs, 16 complete and 0 interrupted iterations
+cpu       [   8% ] 10 VUs   0m15.0s/3m0s 
+sampler   [   8% ] 2/2 VUs  0m15.0s/3m0s  1.00 iters/s
+
+running (0m16.0s), 12/12 VUs, 17 complete and 0 interrupted iterations
+cpu       [   9% ] 10 VUs   0m16.0s/3m0s 
+sampler   [   9% ] 2/2 VUs  0m16.0s/3m0s  1.00 iters/s
+
+running (0m17.0s), 12/12 VUs, 18 complete and 0 interrupted iterations
+cpu       [   9% ] 10 VUs   0m17.0s/3m0s 
+sampler   [   9% ] 2/2 VUs  0m17.0s/3m0s  1.00 iters/s
+
+running (0m18.0s), 12/12 VUs, 19 complete and 0 interrupted iterations
+cpu       [  10% ] 10 VUs   0m18.0s/3m0s 
+sampler   [  10% ] 2/2 VUs  0m18.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:37Z" level=info msg="SAMPLER,2026-11-19T16:15:37.912Z,9577a35e0df4,200,6068" source=console
+time="2026-11-19T16:15:37Z" level=info msg="SAMPLER,2026-11-19T16:15:37.913Z,9577a35e0df4,200,5067" source=console
+
+running (0m19.0s), 10/12 VUs, 22 complete and 0 interrupted iterations
+cpu       [  11% ] 10 VUs   0m19.0s/3m0s 
+sampler   [  11% ] 0/2 VUs  0m19.0s/3m0s  1.00 iters/s
+
+running (0m20.0s), 11/12 VUs, 23 complete and 0 interrupted iterations
+cpu       [  11% ] 10 VUs   0m20.0s/3m0s 
+sampler   [  11% ] 1/2 VUs  0m20.0s/3m0s  1.00 iters/s
+
+running (0m21.0s), 12/12 VUs, 24 complete and 0 interrupted iterations
+cpu       [  12% ] 10 VUs   0m21.0s/3m0s 
+sampler   [  12% ] 2/2 VUs  0m21.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:41Z" level=info msg="SAMPLER,2026-11-19T16:15:41.222Z,9577a35e0df4,200,1377" source=console
+time="2026-11-19T16:15:41Z" level=info msg="SAMPLER,2026-11-19T16:15:41.222Z,9577a35e0df4,200,2377" source=console
+
+running (0m22.0s), 10/12 VUs, 27 complete and 0 interrupted iterations
+cpu       [  12% ] 10 VUs   0m22.0s/3m0s 
+sampler   [  12% ] 0/2 VUs  0m22.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:42Z" level=info msg="SAMPLER,2026-11-19T16:15:42.339Z,9577a35e0df4,200,494" source=console
+
+running (0m23.0s), 10/12 VUs, 29 complete and 0 interrupted iterations
+cpu       [  13% ] 10 VUs   0m23.0s/3m0s 
+sampler   [  13% ] 0/2 VUs  0m23.0s/3m0s  1.00 iters/s
+
+running (0m24.0s), 11/12 VUs, 30 complete and 0 interrupted iterations
+cpu       [  13% ] 10 VUs   0m24.0s/3m0s 
+sampler   [  13% ] 1/2 VUs  0m24.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:44Z" level=info msg="SAMPLER,2026-11-19T16:15:44.553Z,9577a35e0df4,200,1708" source=console
+time="2026-11-19T16:15:44Z" level=info msg="SAMPLER,2026-11-19T16:15:44.554Z,9577a35e0df4,200,709" source=console
+
+running (0m25.0s), 10/12 VUs, 33 complete and 0 interrupted iterations
+cpu       [  14% ] 10 VUs   0m25.0s/3m0s 
+sampler   [  14% ] 0/2 VUs  0m25.0s/3m0s  1.00 iters/s
+
+running (0m26.0s), 11/12 VUs, 33 complete and 0 interrupted iterations
+cpu       [  14% ] 10 VUs   0m26.0s/3m0s 
+sampler   [  14% ] 1/2 VUs  0m26.0s/3m0s  1.00 iters/s
+
+running (0m27.0s), 12/12 VUs, 34 complete and 0 interrupted iterations
+cpu       [  15% ] 10 VUs   0m27.0s/3m0s 
+sampler   [  15% ] 2/2 VUs  0m27.0s/3m0s  1.00 iters/s
+
+running (0m28.0s), 12/12 VUs, 35 complete and 0 interrupted iterations
+cpu       [  16% ] 10 VUs   0m28.0s/3m0s 
+sampler   [  16% ] 2/2 VUs  0m28.0s/3m0s  1.00 iters/s
+
+running (0m29.0s), 12/12 VUs, 36 complete and 0 interrupted iterations
+cpu       [  16% ] 10 VUs   0m29.0s/3m0s 
+sampler   [  16% ] 2/2 VUs  0m29.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:48Z" level=info msg="SAMPLER,2026-11-19T16:15:48.951Z,9577a35e0df4,200,4106" source=console
+
+running (0m30.0s), 11/12 VUs, 38 complete and 0 interrupted iterations
+cpu       [  17% ] 10 VUs   0m30.0s/3m0s 
+sampler   [  17% ] 1/2 VUs  0m30.0s/3m0s  1.00 iters/s
+
+running (0m31.0s), 12/12 VUs, 39 complete and 0 interrupted iterations
+cpu       [  17% ] 10 VUs   0m31.0s/3m0s 
+sampler   [  17% ] 2/2 VUs  0m31.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:51Z" level=info msg="SAMPLER,2026-11-19T16:15:51.161Z,9577a35e0df4,200,5316" source=console
+time="2026-11-19T16:15:51Z" level=info msg="SAMPLER,2026-11-19T16:15:51.162Z,9577a35e0df4,200,1317" source=console
+
+running (0m32.0s), 10/12 VUs, 42 complete and 0 interrupted iterations
+cpu       [  18% ] 10 VUs   0m32.0s/3m0s 
+sampler   [  18% ] 0/2 VUs  0m32.0s/3m0s  1.00 iters/s
+
+running (0m33.0s), 11/12 VUs, 43 complete and 0 interrupted iterations
+cpu       [  18% ] 10 VUs   0m33.0s/3m0s 
+sampler   [  18% ] 1/2 VUs  0m33.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:53Z" level=info msg="SAMPLER,2026-11-19T16:15:53.377Z,9577a35e0df4,200,1532" source=console
+
+running (0m34.0s), 11/12 VUs, 45 complete and 0 interrupted iterations
+cpu       [  19% ] 10 VUs   0m34.0s/3m0s 
+sampler   [  19% ] 1/2 VUs  0m34.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:54Z" level=info msg="SAMPLER,2026-11-19T16:15:54.477Z,9577a35e0df4,200,1632" source=console
+time="2026-11-19T16:15:54Z" level=info msg="SAMPLER,2026-11-19T16:15:54.477Z,9577a35e0df4,200,633" source=console
+
+running (0m35.0s), 10/12 VUs, 48 complete and 0 interrupted iterations
+cpu       [  19% ] 10 VUs   0m35.0s/3m0s 
+sampler   [  19% ] 0/2 VUs  0m35.0s/3m0s  1.00 iters/s
+
+running (0m36.0s), 11/12 VUs, 49 complete and 0 interrupted iterations
+cpu       [  20% ] 10 VUs   0m36.0s/3m0s 
+sampler   [  20% ] 1/2 VUs  0m36.0s/3m0s  1.00 iters/s
+
+running (0m37.0s), 12/12 VUs, 50 complete and 0 interrupted iterations
+cpu       [  21% ] 10 VUs   0m37.0s/3m0s 
+sampler   [  21% ] 2/2 VUs  0m37.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:57Z" level=info msg="SAMPLER,2026-11-19T16:15:57.756Z,9577a35e0df4,200,2911" source=console
+
+running (0m38.0s), 11/12 VUs, 51 complete and 0 interrupted iterations
+cpu       [  21% ] 10 VUs   0m38.0s/3m0s 
+sampler   [  21% ] 1/2 VUs  0m38.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:58Z" level=info msg="SAMPLER,2026-11-19T16:15:58.836Z,9577a35e0df4,200,2991" source=console
+
+running (0m39.0s), 11/12 VUs, 53 complete and 0 interrupted iterations
+cpu       [  22% ] 10 VUs   0m39.0s/3m0s 
+sampler   [  22% ] 1/2 VUs  0m39.0s/3m0s  1.00 iters/s
+
+running (0m40.0s), 12/12 VUs, 54 complete and 0 interrupted iterations
+cpu       [  22% ] 10 VUs   0m40.0s/3m0s 
+sampler   [  22% ] 2/2 VUs  0m40.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:15:59Z" level=info msg="SAMPLER,2026-11-19T16:15:59.920Z,9577a35e0df4,200,2075" source=console
+
+running (0m41.0s), 11/12 VUs, 56 complete and 0 interrupted iterations
+cpu       [  23% ] 10 VUs   0m41.0s/3m0s 
+sampler   [  23% ] 1/2 VUs  0m41.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:01Z" level=info msg="SAMPLER,2026-11-19T16:16:01.002Z,9577a35e0df4,200,2156" source=console
+
+running (0m42.0s), 11/12 VUs, 58 complete and 0 interrupted iterations
+cpu       [  23% ] 10 VUs   0m42.0s/3m0s 
+sampler   [  23% ] 1/2 VUs  0m42.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:02Z" level=info msg="SAMPLER,2026-11-19T16:16:02.087Z,9577a35e0df4,200,1243" source=console
+
+running (0m43.0s), 11/12 VUs, 60 complete and 0 interrupted iterations
+cpu       [  24% ] 10 VUs   0m43.0s/3m0s 
+sampler   [  24% ] 1/2 VUs  0m43.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:03Z" level=info msg="SAMPLER,2026-11-19T16:16:03.172Z,9577a35e0df4,200,1327" source=console
+
+running (0m44.0s), 11/12 VUs, 62 complete and 0 interrupted iterations
+cpu       [  24% ] 10 VUs   0m44.0s/3m0s 
+sampler   [  24% ] 1/2 VUs  0m44.0s/3m0s  1.00 iters/s
+
+running (0m45.0s), 12/12 VUs, 63 complete and 0 interrupted iterations
+cpu       [  25% ] 10 VUs   0m45.0s/3m0s 
+sampler   [  25% ] 2/2 VUs  0m45.0s/3m0s  1.00 iters/s
+
+running (0m46.0s), 12/12 VUs, 64 complete and 0 interrupted iterations
+cpu       [  26% ] 10 VUs   0m46.0s/3m0s 
+sampler   [  26% ] 2/2 VUs  0m46.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:06Z" level=info msg="SAMPLER,2026-11-19T16:16:06.413Z,9577a35e0df4,200,3567" source=console
+
+running (0m47.0s), 11/12 VUs, 66 complete and 0 interrupted iterations
+cpu       [  26% ] 10 VUs   0m47.0s/3m0s 
+sampler   [  26% ] 1/2 VUs  0m47.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:07Z" level=info msg="SAMPLER,2026-11-19T16:16:07.496Z,9577a35e0df4,200,3651" source=console
+time="2026-11-19T16:16:07Z" level=info msg="SAMPLER,2026-11-19T16:16:07.497Z,9577a35e0df4,200,652" source=console
+
+running (0m48.0s), 10/12 VUs, 69 complete and 0 interrupted iterations
+cpu       [  27% ] 10 VUs   0m48.0s/3m0s 
+sampler   [  27% ] 0/2 VUs  0m48.0s/3m0s  1.00 iters/s
+
+running (0m49.0s), 11/12 VUs, 70 complete and 0 interrupted iterations
+cpu       [  27% ] 10 VUs   0m49.0s/3m0s 
+sampler   [  27% ] 1/2 VUs  0m49.0s/3m0s  1.00 iters/s
+
+running (0m50.0s), 12/12 VUs, 70 complete and 0 interrupted iterations
+cpu       [  28% ] 10 VUs   0m50.0s/3m0s 
+sampler   [  28% ] 2/2 VUs  0m50.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:10Z" level=info msg="SAMPLER,2026-11-19T16:16:10.750Z,9577a35e0df4,200,2906" source=console
+time="2026-11-19T16:16:10Z" level=info msg="SAMPLER,2026-11-19T16:16:10.751Z,9577a35e0df4,200,1906" source=console
+
+running (0m51.0s), 10/12 VUs, 73 complete and 0 interrupted iterations
+cpu       [  28% ] 10 VUs   0m51.0s/3m0s 
+sampler   [  28% ] 0/2 VUs  0m51.0s/3m0s  1.00 iters/s
+
+running (0m52.0s), 11/12 VUs, 74 complete and 0 interrupted iterations
+cpu       [  29% ] 10 VUs   0m52.0s/3m0s 
+sampler   [  29% ] 1/2 VUs  0m52.0s/3m0s  1.00 iters/s
+
+running (0m53.0s), 12/12 VUs, 75 complete and 0 interrupted iterations
+cpu       [  29% ] 10 VUs   0m53.0s/3m0s 
+sampler   [  29% ] 2/2 VUs  0m53.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:13Z" level=info msg="SAMPLER,2026-11-19T16:16:13.052Z,9577a35e0df4,200,2207" source=console
+time="2026-11-19T16:16:13Z" level=info msg="SAMPLER,2026-11-19T16:16:13.053Z,9577a35e0df4,200,1207" source=console
+
+running (0m54.0s), 10/12 VUs, 78 complete and 0 interrupted iterations
+cpu       [  30% ] 10 VUs   0m54.0s/3m0s 
+sampler   [  30% ] 0/2 VUs  0m54.0s/3m0s  1.00 iters/s
+
+running (0m55.0s), 11/12 VUs, 79 complete and 0 interrupted iterations
+cpu       [  31% ] 10 VUs   0m55.0s/3m0s 
+sampler   [  31% ] 1/2 VUs  0m55.0s/3m0s  1.00 iters/s
+
+running (0m56.0s), 12/12 VUs, 80 complete and 0 interrupted iterations
+cpu       [  31% ] 10 VUs   0m56.0s/3m0s 
+sampler   [  31% ] 2/2 VUs  0m56.0s/3m0s  1.00 iters/s
+
+running (0m57.0s), 12/12 VUs, 81 complete and 0 interrupted iterations
+cpu       [  32% ] 10 VUs   0m57.0s/3m0s 
+sampler   [  32% ] 2/2 VUs  0m57.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:17Z" level=info msg="SAMPLER,2026-11-19T16:16:17.687Z,9577a35e0df4,200,3842" source=console
+time="2026-11-19T16:16:17Z" level=info msg="SAMPLER,2026-11-19T16:16:17.689Z,9577a35e0df4,200,2844" source=console
+
+running (0m58.0s), 10/12 VUs, 83 complete and 0 interrupted iterations
+cpu       [  32% ] 10 VUs   0m58.0s/3m0s 
+sampler   [  32% ] 0/2 VUs  0m58.0s/3m0s  1.00 iters/s
+
+running (0m59.0s), 11/12 VUs, 84 complete and 0 interrupted iterations
+cpu       [  33% ] 10 VUs   0m59.0s/3m0s 
+sampler   [  33% ] 1/2 VUs  0m59.0s/3m0s  1.00 iters/s
+
+running (1m00.0s), 12/12 VUs, 85 complete and 0 interrupted iterations
+cpu       [  33% ] 10 VUs   1m00.0s/3m0s 
+sampler   [  33% ] 2/2 VUs  1m00.0s/3m0s  1.00 iters/s
+
+running (1m01.0s), 12/12 VUs, 86 complete and 0 interrupted iterations
+cpu       [  34% ] 10 VUs   1m01.0s/3m0s 
+sampler   [  34% ] 2/2 VUs  1m01.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:21Z" level=info msg="SAMPLER,2026-11-19T16:16:21.154Z,9577a35e0df4,200,3309" source=console
+time="2026-11-19T16:16:21Z" level=info msg="SAMPLER,2026-11-19T16:16:21.154Z,9577a35e0df4,200,2309" source=console
+
+running (1m02.0s), 10/12 VUs, 89 complete and 0 interrupted iterations
+cpu       [  34% ] 10 VUs   1m02.0s/3m0s 
+sampler   [  34% ] 0/2 VUs  1m02.0s/3m0s  1.00 iters/s
+
+running (1m03.0s), 11/12 VUs, 90 complete and 0 interrupted iterations
+cpu       [  35% ] 10 VUs   1m03.0s/3m0s 
+sampler   [  35% ] 1/2 VUs  1m03.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:23Z" level=info msg="SAMPLER,2026-11-19T16:16:23.453Z,9577a35e0df4,200,1607" source=console
+
+running (1m04.0s), 11/12 VUs, 92 complete and 0 interrupted iterations
+cpu       [  36% ] 10 VUs   1m04.0s/3m0s 
+sampler   [  36% ] 1/2 VUs  1m04.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:24Z" level=info msg="SAMPLER,2026-11-19T16:16:24.595Z,9577a35e0df4,200,1750" source=console
+
+running (1m05.0s), 11/12 VUs, 94 complete and 0 interrupted iterations
+cpu       [  36% ] 10 VUs   1m05.0s/3m0s 
+sampler   [  36% ] 1/2 VUs  1m05.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:25Z" level=info msg="SAMPLER,2026-11-19T16:16:25.731Z,9577a35e0df4,200,1887" source=console
+
+running (1m06.0s), 11/12 VUs, 95 complete and 0 interrupted iterations
+cpu       [  37% ] 10 VUs   1m06.0s/3m0s 
+sampler   [  37% ] 1/2 VUs  1m06.0s/3m0s  1.00 iters/s
+
+running (1m07.0s), 12/12 VUs, 96 complete and 0 interrupted iterations
+cpu       [  37% ] 10 VUs   1m07.0s/3m0s 
+sampler   [  37% ] 2/2 VUs  1m07.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:26Z" level=info msg="SAMPLER,2026-11-19T16:16:26.878Z,9577a35e0df4,200,2033" source=console
+
+running (1m08.0s), 11/12 VUs, 98 complete and 0 interrupted iterations
+cpu       [  38% ] 10 VUs   1m08.0s/3m0s 
+sampler   [  38% ] 1/2 VUs  1m08.0s/3m0s  1.00 iters/s
+
+running (1m09.0s), 12/12 VUs, 99 complete and 0 interrupted iterations
+cpu       [  38% ] 10 VUs   1m09.0s/3m0s 
+sampler   [  38% ] 2/2 VUs  1m09.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:29Z" level=info msg="SAMPLER,2026-11-19T16:16:29.156Z,9577a35e0df4,200,3310" source=console
+
+running (1m10.0s), 11/12 VUs, 101 complete and 0 interrupted iterations
+cpu       [  39% ] 10 VUs   1m10.0s/3m0s 
+sampler   [  39% ] 1/2 VUs  1m10.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:30Z" level=info msg="SAMPLER,2026-11-19T16:16:30.288Z,9577a35e0df4,200,2443" source=console
+
+running (1m11.0s), 11/12 VUs, 103 complete and 0 interrupted iterations
+cpu       [  39% ] 10 VUs   1m11.0s/3m0s 
+sampler   [  39% ] 1/2 VUs  1m11.0s/3m0s  1.00 iters/s
+
+running (1m12.0s), 12/12 VUs, 104 complete and 0 interrupted iterations
+cpu       [  40% ] 10 VUs   1m12.0s/3m0s 
+sampler   [  40% ] 2/2 VUs  1m12.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:32Z" level=info msg="SAMPLER,2026-11-19T16:16:32.556Z,9577a35e0df4,200,2711" source=console
+
+running (1m13.0s), 11/12 VUs, 106 complete and 0 interrupted iterations
+cpu       [  41% ] 10 VUs   1m13.0s/3m0s 
+sampler   [  41% ] 1/2 VUs  1m13.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:33Z" level=info msg="SAMPLER,2026-11-19T16:16:33.688Z,9577a35e0df4,200,2842" source=console
+
+running (1m14.0s), 11/12 VUs, 107 complete and 0 interrupted iterations
+cpu       [  41% ] 10 VUs   1m14.0s/3m0s 
+sampler   [  41% ] 1/2 VUs  1m14.0s/3m0s  1.00 iters/s
+
+running (1m15.0s), 12/12 VUs, 108 complete and 0 interrupted iterations
+cpu       [  42% ] 10 VUs   1m15.0s/3m0s 
+sampler   [  42% ] 2/2 VUs  1m15.0s/3m0s  1.00 iters/s
+
+running (1m16.0s), 12/12 VUs, 109 complete and 0 interrupted iterations
+cpu       [  42% ] 10 VUs   1m16.0s/3m0s 
+sampler   [  42% ] 2/2 VUs  1m16.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:35Z" level=info msg="SAMPLER,2026-11-19T16:16:35.949Z,9577a35e0df4,200,3104" source=console
+
+running (1m17.0s), 11/12 VUs, 111 complete and 0 interrupted iterations
+cpu       [  43% ] 10 VUs   1m17.0s/3m0s 
+sampler   [  43% ] 1/2 VUs  1m17.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:37Z" level=info msg="SAMPLER,2026-11-19T16:16:37.073Z,9577a35e0df4,200,3228" source=console
+
+running (1m18.0s), 11/12 VUs, 113 complete and 0 interrupted iterations
+cpu       [  43% ] 10 VUs   1m18.0s/3m0s 
+sampler   [  43% ] 1/2 VUs  1m18.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:38Z" level=info msg="SAMPLER,2026-11-19T16:16:38.199Z,9577a35e0df4,200,1354" source=console
+
+running (1m19.0s), 11/12 VUs, 115 complete and 0 interrupted iterations
+cpu       [  44% ] 10 VUs   1m19.0s/3m0s 
+sampler   [  44% ] 1/2 VUs  1m19.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:39Z" level=info msg="SAMPLER,2026-11-19T16:16:39.328Z,9577a35e0df4,200,1483" source=console
+time="2026-11-19T16:16:39Z" level=info msg="SAMPLER,2026-11-19T16:16:39.329Z,9577a35e0df4,200,483" source=console
+
+running (1m20.0s), 10/12 VUs, 118 complete and 0 interrupted iterations
+cpu       [  44% ] 10 VUs   1m20.0s/3m0s 
+sampler   [  44% ] 0/2 VUs  1m20.0s/3m0s  1.00 iters/s
+
+running (1m21.0s), 11/12 VUs, 119 complete and 0 interrupted iterations
+cpu       [  45% ] 10 VUs   1m21.0s/3m0s 
+sampler   [  45% ] 1/2 VUs  1m21.0s/3m0s  1.00 iters/s
+
+running (1m22.0s), 12/12 VUs, 120 complete and 0 interrupted iterations
+cpu       [  46% ] 10 VUs   1m22.0s/3m0s 
+sampler   [  46% ] 2/2 VUs  1m22.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:42Z" level=info msg="SAMPLER,2026-11-19T16:16:42.708Z,9577a35e0df4,200,2862" source=console
+time="2026-11-19T16:16:42Z" level=info msg="SAMPLER,2026-11-19T16:16:42.708Z,9577a35e0df4,200,1864" source=console
+
+running (1m23.0s), 10/12 VUs, 122 complete and 0 interrupted iterations
+cpu       [  46% ] 10 VUs   1m23.0s/3m0s 
+sampler   [  46% ] 0/2 VUs  1m23.0s/3m0s  1.00 iters/s
+
+running (1m24.0s), 11/12 VUs, 123 complete and 0 interrupted iterations
+cpu       [  47% ] 10 VUs   1m24.0s/3m0s 
+sampler   [  47% ] 1/2 VUs  1m24.0s/3m0s  1.00 iters/s
+
+running (1m25.0s), 12/12 VUs, 124 complete and 0 interrupted iterations
+cpu       [  47% ] 10 VUs   1m25.0s/3m0s 
+sampler   [  47% ] 2/2 VUs  1m25.0s/3m0s  1.00 iters/s
+
+running (1m26.0s), 12/12 VUs, 125 complete and 0 interrupted iterations
+cpu       [  48% ] 10 VUs   1m26.0s/3m0s 
+sampler   [  48% ] 2/2 VUs  1m26.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:46Z" level=info msg="SAMPLER,2026-11-19T16:16:46.096Z,9577a35e0df4,200,3252" source=console
+time="2026-11-19T16:16:46Z" level=info msg="SAMPLER,2026-11-19T16:16:46.101Z,9577a35e0df4,200,2256" source=console
+
+running (1m27.0s), 10/12 VUs, 128 complete and 0 interrupted iterations
+cpu       [  48% ] 10 VUs   1m27.0s/3m0s 
+sampler   [  48% ] 0/2 VUs  1m27.0s/3m0s  1.00 iters/s
+
+running (1m28.0s), 11/12 VUs, 129 complete and 0 interrupted iterations
+cpu       [  49% ] 10 VUs   1m28.0s/3m0s 
+sampler   [  49% ] 1/2 VUs  1m28.0s/3m0s  1.00 iters/s
+
+running (1m29.0s), 12/12 VUs, 130 complete and 0 interrupted iterations
+cpu       [  49% ] 10 VUs   1m29.0s/3m0s 
+sampler   [  49% ] 2/2 VUs  1m29.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:49Z" level=info msg="SAMPLER,2026-11-19T16:16:49.461Z,9577a35e0df4,200,2616" source=console
+time="2026-11-19T16:16:49Z" level=info msg="SAMPLER,2026-11-19T16:16:49.461Z,9577a35e0df4,200,1616" source=console
+
+running (1m30.0s), 10/12 VUs, 133 complete and 0 interrupted iterations
+cpu       [  50% ] 10 VUs   1m30.0s/3m0s 
+sampler   [  50% ] 0/2 VUs  1m30.0s/3m0s  1.00 iters/s
+
+running (1m31.0s), 11/12 VUs, 134 complete and 0 interrupted iterations
+cpu       [  51% ] 10 VUs   1m31.0s/3m0s 
+sampler   [  51% ] 1/2 VUs  1m31.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:51Z" level=info msg="SAMPLER,2026-11-19T16:16:51.708Z,9577a35e0df4,200,1863" source=console
+
+running (1m32.0s), 11/12 VUs, 135 complete and 0 interrupted iterations
+cpu       [  51% ] 10 VUs   1m32.0s/3m0s 
+sampler   [  51% ] 1/2 VUs  1m32.0s/3m0s  1.00 iters/s
+
+running (1m33.0s), 12/12 VUs, 136 complete and 0 interrupted iterations
+cpu       [  52% ] 10 VUs   1m33.0s/3m0s 
+sampler   [  52% ] 2/2 VUs  1m33.0s/3m0s  1.00 iters/s
+
+running (1m34.0s), 12/12 VUs, 137 complete and 0 interrupted iterations
+cpu       [  52% ] 10 VUs   1m34.0s/3m0s 
+sampler   [  52% ] 2/2 VUs  1m34.0s/3m0s  1.00 iters/s
+
+running (1m35.0s), 12/12 VUs, 138 complete and 0 interrupted iterations
+cpu       [  53% ] 10 VUs   1m35.0s/3m0s 
+sampler   [  53% ] 2/2 VUs  1m35.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:55Z" level=info msg="SAMPLER,2026-11-19T16:16:55.039Z,9577a35e0df4,200,4194" source=console
+time="2026-11-19T16:16:55Z" level=info msg="SAMPLER,2026-11-19T16:16:55.041Z,9577a35e0df4,200,3196" source=console
+
+running (1m36.0s), 10/12 VUs, 141 complete and 0 interrupted iterations
+cpu       [  53% ] 10 VUs   1m36.0s/3m0s 
+sampler   [  53% ] 0/2 VUs  1m36.0s/3m0s  1.00 iters/s
+
+running (1m37.0s), 11/12 VUs, 142 complete and 0 interrupted iterations
+cpu       [  54% ] 10 VUs   1m37.0s/3m0s 
+sampler   [  54% ] 1/2 VUs  1m37.0s/3m0s  1.00 iters/s
+
+running (1m38.0s), 12/12 VUs, 143 complete and 0 interrupted iterations
+cpu       [  54% ] 10 VUs   1m38.0s/3m0s 
+sampler   [  54% ] 2/2 VUs  1m38.0s/3m0s  1.00 iters/s
+
+running (1m39.0s), 12/12 VUs, 144 complete and 0 interrupted iterations
+cpu       [  55% ] 10 VUs   1m39.0s/3m0s 
+sampler   [  55% ] 2/2 VUs  1m39.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:16:59Z" level=info msg="SAMPLER,2026-11-19T16:16:59.470Z,9577a35e0df4,200,3625" source=console
+
+running (1m40.0s), 11/12 VUs, 146 complete and 0 interrupted iterations
+cpu       [  56% ] 10 VUs   1m40.0s/3m0s 
+sampler   [  56% ] 1/2 VUs  1m40.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:00Z" level=info msg="SAMPLER,2026-11-19T16:17:00.571Z,9577a35e0df4,200,3726" source=console
+
+running (1m41.0s), 11/12 VUs, 148 complete and 0 interrupted iterations
+cpu       [  56% ] 10 VUs   1m41.0s/3m0s 
+sampler   [  56% ] 1/2 VUs  1m41.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:01Z" level=info msg="SAMPLER,2026-11-19T16:17:01.677Z,9577a35e0df4,200,1833" source=console
+
+running (1m42.0s), 11/12 VUs, 149 complete and 0 interrupted iterations
+cpu       [  57% ] 10 VUs   1m42.0s/3m0s 
+sampler   [  57% ] 1/2 VUs  1m42.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:02Z" level=info msg="SAMPLER,2026-11-19T16:17:02.788Z,9577a35e0df4,200,1943" source=console
+
+running (1m43.0s), 11/12 VUs, 151 complete and 0 interrupted iterations
+cpu       [  57% ] 10 VUs   1m43.0s/3m0s 
+sampler   [  57% ] 1/2 VUs  1m43.0s/3m0s  1.00 iters/s
+
+running (1m44.0s), 12/12 VUs, 152 complete and 0 interrupted iterations
+cpu       [  58% ] 10 VUs   1m44.0s/3m0s 
+sampler   [  58% ] 2/2 VUs  1m44.0s/3m0s  1.00 iters/s
+
+running (1m45.0s), 12/12 VUs, 153 complete and 0 interrupted iterations
+cpu       [  58% ] 10 VUs   1m45.0s/3m0s 
+sampler   [  58% ] 2/2 VUs  1m45.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:04Z" level=info msg="SAMPLER,2026-11-19T16:17:04.990Z,9577a35e0df4,200,3145" source=console
+
+running (1m46.0s), 11/12 VUs, 155 complete and 0 interrupted iterations
+cpu       [  59% ] 10 VUs   1m46.0s/3m0s 
+sampler   [  59% ] 1/2 VUs  1m46.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:06Z" level=info msg="SAMPLER,2026-11-19T16:17:06.095Z,9577a35e0df4,200,3250" source=console
+
+running (1m47.0s), 11/12 VUs, 157 complete and 0 interrupted iterations
+cpu       [  59% ] 10 VUs   1m47.0s/3m0s 
+sampler   [  59% ] 1/2 VUs  1m47.0s/3m0s  1.00 iters/s
+
+running (1m48.0s), 12/12 VUs, 158 complete and 0 interrupted iterations
+cpu       [  60% ] 10 VUs   1m48.0s/3m0s 
+sampler   [  60% ] 2/2 VUs  1m48.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:08Z" level=info msg="SAMPLER,2026-11-19T16:17:08.293Z,9577a35e0df4,200,2448" source=console
+
+running (1m49.0s), 11/12 VUs, 160 complete and 0 interrupted iterations
+cpu       [  61% ] 10 VUs   1m49.0s/3m0s 
+sampler   [  61% ] 1/2 VUs  1m49.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:09Z" level=info msg="SAMPLER,2026-11-19T16:17:09.389Z,9577a35e0df4,200,2544" source=console
+
+running (1m50.0s), 11/12 VUs, 162 complete and 0 interrupted iterations
+cpu       [  61% ] 10 VUs   1m50.0s/3m0s 
+sampler   [  61% ] 1/2 VUs  1m50.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:10Z" level=info msg="SAMPLER,2026-11-19T16:17:10.483Z,9577a35e0df4,200,1638" source=console
+time="2026-11-19T16:17:10Z" level=info msg="SAMPLER,2026-11-19T16:17:10.484Z,9577a35e0df4,200,639" source=console
+
+running (1m51.0s), 10/12 VUs, 165 complete and 0 interrupted iterations
+cpu       [  62% ] 10 VUs   1m51.0s/3m0s 
+sampler   [  62% ] 0/2 VUs  1m51.0s/3m0s  1.00 iters/s
+
+running (1m52.0s), 11/12 VUs, 166 complete and 0 interrupted iterations
+cpu       [  62% ] 10 VUs   1m52.0s/3m0s 
+sampler   [  62% ] 1/2 VUs  1m52.0s/3m0s  1.00 iters/s
+
+running (1m53.0s), 12/12 VUs, 166 complete and 0 interrupted iterations
+cpu       [  63% ] 10 VUs   1m53.0s/3m0s 
+sampler   [  63% ] 2/2 VUs  1m53.0s/3m0s  1.00 iters/s
+
+running (1m54.0s), 12/12 VUs, 167 complete and 0 interrupted iterations
+cpu       [  63% ] 10 VUs   1m54.0s/3m0s 
+sampler   [  63% ] 2/2 VUs  1m54.0s/3m0s  1.00 iters/s
+
+running (1m55.0s), 12/12 VUs, 168 complete and 0 interrupted iterations
+cpu       [  64% ] 10 VUs   1m55.0s/3m0s 
+sampler   [  64% ] 2/2 VUs  1m55.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:14Z" level=info msg="SAMPLER,2026-11-19T16:17:14.893Z,9577a35e0df4,200,4049" source=console
+time="2026-11-19T16:17:14Z" level=info msg="SAMPLER,2026-11-19T16:17:14.894Z,9577a35e0df4,200,3049" source=console
+
+running (1m56.0s), 10/12 VUs, 171 complete and 0 interrupted iterations
+cpu       [  64% ] 10 VUs   1m56.0s/3m0s 
+sampler   [  64% ] 0/2 VUs  1m56.0s/3m0s  1.00 iters/s
+
+running (1m57.0s), 11/12 VUs, 172 complete and 0 interrupted iterations
+cpu       [  65% ] 10 VUs   1m57.0s/3m0s 
+sampler   [  65% ] 1/2 VUs  1m57.0s/3m0s  1.00 iters/s
+
+running (1m58.0s), 12/12 VUs, 173 complete and 0 interrupted iterations
+cpu       [  66% ] 10 VUs   1m58.0s/3m0s 
+sampler   [  66% ] 2/2 VUs  1m58.0s/3m0s  1.00 iters/s
+
+running (1m59.0s), 12/12 VUs, 174 complete and 0 interrupted iterations
+cpu       [  66% ] 10 VUs   1m59.0s/3m0s 
+sampler   [  66% ] 2/2 VUs  1m59.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:19Z" level=info msg="SAMPLER,2026-11-19T16:17:19.269Z,9577a35e0df4,200,3424" source=console
+time="2026-11-19T16:17:19Z" level=info msg="SAMPLER,2026-11-19T16:17:19.269Z,9577a35e0df4,200,2424" source=console
+
+running (2m00.0s), 10/12 VUs, 177 complete and 0 interrupted iterations
+cpu       [  67% ] 10 VUs   2m00.0s/3m0s 
+sampler   [  67% ] 0/2 VUs  2m00.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:20Z" level=info msg="SAMPLER,2026-11-19T16:17:20.373Z,9577a35e0df4,200,528" source=console
+
+running (2m01.0s), 10/12 VUs, 179 complete and 0 interrupted iterations
+cpu       [  67% ] 10 VUs   2m01.0s/3m0s 
+sampler   [  67% ] 0/2 VUs  2m01.0s/3m0s  1.00 iters/s
+
+running (2m02.0s), 11/12 VUs, 180 complete and 0 interrupted iterations
+cpu       [  68% ] 10 VUs   2m02.0s/3m0s 
+sampler   [  68% ] 1/2 VUs  2m02.0s/3m0s  1.00 iters/s
+
+running (2m03.0s), 12/12 VUs, 181 complete and 0 interrupted iterations
+cpu       [  68% ] 10 VUs   2m03.0s/3m0s 
+sampler   [  68% ] 2/2 VUs  2m03.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:23Z" level=info msg="SAMPLER,2026-11-19T16:17:23.624Z,9577a35e0df4,200,2779" source=console
+
+running (2m04.0s), 11/12 VUs, 182 complete and 0 interrupted iterations
+cpu       [  69% ] 10 VUs   2m04.0s/3m0s 
+sampler   [  69% ] 1/2 VUs  2m04.0s/3m0s  1.00 iters/s
+
+running (2m05.0s), 12/12 VUs, 183 complete and 0 interrupted iterations
+cpu       [  69% ] 10 VUs   2m05.0s/3m0s 
+sampler   [  69% ] 2/2 VUs  2m05.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:25Z" level=info msg="SAMPLER,2026-11-19T16:17:25.791Z,9577a35e0df4,200,3946" source=console
+
+running (2m06.0s), 11/12 VUs, 185 complete and 0 interrupted iterations
+cpu       [  70% ] 10 VUs   2m06.0s/3m0s 
+sampler   [  70% ] 1/2 VUs  2m06.0s/3m0s  1.00 iters/s
+
+running (2m07.0s), 12/12 VUs, 186 complete and 0 interrupted iterations
+cpu       [  71% ] 10 VUs   2m07.0s/3m0s 
+sampler   [  71% ] 2/2 VUs  2m07.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:26Z" level=info msg="SAMPLER,2026-11-19T16:17:26.874Z,9577a35e0df4,200,3029" source=console
+
+running (2m08.0s), 11/12 VUs, 188 complete and 0 interrupted iterations
+cpu       [  71% ] 10 VUs   2m08.0s/3m0s 
+sampler   [  71% ] 1/2 VUs  2m08.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:27Z" level=info msg="SAMPLER,2026-11-19T16:17:27.958Z,9577a35e0df4,200,2114" source=console
+
+running (2m09.0s), 11/12 VUs, 190 complete and 0 interrupted iterations
+cpu       [  72% ] 10 VUs   2m09.0s/3m0s 
+sampler   [  72% ] 1/2 VUs  2m09.0s/3m0s  1.00 iters/s
+
+running (2m10.0s), 12/12 VUs, 191 complete and 0 interrupted iterations
+cpu       [  72% ] 10 VUs   2m10.0s/3m0s 
+sampler   [  72% ] 2/2 VUs  2m10.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:30Z" level=info msg="SAMPLER,2026-11-19T16:17:30.114Z,9577a35e0df4,200,2269" source=console
+time="2026-11-19T16:17:30Z" level=info msg="SAMPLER,2026-11-19T16:17:30.119Z,9577a35e0df4,200,1275" source=console
+
+running (2m11.0s), 10/12 VUs, 194 complete and 0 interrupted iterations
+cpu       [  73% ] 10 VUs   2m11.0s/3m0s 
+sampler   [  73% ] 0/2 VUs  2m11.0s/3m0s  1.00 iters/s
+
+running (2m12.0s), 11/12 VUs, 195 complete and 0 interrupted iterations
+cpu       [  73% ] 10 VUs   2m12.0s/3m0s 
+sampler   [  73% ] 1/2 VUs  2m12.0s/3m0s  1.00 iters/s
+
+running (2m13.0s), 12/12 VUs, 196 complete and 0 interrupted iterations
+cpu       [  74% ] 10 VUs   2m13.0s/3m0s 
+sampler   [  74% ] 2/2 VUs  2m13.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:33Z" level=info msg="SAMPLER,2026-11-19T16:17:33.439Z,9577a35e0df4,200,2594" source=console
+
+running (2m14.0s), 11/12 VUs, 198 complete and 0 interrupted iterations
+cpu       [  74% ] 10 VUs   2m14.0s/3m0s 
+sampler   [  74% ] 1/2 VUs  2m14.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:34Z" level=info msg="SAMPLER,2026-11-19T16:17:34.673Z,9577a35e0df4,200,2828" source=console
+
+running (2m15.0s), 11/12 VUs, 199 complete and 0 interrupted iterations
+cpu       [  75% ] 10 VUs   2m15.0s/3m0s 
+sampler   [  75% ] 1/2 VUs  2m15.0s/3m0s  1.00 iters/s
+
+running (2m16.0s), 12/12 VUs, 200 complete and 0 interrupted iterations
+cpu       [  76% ] 10 VUs   2m16.0s/3m0s 
+sampler   [  76% ] 2/2 VUs  2m16.0s/3m0s  1.00 iters/s
+
+running (2m17.0s), 12/12 VUs, 201 complete and 0 interrupted iterations
+cpu       [  76% ] 10 VUs   2m17.0s/3m0s 
+sampler   [  76% ] 2/2 VUs  2m17.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:37Z" level=info msg="SAMPLER,2026-11-19T16:17:37.076Z,9577a35e0df4,200,3231" source=console
+time="2026-11-19T16:17:37Z" level=info msg="SAMPLER,2026-11-19T16:17:37.076Z,9577a35e0df4,200,2231" source=console
+
+running (2m18.0s), 10/12 VUs, 204 complete and 0 interrupted iterations
+cpu       [  77% ] 10 VUs   2m18.0s/3m0s 
+sampler   [  77% ] 0/2 VUs  2m18.0s/3m0s  1.00 iters/s
+
+running (2m19.0s), 11/12 VUs, 205 complete and 0 interrupted iterations
+cpu       [  77% ] 10 VUs   2m19.0s/3m0s 
+sampler   [  77% ] 1/2 VUs  2m19.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:39Z" level=info msg="SAMPLER,2026-11-19T16:17:39.490Z,9577a35e0df4,200,1645" source=console
+
+running (2m20.0s), 11/12 VUs, 207 complete and 0 interrupted iterations
+cpu       [  78% ] 10 VUs   2m20.0s/3m0s 
+sampler   [  78% ] 1/2 VUs  2m20.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:40Z" level=info msg="SAMPLER,2026-11-19T16:17:40.684Z,9577a35e0df4,200,1839" source=console
+
+running (2m21.0s), 11/12 VUs, 209 complete and 0 interrupted iterations
+cpu       [  78% ] 10 VUs   2m21.0s/3m0s 
+sampler   [  78% ] 1/2 VUs  2m21.0s/3m0s  1.00 iters/s
+
+running (2m22.0s), 12/12 VUs, 209 complete and 0 interrupted iterations
+cpu       [  79% ] 10 VUs   2m22.0s/3m0s 
+sampler   [  79% ] 2/2 VUs  2m22.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:41Z" level=info msg="SAMPLER,2026-11-19T16:17:41.883Z,9577a35e0df4,200,2038" source=console
+
+running (2m23.0s), 11/12 VUs, 211 complete and 0 interrupted iterations
+cpu       [  79% ] 10 VUs   2m23.0s/3m0s 
+sampler   [  79% ] 1/2 VUs  2m23.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:43Z" level=info msg="SAMPLER,2026-11-19T16:17:43.071Z,9577a35e0df4,200,2226" source=console
+
+running (2m24.0s), 11/12 VUs, 213 complete and 0 interrupted iterations
+cpu       [  80% ] 10 VUs   2m24.0s/3m0s 
+sampler   [  80% ] 1/2 VUs  2m24.0s/3m0s  1.00 iters/s
+
+running (2m25.0s), 12/12 VUs, 214 complete and 0 interrupted iterations
+cpu       [  81% ] 10 VUs   2m25.0s/3m0s 
+sampler   [  81% ] 2/2 VUs  2m25.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:45Z" level=info msg="SAMPLER,2026-11-19T16:17:45.463Z,9577a35e0df4,200,2618" source=console
+
+running (2m26.0s), 11/12 VUs, 216 complete and 0 interrupted iterations
+cpu       [  81% ] 10 VUs   2m26.0s/3m0s 
+sampler   [  81% ] 1/2 VUs  2m26.0s/3m0s  1.00 iters/s
+
+running (2m27.0s), 12/12 VUs, 217 complete and 0 interrupted iterations
+cpu       [  82% ] 10 VUs   2m27.0s/3m0s 
+sampler   [  82% ] 2/2 VUs  2m27.0s/3m0s  1.00 iters/s
+
+running (2m28.0s), 12/12 VUs, 217 complete and 0 interrupted iterations
+cpu       [  82% ] 10 VUs   2m28.0s/3m0s 
+sampler   [  82% ] 2/2 VUs  2m28.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:47Z" level=info msg="SAMPLER,2026-11-19T16:17:47.841Z,9577a35e0df4,200,3996" source=console
+
+running (2m29.0s), 12/12 VUs, 219 complete and 0 interrupted iterations
+cpu       [  83% ] 10 VUs   2m29.0s/3m0s 
+sampler   [  83% ] 2/2 VUs  2m29.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:49Z" level=info msg="SAMPLER,2026-11-19T16:17:49.032Z,9577a35e0df4,200,3187" source=console
+
+running (2m30.0s), 11/12 VUs, 221 complete and 0 interrupted iterations
+cpu       [  83% ] 10 VUs   2m30.0s/3m0s 
+sampler   [  83% ] 1/2 VUs  2m30.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:50Z" level=info msg="SAMPLER,2026-11-19T16:17:50.230Z,9577a35e0df4,200,2386" source=console
+
+running (2m31.0s), 11/12 VUs, 223 complete and 0 interrupted iterations
+cpu       [  84% ] 10 VUs   2m31.0s/3m0s 
+sampler   [  84% ] 1/2 VUs  2m31.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:51Z" level=info msg="SAMPLER,2026-11-19T16:17:51.420Z,9577a35e0df4,200,1575" source=console
+
+running (2m32.0s), 11/12 VUs, 225 complete and 0 interrupted iterations
+cpu       [  84% ] 10 VUs   2m32.0s/3m0s 
+sampler   [  84% ] 1/2 VUs  2m32.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:52Z" level=info msg="SAMPLER,2026-11-19T16:17:52.606Z,9577a35e0df4,200,1761" source=console
+
+running (2m33.0s), 11/12 VUs, 227 complete and 0 interrupted iterations
+cpu       [  85% ] 10 VUs   2m33.0s/3m0s 
+sampler   [  85% ] 1/2 VUs  2m33.0s/3m0s  1.00 iters/s
+
+running (2m34.0s), 12/12 VUs, 227 complete and 0 interrupted iterations
+cpu       [  86% ] 10 VUs   2m34.0s/3m0s 
+sampler   [  86% ] 2/2 VUs  2m34.0s/3m0s  1.00 iters/s
+
+running (2m35.0s), 12/12 VUs, 228 complete and 0 interrupted iterations
+cpu       [  86% ] 10 VUs   2m35.0s/3m0s 
+sampler   [  86% ] 2/2 VUs  2m35.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:54Z" level=info msg="SAMPLER,2026-11-19T16:17:54.989Z,9577a35e0df4,200,3143" source=console
+
+running (2m36.0s), 11/12 VUs, 230 complete and 0 interrupted iterations
+cpu       [  87% ] 10 VUs   2m36.0s/3m0s 
+sampler   [  87% ] 1/2 VUs  2m36.0s/3m0s  1.00 iters/s
+
+running (2m37.0s), 12/12 VUs, 231 complete and 0 interrupted iterations
+cpu       [  87% ] 10 VUs   2m37.0s/3m0s 
+sampler   [  87% ] 2/2 VUs  2m37.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:57Z" level=info msg="SAMPLER,2026-11-19T16:17:57.368Z,9577a35e0df4,200,4523" source=console
+
+running (2m38.0s), 11/12 VUs, 233 complete and 0 interrupted iterations
+cpu       [  88% ] 10 VUs   2m38.0s/3m0s 
+sampler   [  88% ] 1/2 VUs  2m38.0s/3m0s  1.00 iters/s
+
+running (2m39.0s), 12/12 VUs, 234 complete and 0 interrupted iterations
+cpu       [  88% ] 10 VUs   2m39.0s/3m0s 
+sampler   [  88% ] 2/2 VUs  2m39.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:17:59Z" level=info msg="SAMPLER,2026-11-19T16:17:59.724Z,9577a35e0df4,200,3879" source=console
+time="2026-11-19T16:17:59Z" level=info msg="SAMPLER,2026-11-19T16:17:59.724Z,9577a35e0df4,200,1879" source=console
+
+running (2m40.0s), 10/12 VUs, 236 complete and 0 interrupted iterations
+cpu       [  89% ] 10 VUs   2m40.0s/3m0s 
+sampler   [  89% ] 0/2 VUs  2m40.0s/3m0s  1.00 iters/s
+
+running (2m41.0s), 11/12 VUs, 237 complete and 0 interrupted iterations
+cpu       [  89% ] 10 VUs   2m41.0s/3m0s 
+sampler   [  89% ] 1/2 VUs  2m41.0s/3m0s  1.00 iters/s
+
+running (2m42.0s), 12/12 VUs, 238 complete and 0 interrupted iterations
+cpu       [  90% ] 10 VUs   2m42.0s/3m0s 
+sampler   [  90% ] 2/2 VUs  2m42.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:02Z" level=info msg="SAMPLER,2026-11-19T16:18:02.100Z,9577a35e0df4,200,1255" source=console
+time="2026-11-19T16:18:02Z" level=info msg="SAMPLER,2026-11-19T16:18:02.100Z,9577a35e0df4,200,2255" source=console
+
+running (2m43.0s), 10/12 VUs, 241 complete and 0 interrupted iterations
+cpu       [  91% ] 10 VUs   2m43.0s/3m0s 
+sampler   [  91% ] 0/2 VUs  2m43.0s/3m0s  1.00 iters/s
+
+running (2m44.0s), 11/12 VUs, 242 complete and 0 interrupted iterations
+cpu       [  91% ] 10 VUs   2m44.0s/3m0s 
+sampler   [  91% ] 1/2 VUs  2m44.0s/3m0s  1.00 iters/s
+
+running (2m45.0s), 12/12 VUs, 243 complete and 0 interrupted iterations
+cpu       [  92% ] 10 VUs   2m45.0s/3m0s 
+sampler   [  92% ] 2/2 VUs  2m45.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:05Z" level=info msg="SAMPLER,2026-11-19T16:18:05.625Z,9577a35e0df4,200,2780" source=console
+time="2026-11-19T16:18:05Z" level=info msg="SAMPLER,2026-11-19T16:18:05.626Z,9577a35e0df4,200,1781" source=console
+
+running (2m46.0s), 10/12 VUs, 246 complete and 0 interrupted iterations
+cpu       [  92% ] 10 VUs   2m46.0s/3m0s 
+sampler   [  92% ] 0/2 VUs  2m46.0s/3m0s  1.00 iters/s
+
+running (2m47.0s), 11/12 VUs, 246 complete and 0 interrupted iterations
+cpu       [  93% ] 10 VUs   2m47.0s/3m0s 
+sampler   [  93% ] 1/2 VUs  2m47.0s/3m0s  1.00 iters/s
+
+running (2m48.0s), 12/12 VUs, 247 complete and 0 interrupted iterations
+cpu       [  93% ] 10 VUs   2m48.0s/3m0s 
+sampler   [  93% ] 2/2 VUs  2m48.0s/3m0s  1.00 iters/s
+
+running (2m49.0s), 12/12 VUs, 248 complete and 0 interrupted iterations
+cpu       [  94% ] 10 VUs   2m49.0s/3m0s 
+sampler   [  94% ] 2/2 VUs  2m49.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:09Z" level=info msg="SAMPLER,2026-11-19T16:18:09.160Z,9577a35e0df4,200,3315" source=console
+time="2026-11-19T16:18:09Z" level=info msg="SAMPLER,2026-11-19T16:18:09.160Z,9577a35e0df4,200,2316" source=console
+
+running (2m50.0s), 10/12 VUs, 251 complete and 0 interrupted iterations
+cpu       [  94% ] 10 VUs   2m50.0s/3m0s 
+sampler   [  94% ] 0/2 VUs  2m50.0s/3m0s  1.00 iters/s
+
+running (2m51.0s), 11/12 VUs, 252 complete and 0 interrupted iterations
+cpu       [  95% ] 10 VUs   2m51.0s/3m0s 
+sampler   [  95% ] 1/2 VUs  2m51.0s/3m0s  1.00 iters/s
+
+running (2m52.0s), 12/12 VUs, 253 complete and 0 interrupted iterations
+cpu       [  96% ] 10 VUs   2m52.0s/3m0s 
+sampler   [  96% ] 2/2 VUs  2m52.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:12Z" level=info msg="SAMPLER,2026-11-19T16:18:12.671Z,9577a35e0df4,200,2826" source=console
+
+running (2m53.0s), 11/12 VUs, 254 complete and 0 interrupted iterations
+cpu       [  96% ] 10 VUs   2m53.0s/3m0s 
+sampler   [  96% ] 1/2 VUs  2m53.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:13Z" level=info msg="SAMPLER,2026-11-19T16:18:13.834Z,9577a35e0df4,200,2989" source=console
+
+running (2m54.0s), 11/12 VUs, 256 complete and 0 interrupted iterations
+cpu       [  97% ] 10 VUs   2m54.0s/3m0s 
+sampler   [  97% ] 1/2 VUs  2m54.0s/3m0s  1.00 iters/s
+
+running (2m55.0s), 12/12 VUs, 257 complete and 0 interrupted iterations
+cpu       [  97% ] 10 VUs   2m55.0s/3m0s 
+sampler   [  97% ] 2/2 VUs  2m55.0s/3m0s  1.00 iters/s
+
+running (2m56.0s), 12/12 VUs, 258 complete and 0 interrupted iterations
+cpu       [  98% ] 10 VUs   2m56.0s/3m0s 
+sampler   [  98% ] 2/2 VUs  2m56.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:16Z" level=info msg="SAMPLER,2026-11-19T16:18:16.185Z,9577a35e0df4,200,3339" source=console
+
+running (2m57.0s), 11/12 VUs, 260 complete and 0 interrupted iterations
+cpu       [  98% ] 10 VUs   2m57.0s/3m0s 
+sampler   [  98% ] 1/2 VUs  2m57.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:17Z" level=info msg="SAMPLER,2026-11-19T16:18:17.357Z,9577a35e0df4,200,3511" source=console
+
+running (2m58.0s), 11/12 VUs, 262 complete and 0 interrupted iterations
+cpu       [  99% ] 10 VUs   2m58.0s/3m0s 
+sampler   [  99% ] 1/2 VUs  2m58.0s/3m0s  1.00 iters/s
+
+running (2m59.0s), 12/12 VUs, 263 complete and 0 interrupted iterations
+cpu       [  99% ] 10 VUs   2m59.0s/3m0s 
+sampler   [  99% ] 2/2 VUs  2m59.0s/3m0s  1.00 iters/s
+time="2026-11-19T16:18:19Z" level=info msg="SAMPLER,2026-11-19T16:18:19.684Z,9577a35e0df4,200,2839" source=console
+
+running (3m00.0s), 11/12 VUs, 264 complete and 0 interrupted iterations
+cpu       [ 100% ] 10 VUs   3m00.0s/3m0s 
+sampler   [ 100% ] 1/2 VUs  3m00.0s/3m0s  1.00 iters/s
+
+running (3m01.0s), 11/12 VUs, 265 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ↓ [ 100% ] 2/2 VUs  3m0s  1.00 iters/s
+time="2026-11-19T16:18:20Z" level=info msg="SAMPLER,2026-11-19T16:18:20.855Z,9577a35e0df4,200,3010" source=console
+
+running (3m02.0s), 09/12 VUs, 267 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ↓ [ 100% ] 2/2 VUs  3m0s  1.00 iters/s
+time="2026-11-19T16:18:22Z" level=info msg="SAMPLER,2026-11-19T16:18:22.012Z,9577a35e0df4,200,2166" source=console
+
+running (3m03.0s), 07/12 VUs, 269 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+running (3m04.0s), 06/12 VUs, 270 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+running (3m05.0s), 05/12 VUs, 271 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+running (3m06.0s), 04/12 VUs, 272 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+running (3m07.0s), 03/12 VUs, 273 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+running (3m08.0s), 03/12 VUs, 273 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+running (3m09.0s), 02/12 VUs, 274 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+running (3m10.0s), 01/12 VUs, 275 complete and 0 interrupted iterations
+cpu     ↓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s
+
+Scenario: s4-cpu   Environment: azure-vm   Target: http://85.211.182.199
+
+metric                       avg      p50      p95      p99      max   (ms)
+latency_all                10825.35 11022.77 13182.93 14257.17 15412.58
+latency_report             10825.35 11022.77 13182.93 14257.17 15412.58
+server_time_ms              8240.00  8392.10 10807.34 11885.48 12329.90
+
+requests: 168   rate: 0.88 req/s
+error rate: 0.00 %
+files: results/azure-vm/s4-cpu/2026-11-19T16-18-30-329Z.json, results/azure-vm/s4-cpu/2026-11-19T16-18-30-329Z.csv
+
+running (3m10.5s), 00/12 VUs, 276 complete and 0 interrupted iterations
+cpu     ✓ [ 100% ] 10 VUs   3m0s 
+sampler ✓ [ 100% ] 0/2 VUs  3m0s  1.00 iters/s

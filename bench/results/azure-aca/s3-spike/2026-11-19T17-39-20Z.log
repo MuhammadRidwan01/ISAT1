@@ -1,0 +1,915 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: s3-spike.js
+        output: -
+
+     scenarios: (100.00%) 2 scenarios, 302 max VUs, 3m30s max duration (incl. graceful stop):
+              * sampler: 1.00 iterations/s for 3m0s (maxVUs: 1-2, exec: sampler, gracefulStop: 30s)
+              * spike: Up to 300 looping VUs for 3m0s over 3 stages (gracefulRampDown: 30s, gracefulStop: 1m0s)
+
+time="2026-11-19T17:39:21Z" level=info msg="SAMPLER,2026-11-19T17:39:21.119Z,adc-sandbox,200,95" source=console
+
+running (0m00.8s), 008/301 VUs, 1 complete and 0 interrupted iterations
+sampler   [   0% ] 0/1 VUs      0m00.8s/3m0s  1.00 iters/s
+spike     [   0% ] 008/300 VUs  0m00.8s/3m00.0s
+time="2026-11-19T17:39:21Z" level=info msg="SAMPLER,2026-11-19T17:39:21.985Z,adc-sandbox,200,13" source=console
+
+running (0m01.8s), 018/301 VUs, 14 complete and 0 interrupted iterations
+sampler   [   1% ] 0/1 VUs      0m01.8s/3m0s  1.00 iters/s
+spike     [   1% ] 018/300 VUs  0m01.8s/3m00.0s
+
+running (0m02.8s), 029/301 VUs, 14 complete and 0 interrupted iterations
+sampler   [   2% ] 1/1 VUs      0m02.8s/3m0s  1.00 iters/s
+spike     [   2% ] 028/300 VUs  0m02.8s/3m00.0s
+time="2026-11-19T17:39:24Z" level=info msg="SAMPLER,2026-11-19T17:39:24.668Z,adc-sandbox,200,1695" source=console
+
+running (0m03.8s), 038/302 VUs, 17 complete and 0 interrupted iterations
+sampler   [   2% ] 0/2 VUs      0m03.8s/3m0s  1.00 iters/s
+spike     [   2% ] 038/300 VUs  0m03.8s/3m00.0s
+
+running (0m04.8s), 049/302 VUs, 52 complete and 0 interrupted iterations
+sampler   [   3% ] 1/2 VUs      0m04.8s/3m0s  1.00 iters/s
+spike     [   3% ] 048/300 VUs  0m04.8s/3m00.0s
+time="2026-11-19T17:39:25Z" level=info msg="SAMPLER,2026-11-19T17:39:25.974Z,adc-sandbox,200,984" source=console
+time="2026-11-19T17:39:25Z" level=info msg="SAMPLER,2026-11-19T17:39:25.987Z,adc-sandbox,200,14" source=console
+
+running (0m05.8s), 058/302 VUs, 89 complete and 0 interrupted iterations
+sampler   [   3% ] 0/2 VUs      0m05.8s/3m0s  1.00 iters/s
+spike     [   3% ] 058/300 VUs  0m05.8s/3m00.0s
+
+running (0m06.8s), 069/302 VUs, 103 complete and 0 interrupted iterations
+sampler   [   4% ] 1/2 VUs      0m06.8s/3m0s  1.00 iters/s
+spike     [   4% ] 068/300 VUs  0m06.8s/3m00.0s
+time="2026-11-19T17:39:28Z" level=info msg="SAMPLER,2026-11-19T17:39:28.569Z,adc-sandbox,200,1596" source=console
+time="2026-11-19T17:39:28Z" level=info msg="SAMPLER,2026-11-19T17:39:28.581Z,adc-sandbox,200,608" source=console
+
+running (0m07.8s), 078/302 VUs, 105 complete and 0 interrupted iterations
+sampler   [   4% ] 0/2 VUs      0m07.8s/3m0s  1.00 iters/s
+spike     [   4% ] 078/300 VUs  0m07.8s/3m00.0s
+
+running (0m08.8s), 089/302 VUs, 169 complete and 0 interrupted iterations
+sampler   [   5% ] 1/2 VUs      0m08.8s/3m0s  1.00 iters/s
+spike     [   5% ] 088/300 VUs  0m08.8s/3m00.0s
+time="2026-11-19T17:39:30Z" level=info msg="SAMPLER,2026-11-19T17:39:30.024Z,adc-sandbox,200,1051" source=console
+
+running (0m09.8s), 099/302 VUs, 181 complete and 0 interrupted iterations
+sampler   [   5% ] 1/2 VUs      0m09.8s/3m0s  1.00 iters/s
+spike     [   5% ] 098/300 VUs  0m09.8s/3m00.0s
+time="2026-11-19T17:39:31Z" level=info msg="SAMPLER,2026-11-19T17:39:31.234Z,adc-sandbox,200,1262" source=console
+time="2026-11-19T17:39:31Z" level=info msg="SAMPLER,2026-11-19T17:39:31.242Z,adc-sandbox,200,269" source=console
+
+running (0m10.8s), 108/302 VUs, 195 complete and 0 interrupted iterations
+sampler   [   6% ] 0/2 VUs      0m10.8s/3m0s  1.00 iters/s
+spike     [   6% ] 108/300 VUs  0m10.8s/3m00.0s
+
+running (0m11.8s), 119/302 VUs, 285 complete and 0 interrupted iterations
+sampler   [   7% ] 1/2 VUs      0m11.8s/3m0s  1.00 iters/s
+spike     [   7% ] 118/300 VUs  0m11.8s/3m00.0s
+
+running (0m12.8s), 130/302 VUs, 288 complete and 0 interrupted iterations
+sampler   [   7% ] 2/2 VUs      0m12.8s/3m0s  1.00 iters/s
+spike     [   7% ] 128/300 VUs  0m12.8s/3m00.0s
+time="2026-11-19T17:39:33Z" level=warning msg="Insufficient VUs, reached 2 active VUs and cannot initialize more" executor=constant-arrival-rate scenario=sampler
+time="2026-11-19T17:39:34Z" level=info msg="SAMPLER,2026-11-19T17:39:34.205Z,adc-sandbox,200,2232" source=console
+
+running (0m13.8s), 139/302 VUs, 290 complete and 0 interrupted iterations
+sampler   [   8% ] 1/2 VUs      0m13.8s/3m0s  1.00 iters/s
+spike     [   8% ] 138/300 VUs  0m13.8s/3m00.0s
+time="2026-11-19T17:39:35Z" level=info msg="SAMPLER,2026-11-19T17:39:35.378Z,adc-sandbox,200,2406" source=console
+time="2026-11-19T17:39:35Z" level=info msg="SAMPLER,2026-11-19T17:39:35.388Z,adc-sandbox,200,415" source=console
+
+running (0m14.8s), 148/302 VUs, 297 complete and 0 interrupted iterations
+sampler   [   8% ] 0/2 VUs      0m14.8s/3m0s  1.00 iters/s
+spike     [   8% ] 148/300 VUs  0m14.8s/3m00.0s
+
+running (0m15.8s), 159/302 VUs, 349 complete and 0 interrupted iterations
+sampler   [   9% ] 1/2 VUs      0m15.8s/3m0s  1.00 iters/s
+spike     [   9% ] 158/300 VUs  0m15.8s/3m00.0s
+time="2026-11-19T17:39:37Z" level=info msg="SAMPLER,2026-11-19T17:39:37.002Z,adc-sandbox,200,1030" source=console
+time="2026-11-19T17:39:37Z" level=info msg="SAMPLER,2026-11-19T17:39:37.022Z,adc-sandbox,200,49" source=console
+
+running (0m16.8s), 168/302 VUs, 407 complete and 0 interrupted iterations
+sampler   [   9% ] 0/2 VUs      0m16.8s/3m0s  1.00 iters/s
+spike     [   9% ] 168/300 VUs  0m16.8s/3m00.0s
+
+running (0m17.8s), 179/302 VUs, 465 complete and 0 interrupted iterations
+sampler   [  10% ] 1/2 VUs      0m17.8s/3m0s  1.00 iters/s
+spike     [  10% ] 178/300 VUs  0m17.8s/3m00.0s
+time="2026-11-19T17:39:38Z" level=info msg="SAMPLER,2026-11-19T17:39:38.870Z,adc-sandbox,200,898" source=console
+
+running (0m18.8s), 189/302 VUs, 469 complete and 0 interrupted iterations
+sampler   [  10% ] 1/2 VUs      0m18.8s/3m0s  1.00 iters/s
+spike     [  10% ] 188/300 VUs  0m18.8s/3m00.0s
+
+running (0m19.8s), 200/302 VUs, 471 complete and 0 interrupted iterations
+sampler   [  11% ] 2/2 VUs      0m19.8s/3m0s  1.00 iters/s
+spike     [  11% ] 198/300 VUs  0m19.8s/3m00.0s
+
+running (0m20.8s), 210/302 VUs, 473 complete and 0 interrupted iterations
+sampler   [  12% ] 2/2 VUs      0m20.8s/3m0s  1.00 iters/s
+spike     [  12% ] 208/300 VUs  0m20.8s/3m00.0s
+
+running (0m21.8s), 220/302 VUs, 473 complete and 0 interrupted iterations
+sampler   [  12% ] 2/2 VUs      0m21.8s/3m0s  1.00 iters/s
+spike     [  12% ] 218/300 VUs  0m21.8s/3m00.0s
+
+running (0m22.8s), 230/302 VUs, 474 complete and 0 interrupted iterations
+sampler   [  13% ] 2/2 VUs      0m22.8s/3m0s  1.00 iters/s
+spike     [  13% ] 228/300 VUs  0m22.8s/3m00.0s
+
+running (0m23.8s), 240/302 VUs, 475 complete and 0 interrupted iterations
+sampler   [  13% ] 2/2 VUs      0m23.8s/3m0s  1.00 iters/s
+spike     [  13% ] 238/300 VUs  0m23.8s/3m00.0s
+time="2026-11-19T17:39:44Z" level=info msg="SAMPLER,2026-11-19T17:39:44.898Z,adc-sandbox,200,5925" source=console
+
+running (0m24.8s), 250/302 VUs, 478 complete and 0 interrupted iterations
+sampler   [  14% ] 2/2 VUs      0m24.8s/3m0s  1.00 iters/s
+spike     [  14% ] 248/300 VUs  0m24.8s/3m00.0s
+
+running (0m25.8s), 260/302 VUs, 479 complete and 0 interrupted iterations
+sampler   [  14% ] 2/2 VUs      0m25.8s/3m0s  1.00 iters/s
+spike     [  14% ] 258/300 VUs  0m25.8s/3m00.0s
+
+running (0m26.8s), 270/302 VUs, 480 complete and 0 interrupted iterations
+sampler   [  15% ] 2/2 VUs      0m26.8s/3m0s  1.00 iters/s
+spike     [  15% ] 268/300 VUs  0m26.8s/3m00.0s
+time="2026-11-19T17:39:48Z" level=info msg="SAMPLER,2026-11-19T17:39:48.392Z,adc-sandbox,200,3419" source=console
+time="2026-11-19T17:39:48Z" level=info msg="SAMPLER,2026-11-19T17:39:48.401Z,adc-sandbox,200,8429" source=console
+
+running (0m27.8s), 278/302 VUs, 491 complete and 0 interrupted iterations
+sampler   [  15% ] 0/2 VUs      0m27.8s/3m0s  1.00 iters/s
+spike     [  15% ] 278/300 VUs  0m27.8s/3m00.0s
+time="2026-11-19T17:39:49Z" level=info msg="SAMPLER,2026-11-19T17:39:49.629Z,adc-sandbox,200,656" source=console
+
+running (0m28.8s), 288/302 VUs, 516 complete and 0 interrupted iterations
+sampler   [  16% ] 0/2 VUs      0m28.8s/3m0s  1.00 iters/s
+spike     [  16% ] 288/300 VUs  0m28.8s/3m00.0s
+time="2026-11-19T17:39:49Z" level=info msg="SAMPLER,2026-11-19T17:39:49.984Z,adc-sandbox,200,11" source=console
+
+running (0m29.8s), 298/302 VUs, 611 complete and 0 interrupted iterations
+sampler   [  17% ] 0/2 VUs      0m29.8s/3m0s  1.00 iters/s
+spike     [  17% ] 298/300 VUs  0m29.8s/3m00.0s
+time="2026-11-19T17:39:51Z" level=info msg="SAMPLER,2026-11-19T17:39:51.479Z,adc-sandbox,200,507" source=console
+
+running (0m30.8s), 300/302 VUs, 626 complete and 0 interrupted iterations
+sampler   [  17% ] 0/2 VUs      0m30.8s/3m0s  1.00 iters/s
+spike     [  17% ] 300/300 VUs  0m30.8s/3m00.0s
+time="2026-11-19T17:39:52Z" level=info msg="SAMPLER,2026-11-19T17:39:52.727Z,adc-sandbox,200,754" source=console
+
+running (0m31.8s), 300/302 VUs, 643 complete and 0 interrupted iterations
+sampler   [  18% ] 0/2 VUs      0m31.8s/3m0s  1.00 iters/s
+spike     [  18% ] 300/300 VUs  0m31.8s/3m00.0s
+
+running (0m32.8s), 301/302 VUs, 659 complete and 0 interrupted iterations
+sampler   [  18% ] 1/2 VUs      0m32.8s/3m0s  1.00 iters/s
+spike     [  18% ] 300/300 VUs  0m32.8s/3m00.0s
+time="2026-11-19T17:39:53Z" level=info msg="SAMPLER,2026-11-19T17:39:53.993Z,adc-sandbox,200,1020" source=console
+time="2026-11-19T17:39:53Z" level=info msg="SAMPLER,2026-11-19T17:39:53.995Z,adc-sandbox,200,22" source=console
+
+running (0m33.8s), 300/302 VUs, 712 complete and 0 interrupted iterations
+sampler   [  19% ] 0/2 VUs      0m33.8s/3m0s  1.00 iters/s
+spike     [  19% ] 300/300 VUs  0m33.8s/3m00.0s
+time="2026-11-19T17:39:54Z" level=info msg="SAMPLER,2026-11-19T17:39:54.986Z,adc-sandbox,200,14" source=console
+
+running (0m34.8s), 300/302 VUs, 890 complete and 0 interrupted iterations
+sampler   [  19% ] 0/2 VUs      0m34.8s/3m0s  1.00 iters/s
+spike     [  19% ] 300/300 VUs  0m34.8s/3m00.0s
+time="2026-11-19T17:39:56Z" level=info msg="SAMPLER,2026-11-19T17:39:56.478Z,adc-sandbox,200,505" source=console
+
+running (0m35.8s), 300/302 VUs, 896 complete and 0 interrupted iterations
+sampler   [  20% ] 0/2 VUs      0m35.8s/3m0s  1.00 iters/s
+spike     [  20% ] 300/300 VUs  0m35.8s/3m00.0s
+
+running (0m36.8s), 301/302 VUs, 901 complete and 0 interrupted iterations
+sampler   [  20% ] 1/2 VUs      0m36.8s/3m0s  1.00 iters/s
+spike     [  20% ] 300/300 VUs  0m36.8s/3m00.0s
+time="2026-11-19T17:39:58Z" level=info msg="SAMPLER,2026-11-19T17:39:58.768Z,adc-sandbox,200,1795" source=console
+time="2026-11-19T17:39:58Z" level=info msg="SAMPLER,2026-11-19T17:39:58.771Z,adc-sandbox,200,797" source=console
+
+running (0m37.8s), 300/302 VUs, 905 complete and 0 interrupted iterations
+sampler   [  21% ] 0/2 VUs      0m37.8s/3m0s  1.00 iters/s
+spike     [  21% ] 300/300 VUs  0m37.8s/3m00.0s
+
+running (0m38.8s), 301/302 VUs, 908 complete and 0 interrupted iterations
+sampler   [  22% ] 1/2 VUs      0m38.8s/3m0s  1.00 iters/s
+spike     [  22% ] 300/300 VUs  0m38.8s/3m00.0s
+time="2026-11-19T17:39:59Z" level=info msg="SAMPLER,2026-11-19T17:39:59.957Z,adc-sandbox,200,984" source=console
+
+running (0m39.8s), 301/302 VUs, 913 complete and 0 interrupted iterations
+sampler   [  22% ] 1/2 VUs      0m39.8s/3m0s  1.00 iters/s
+spike     [  22% ] 300/300 VUs  0m39.8s/3m00.0s
+time="2026-11-19T17:40:01Z" level=info msg="SAMPLER,2026-11-19T17:40:01.213Z,adc-sandbox,200,1240" source=console
+time="2026-11-19T17:40:01Z" level=info msg="SAMPLER,2026-11-19T17:40:01.247Z,adc-sandbox,200,274" source=console
+
+running (0m40.8s), 300/302 VUs, 933 complete and 0 interrupted iterations
+sampler   [  23% ] 0/2 VUs      0m40.8s/3m0s  1.00 iters/s
+spike     [  23% ] 300/300 VUs  0m40.8s/3m00.0s
+
+running (0m41.8s), 301/302 VUs, 981 complete and 0 interrupted iterations
+sampler   [  23% ] 1/2 VUs      0m41.8s/3m0s  1.00 iters/s
+spike     [  23% ] 300/300 VUs  0m41.8s/3m00.0s
+time="2026-11-19T17:40:02Z" level=info msg="SAMPLER,2026-11-19T17:40:02.866Z,adc-sandbox,200,893" source=console
+
+running (0m42.8s), 301/302 VUs, 985 complete and 0 interrupted iterations
+sampler   [  24% ] 1/2 VUs      0m42.8s/3m0s  1.00 iters/s
+spike     [  24% ] 300/300 VUs  0m42.8s/3m00.0s
+
+running (0m43.8s), 302/302 VUs, 987 complete and 0 interrupted iterations
+sampler   [  24% ] 2/2 VUs      0m43.8s/3m0s  1.00 iters/s
+spike     [  24% ] 300/300 VUs  0m43.8s/3m00.0s
+time="2026-11-19T17:40:05Z" level=info msg="SAMPLER,2026-11-19T17:40:05.196Z,adc-sandbox,200,1222" source=console
+time="2026-11-19T17:40:05Z" level=info msg="SAMPLER,2026-11-19T17:40:05.196Z,adc-sandbox,200,2224" source=console
+
+running (0m44.8s), 300/302 VUs, 990 complete and 0 interrupted iterations
+sampler   [  25% ] 0/2 VUs      0m44.8s/3m0s  1.00 iters/s
+spike     [  25% ] 300/300 VUs  0m44.8s/3m00.0s
+time="2026-11-19T17:40:06Z" level=info msg="SAMPLER,2026-11-19T17:40:06.354Z,adc-sandbox,200,381" source=console
+
+running (0m45.8s), 300/302 VUs, 999 complete and 0 interrupted iterations
+sampler   [  25% ] 0/2 VUs      0m45.8s/3m0s  1.00 iters/s
+spike     [  25% ] 300/300 VUs  0m45.8s/3m00.0s
+
+running (0m46.8s), 301/302 VUs, 1026 complete and 0 interrupted iterations
+sampler   [  26% ] 1/2 VUs      0m46.8s/3m0s  1.00 iters/s
+spike     [  26% ] 300/300 VUs  0m46.8s/3m00.0s
+
+running (0m47.8s), 302/302 VUs, 1027 complete and 0 interrupted iterations
+sampler   [  27% ] 2/2 VUs      0m47.8s/3m0s  1.00 iters/s
+spike     [  27% ] 300/300 VUs  0m47.8s/3m00.0s
+time="2026-11-19T17:40:09Z" level=info msg="SAMPLER,2026-11-19T17:40:09.185Z,adc-sandbox,200,2212" source=console
+
+running (0m48.8s), 301/302 VUs, 1029 complete and 0 interrupted iterations
+sampler   [  27% ] 1/2 VUs      0m48.8s/3m0s  1.00 iters/s
+spike     [  27% ] 300/300 VUs  0m48.8s/3m00.0s
+time="2026-11-19T17:40:10Z" level=info msg="SAMPLER,2026-11-19T17:40:10.029Z,adc-sandbox,200,56" source=console
+time="2026-11-19T17:40:10Z" level=info msg="SAMPLER,2026-11-19T17:40:10.335Z,adc-sandbox,200,2363" source=console
+
+running (0m49.8s), 300/302 VUs, 1032 complete and 0 interrupted iterations
+sampler   [  28% ] 0/2 VUs      0m49.8s/3m0s  1.00 iters/s
+spike     [  28% ] 300/300 VUs  0m49.8s/3m00.0s
+time="2026-11-19T17:40:11Z" level=info msg="SAMPLER,2026-11-19T17:40:11.562Z,adc-sandbox,200,588" source=console
+
+running (0m50.8s), 300/302 VUs, 1036 complete and 0 interrupted iterations
+sampler   [  28% ] 0/2 VUs      0m50.8s/3m0s  1.00 iters/s
+spike     [  28% ] 300/300 VUs  0m50.8s/3m00.0s
+time="2026-11-19T17:40:11Z" level=info msg="SAMPLER,2026-11-19T17:40:11.985Z,adc-sandbox,200,11" source=console
+
+running (0m51.8s), 300/302 VUs, 1109 complete and 0 interrupted iterations
+sampler   [  29% ] 0/2 VUs      0m51.8s/3m0s  1.00 iters/s
+spike     [  29% ] 300/300 VUs  0m51.8s/3m00.0s
+time="2026-11-19T17:40:12Z" level=info msg="SAMPLER,2026-11-19T17:40:12.986Z,adc-sandbox,200,14" source=console
+
+running (0m52.8s), 300/302 VUs, 1132 complete and 0 interrupted iterations
+sampler   [  29% ] 0/2 VUs      0m52.8s/3m0s  1.00 iters/s
+spike     [  29% ] 300/300 VUs  0m52.8s/3m00.0s
+time="2026-11-19T17:40:14Z" level=info msg="SAMPLER,2026-11-19T17:40:14.443Z,adc-sandbox,200,469" source=console
+
+running (0m53.8s), 300/302 VUs, 1146 complete and 0 interrupted iterations
+sampler   [  30% ] 0/2 VUs      0m53.8s/3m0s  1.00 iters/s
+spike     [  30% ] 300/300 VUs  0m53.8s/3m00.0s
+time="2026-11-19T17:40:15Z" level=info msg="SAMPLER,2026-11-19T17:40:15.592Z,adc-sandbox,200,618" source=console
+
+running (0m54.8s), 300/302 VUs, 1152 complete and 0 interrupted iterations
+sampler   [  30% ] 0/2 VUs      0m54.8s/3m0s  1.00 iters/s
+spike     [  30% ] 300/300 VUs  0m54.8s/3m00.0s
+
+running (0m55.8s), 301/302 VUs, 1164 complete and 0 interrupted iterations
+sampler   [  31% ] 1/2 VUs      0m55.8s/3m0s  1.00 iters/s
+spike     [  31% ] 300/300 VUs  0m55.8s/3m00.0s
+time="2026-11-19T17:40:17Z" level=info msg="SAMPLER,2026-11-19T17:40:17.708Z,adc-sandbox,200,735" source=console
+
+running (0m56.8s), 301/302 VUs, 1168 complete and 0 interrupted iterations
+sampler   [  32% ] 1/2 VUs      0m56.8s/3m0s  1.00 iters/s
+spike     [  32% ] 300/300 VUs  0m56.8s/3m00.0s
+time="2026-11-19T17:40:17Z" level=info msg="SAMPLER,2026-11-19T17:40:17.986Z,adc-sandbox,200,13" source=console
+
+running (0m57.8s), 301/302 VUs, 1177 complete and 0 interrupted iterations
+sampler   [  32% ] 1/2 VUs      0m57.8s/3m0s  1.00 iters/s
+spike     [  32% ] 300/300 VUs  0m57.8s/3m00.0s
+time="2026-11-19T17:40:19Z" level=info msg="SAMPLER,2026-11-19T17:40:19.090Z,adc-sandbox,200,3117" source=console
+time="2026-11-19T17:40:19Z" level=info msg="SAMPLER,2026-11-19T17:40:19.093Z,adc-sandbox,200,120" source=console
+
+running (0m58.8s), 300/302 VUs, 1198 complete and 0 interrupted iterations
+sampler   [  33% ] 0/2 VUs      0m58.8s/3m0s  1.00 iters/s
+spike     [  33% ] 300/300 VUs  0m58.8s/3m00.0s
+time="2026-11-19T17:40:20Z" level=info msg="SAMPLER,2026-11-19T17:40:20.304Z,adc-sandbox,200,331" source=console
+
+running (0m59.8s), 300/302 VUs, 1213 complete and 0 interrupted iterations
+sampler   [  33% ] 0/2 VUs      0m59.8s/3m0s  1.00 iters/s
+spike     [  33% ] 300/300 VUs  0m59.8s/3m00.0s
+
+running (1m00.8s), 301/302 VUs, 1231 complete and 0 interrupted iterations
+sampler   [  34% ] 1/2 VUs      1m00.8s/3m0s  1.00 iters/s
+spike     [  34% ] 300/300 VUs  1m00.8s/3m00.0s
+time="2026-11-19T17:40:22Z" level=info msg="SAMPLER,2026-11-19T17:40:22.672Z,adc-sandbox,200,1700" source=console
+time="2026-11-19T17:40:22Z" level=info msg="SAMPLER,2026-11-19T17:40:22.674Z,adc-sandbox,200,701" source=console
+
+running (1m01.8s), 300/302 VUs, 1238 complete and 0 interrupted iterations
+sampler   [  34% ] 0/2 VUs      1m01.8s/3m0s  1.00 iters/s
+spike     [  34% ] 300/300 VUs  1m01.8s/3m00.0s
+time="2026-11-19T17:40:22Z" level=info msg="SAMPLER,2026-11-19T17:40:22.985Z,adc-sandbox,200,12" source=console
+
+running (1m02.8s), 300/302 VUs, 1306 complete and 0 interrupted iterations
+sampler   [  35% ] 0/2 VUs      1m02.8s/3m0s  1.00 iters/s
+spike     [  35% ] 300/300 VUs  1m02.8s/3m00.0s
+time="2026-11-19T17:40:23Z" level=info msg="SAMPLER,2026-11-19T17:40:23.986Z,adc-sandbox,200,13" source=console
+
+running (1m03.8s), 300/302 VUs, 1356 complete and 0 interrupted iterations
+sampler   [  35% ] 0/2 VUs      1m03.8s/3m0s  1.00 iters/s
+spike     [  35% ] 300/300 VUs  1m03.8s/3m00.0s
+time="2026-11-19T17:40:25Z" level=info msg="SAMPLER,2026-11-19T17:40:25.758Z,adc-sandbox,200,784" source=console
+
+running (1m04.8s), 300/302 VUs, 1367 complete and 0 interrupted iterations
+sampler   [  36% ] 0/2 VUs      1m04.8s/3m0s  1.00 iters/s
+spike     [  36% ] 300/300 VUs  1m04.8s/3m00.0s
+time="2026-11-19T17:40:26Z" level=info msg="SAMPLER,2026-11-19T17:40:26.437Z,adc-sandbox,200,464" source=console
+
+running (1m05.8s), 300/302 VUs, 1382 complete and 0 interrupted iterations
+sampler   [  37% ] 0/2 VUs      1m05.8s/3m0s  1.00 iters/s
+spike     [  37% ] 300/300 VUs  1m05.8s/3m00.0s
+
+running (1m06.8s), 301/302 VUs, 1507 complete and 0 interrupted iterations
+sampler   [  37% ] 1/2 VUs      1m06.8s/3m0s  1.00 iters/s
+spike     [  37% ] 300/300 VUs  1m06.8s/3m00.0s
+time="2026-11-19T17:40:28Z" level=info msg="SAMPLER,2026-11-19T17:40:28.048Z,adc-sandbox,200,1075" source=console
+
+running (1m07.8s), 301/302 VUs, 1518 complete and 0 interrupted iterations
+sampler   [  38% ] 1/2 VUs      1m07.8s/3m0s  1.00 iters/s
+spike     [  38% ] 300/300 VUs  1m07.8s/3m00.0s
+
+running (1m08.8s), 302/302 VUs, 1519 complete and 0 interrupted iterations
+sampler   [  38% ] 2/2 VUs      1m08.8s/3m0s  1.00 iters/s
+spike     [  38% ] 300/300 VUs  1m08.8s/3m00.0s
+
+running (1m09.8s), 302/302 VUs, 1528 complete and 0 interrupted iterations
+sampler   [  39% ] 2/2 VUs      1m09.8s/3m0s  1.00 iters/s
+spike     [  39% ] 300/300 VUs  1m09.8s/3m00.0s
+time="2026-11-19T17:40:30Z" level=info msg="SAMPLER,2026-11-19T17:40:30.827Z,adc-sandbox,200,2854" source=console
+time="2026-11-19T17:40:30Z" level=info msg="SAMPLER,2026-11-19T17:40:30.829Z,adc-sandbox,200,1856" source=console
+time="2026-11-19T17:40:31Z" level=info msg="SAMPLER,2026-11-19T17:40:31.642Z,adc-sandbox,200,669" source=console
+
+running (1m10.8s), 300/302 VUs, 1555 complete and 0 interrupted iterations
+sampler   [  39% ] 0/2 VUs      1m10.8s/3m0s  1.00 iters/s
+spike     [  39% ] 300/300 VUs  1m10.8s/3m00.0s
+
+running (1m11.8s), 301/302 VUs, 1639 complete and 0 interrupted iterations
+sampler   [  40% ] 1/2 VUs      1m11.8s/3m0s  1.00 iters/s
+spike     [  40% ] 300/300 VUs  1m11.8s/3m00.0s
+time="2026-11-19T17:40:32Z" level=info msg="SAMPLER,2026-11-19T17:40:32.966Z,adc-sandbox,200,993" source=console
+time="2026-11-19T17:40:32Z" level=info msg="SAMPLER,2026-11-19T17:40:32.987Z,adc-sandbox,200,14" source=console
+
+running (1m12.8s), 300/302 VUs, 1696 complete and 0 interrupted iterations
+sampler   [  40% ] 0/2 VUs      1m12.8s/3m0s  1.00 iters/s
+spike     [  40% ] 300/300 VUs  1m12.8s/3m00.0s
+
+running (1m13.8s), 301/302 VUs, 1705 complete and 0 interrupted iterations
+sampler   [  41% ] 1/2 VUs      1m13.8s/3m0s  1.00 iters/s
+spike     [  41% ] 300/300 VUs  1m13.8s/3m00.0s
+
+running (1m14.8s), 302/302 VUs, 1707 complete and 0 interrupted iterations
+sampler   [  42% ] 2/2 VUs      1m14.8s/3m0s  1.00 iters/s
+spike     [  42% ] 300/300 VUs  1m14.8s/3m00.0s
+
+running (1m15.8s), 302/302 VUs, 1709 complete and 0 interrupted iterations
+sampler   [  42% ] 2/2 VUs      1m15.8s/3m0s  1.00 iters/s
+spike     [  42% ] 300/300 VUs  1m15.8s/3m00.0s
+time="2026-11-19T17:40:37Z" level=info msg="SAMPLER,2026-11-19T17:40:37.037Z,adc-sandbox,200,2064" source=console
+
+running (1m16.8s), 301/302 VUs, 1729 complete and 0 interrupted iterations
+sampler   [  43% ] 1/2 VUs      1m16.8s/3m0s  1.00 iters/s
+spike     [  43% ] 300/300 VUs  1m16.8s/3m00.0s
+time="2026-11-19T17:40:38Z" level=info msg="SAMPLER,2026-11-19T17:40:38.363Z,adc-sandbox,200,390" source=console
+
+running (1m17.8s), 301/302 VUs, 1743 complete and 0 interrupted iterations
+sampler   [  43% ] 1/2 VUs      1m17.8s/3m0s  1.00 iters/s
+spike     [  43% ] 300/300 VUs  1m17.8s/3m00.0s
+time="2026-11-19T17:40:39Z" level=info msg="SAMPLER,2026-11-19T17:40:39.214Z,adc-sandbox,200,5241" source=console
+
+running (1m18.8s), 301/302 VUs, 1782 complete and 0 interrupted iterations
+sampler   [  44% ] 1/2 VUs      1m18.8s/3m0s  1.00 iters/s
+spike     [  44% ] 300/300 VUs  1m18.8s/3m00.0s
+time="2026-11-19T17:40:40Z" level=info msg="SAMPLER,2026-11-19T17:40:40.366Z,adc-sandbox,200,1394" source=console
+time="2026-11-19T17:40:40Z" level=info msg="SAMPLER,2026-11-19T17:40:40.380Z,adc-sandbox,200,407" source=console
+
+running (1m19.8s), 300/302 VUs, 1794 complete and 0 interrupted iterations
+sampler   [  44% ] 0/2 VUs      1m19.8s/3m0s  1.00 iters/s
+spike     [  44% ] 300/300 VUs  1m19.8s/3m00.0s
+time="2026-11-19T17:40:40Z" level=info msg="SAMPLER,2026-11-19T17:40:40.984Z,adc-sandbox,200,11" source=console
+
+running (1m20.8s), 300/302 VUs, 1915 complete and 0 interrupted iterations
+sampler   [  45% ] 0/2 VUs      1m20.8s/3m0s  1.00 iters/s
+spike     [  45% ] 300/300 VUs  1m20.8s/3m00.0s
+
+running (1m21.8s), 301/302 VUs, 1929 complete and 0 interrupted iterations
+sampler   [  45% ] 1/2 VUs      1m21.8s/3m0s  1.00 iters/s
+spike     [  45% ] 300/300 VUs  1m21.8s/3m00.0s
+
+running (1m22.8s), 302/302 VUs, 1966 complete and 0 interrupted iterations
+sampler   [  46% ] 2/2 VUs      1m22.8s/3m0s  1.00 iters/s
+spike     [  46% ] 300/300 VUs  1m22.8s/3m00.0s
+
+running (1m23.8s), 302/302 VUs, 1968 complete and 0 interrupted iterations
+sampler   [  47% ] 2/2 VUs      1m23.8s/3m0s  1.00 iters/s
+spike     [  47% ] 300/300 VUs  1m23.8s/3m00.0s
+time="2026-11-19T17:40:45Z" level=info msg="SAMPLER,2026-11-19T17:40:45.461Z,adc-sandbox,200,3488" source=console
+
+running (1m24.8s), 301/302 VUs, 1972 complete and 0 interrupted iterations
+sampler   [  47% ] 1/2 VUs      1m24.8s/3m0s  1.00 iters/s
+spike     [  47% ] 300/300 VUs  1m24.8s/3m00.0s
+time="2026-11-19T17:40:46Z" level=info msg="SAMPLER,2026-11-19T17:40:46.223Z,adc-sandbox,200,3250" source=console
+
+running (1m25.8s), 301/302 VUs, 2036 complete and 0 interrupted iterations
+sampler   [  48% ] 1/2 VUs      1m25.8s/3m0s  1.00 iters/s
+spike     [  48% ] 300/300 VUs  1m25.8s/3m00.0s
+time="2026-11-19T17:40:46Z" level=info msg="SAMPLER,2026-11-19T17:40:46.848Z,adc-sandbox,200,875" source=console
+time="2026-11-19T17:40:47Z" level=info msg="SAMPLER,2026-11-19T17:40:47.347Z,adc-sandbox,200,375" source=console
+
+running (1m26.8s), 300/302 VUs, 2057 complete and 0 interrupted iterations
+sampler   [  48% ] 0/2 VUs      1m26.8s/3m0s  1.00 iters/s
+spike     [  48% ] 300/300 VUs  1m26.8s/3m00.0s
+
+running (1m27.8s), 301/302 VUs, 2116 complete and 0 interrupted iterations
+sampler   [  49% ] 1/2 VUs      1m27.8s/3m0s  1.00 iters/s
+spike     [  49% ] 300/300 VUs  1m27.8s/3m00.0s
+time="2026-11-19T17:40:48Z" level=info msg="SAMPLER,2026-11-19T17:40:48.973Z,adc-sandbox,200,1000" source=console
+
+running (1m28.8s), 301/302 VUs, 2147 complete and 0 interrupted iterations
+sampler   [  49% ] 1/2 VUs      1m28.8s/3m0s  1.00 iters/s
+spike     [  49% ] 300/300 VUs  1m28.8s/3m00.0s
+
+running (1m29.8s), 302/302 VUs, 2150 complete and 0 interrupted iterations
+sampler   [  50% ] 2/2 VUs      1m29.8s/3m0s  1.00 iters/s
+spike     [  50% ] 300/300 VUs  1m29.8s/3m00.0s
+time="2026-11-19T17:40:51Z" level=info msg="SAMPLER,2026-11-19T17:40:51.757Z,adc-sandbox,200,2784" source=console
+
+running (1m30.8s), 301/302 VUs, 2152 complete and 0 interrupted iterations
+sampler   [  50% ] 1/2 VUs      1m30.8s/3m0s  1.00 iters/s
+spike     [  50% ] 300/300 VUs  1m30.8s/3m00.0s
+
+running (1m31.8s), 302/302 VUs, 2155 complete and 0 interrupted iterations
+sampler   [  51% ] 2/2 VUs      1m31.8s/3m0s  1.00 iters/s
+spike     [  51% ] 300/300 VUs  1m31.8s/3m00.0s
+time="2026-11-19T17:40:52Z" level=info msg="SAMPLER,2026-11-19T17:40:52.937Z,adc-sandbox,200,964" source=console
+time="2026-11-19T17:40:52Z" level=info msg="SAMPLER,2026-11-19T17:40:52.985Z,adc-sandbox,200,11" source=console
+time="2026-11-19T17:40:53Z" level=info msg="SAMPLER,2026-11-19T17:40:53.753Z,adc-sandbox,200,3779" source=console
+
+running (1m32.8s), 300/302 VUs, 2235 complete and 0 interrupted iterations
+sampler   [  52% ] 0/2 VUs      1m32.8s/3m0s  1.00 iters/s
+spike     [  52% ] 300/300 VUs  1m32.8s/3m00.0s
+
+running (1m33.8s), 301/302 VUs, 2319 complete and 0 interrupted iterations
+sampler   [  52% ] 1/2 VUs      1m33.8s/3m0s  1.00 iters/s
+spike     [  52% ] 300/300 VUs  1m33.8s/3m00.0s
+
+running (1m34.8s), 302/302 VUs, 2324 complete and 0 interrupted iterations
+sampler   [  53% ] 2/2 VUs      1m34.8s/3m0s  1.00 iters/s
+spike     [  53% ] 300/300 VUs  1m34.8s/3m00.0s
+time="2026-11-19T17:40:56Z" level=info msg="SAMPLER,2026-11-19T17:40:56.349Z,adc-sandbox,200,1375" source=console
+
+running (1m35.8s), 301/302 VUs, 2330 complete and 0 interrupted iterations
+sampler   [  53% ] 1/2 VUs      1m35.8s/3m0s  1.00 iters/s
+spike     [  53% ] 300/300 VUs  1m35.8s/3m00.0s
+time="2026-11-19T17:40:56Z" level=info msg="SAMPLER,2026-11-19T17:40:56.917Z,adc-sandbox,200,2944" source=console
+time="2026-11-19T17:40:56Z" level=info msg="SAMPLER,2026-11-19T17:40:56.985Z,adc-sandbox,200,12" source=console
+
+running (1m36.8s), 300/302 VUs, 2403 complete and 0 interrupted iterations
+sampler   [  54% ] 0/2 VUs      1m36.8s/3m0s  1.00 iters/s
+spike     [  54% ] 300/300 VUs  1m36.8s/3m00.0s
+time="2026-11-19T17:40:58Z" level=info msg="SAMPLER,2026-11-19T17:40:58.340Z,adc-sandbox,200,366" source=console
+
+running (1m37.8s), 300/302 VUs, 2429 complete and 0 interrupted iterations
+sampler   [  54% ] 0/2 VUs      1m37.8s/3m0s  1.00 iters/s
+spike     [  54% ] 300/300 VUs  1m37.8s/3m00.0s
+
+running (1m38.8s), 301/302 VUs, 2481 complete and 0 interrupted iterations
+sampler   [  55% ] 1/2 VUs      1m38.8s/3m0s  1.00 iters/s
+spike     [  55% ] 300/300 VUs  1m38.8s/3m00.0s
+
+running (1m39.8s), 302/302 VUs, 2485 complete and 0 interrupted iterations
+sampler   [  55% ] 2/2 VUs      1m39.8s/3m0s  1.00 iters/s
+spike     [  55% ] 300/300 VUs  1m39.8s/3m00.0s
+time="2026-11-19T17:41:01Z" level=info msg="SAMPLER,2026-11-19T17:41:01.316Z,adc-sandbox,200,2343" source=console
+time="2026-11-19T17:41:01Z" level=info msg="SAMPLER,2026-11-19T17:41:01.320Z,adc-sandbox,200,1347" source=console
+
+running (1m40.8s), 300/302 VUs, 2530 complete and 0 interrupted iterations
+sampler   [  56% ] 0/2 VUs      1m40.8s/3m0s  1.00 iters/s
+spike     [  56% ] 300/300 VUs  1m40.8s/3m00.0s
+
+running (1m41.8s), 301/302 VUs, 2548 complete and 0 interrupted iterations
+sampler   [  57% ] 1/2 VUs      1m41.8s/3m0s  1.00 iters/s
+spike     [  57% ] 300/300 VUs  1m41.8s/3m00.0s
+
+running (1m42.8s), 302/302 VUs, 2552 complete and 0 interrupted iterations
+sampler   [  57% ] 2/2 VUs      1m42.8s/3m0s  1.00 iters/s
+spike     [  57% ] 300/300 VUs  1m42.8s/3m00.0s
+time="2026-11-19T17:41:03Z" level=info msg="SAMPLER,2026-11-19T17:41:03.843Z,adc-sandbox,200,1870" source=console
+time="2026-11-19T17:41:04Z" level=info msg="SAMPLER,2026-11-19T17:41:04.443Z,adc-sandbox,200,1470" source=console
+time="2026-11-19T17:41:04Z" level=info msg="SAMPLER,2026-11-19T17:41:04.444Z,adc-sandbox,200,471" source=console
+
+running (1m43.8s), 300/302 VUs, 2579 complete and 0 interrupted iterations
+sampler   [  58% ] 0/2 VUs      1m43.8s/3m0s  1.00 iters/s
+spike     [  58% ] 300/300 VUs  1m43.8s/3m00.0s
+time="2026-11-19T17:41:05Z" level=info msg="SAMPLER,2026-11-19T17:41:05.117Z,adc-sandbox,200,145" source=console
+
+running (1m44.8s), 300/302 VUs, 2671 complete and 0 interrupted iterations
+sampler   [  58% ] 0/2 VUs      1m44.8s/3m0s  1.00 iters/s
+spike     [  58% ] 300/300 VUs  1m44.8s/3m00.0s
+time="2026-11-19T17:41:06Z" level=info msg="SAMPLER,2026-11-19T17:41:06.501Z,adc-sandbox,200,528" source=console
+
+running (1m45.8s), 300/302 VUs, 2695 complete and 0 interrupted iterations
+sampler   [  59% ] 0/2 VUs      1m45.8s/3m0s  1.00 iters/s
+spike     [  59% ] 300/300 VUs  1m45.8s/3m00.0s
+
+running (1m46.8s), 301/302 VUs, 2731 complete and 0 interrupted iterations
+sampler   [  59% ] 1/2 VUs      1m46.8s/3m0s  1.00 iters/s
+spike     [  59% ] 300/300 VUs  1m46.8s/3m00.0s
+time="2026-11-19T17:41:07Z" level=info msg="SAMPLER,2026-11-19T17:41:07.814Z,adc-sandbox,200,841" source=console
+
+running (1m47.8s), 301/302 VUs, 2748 complete and 0 interrupted iterations
+sampler   [  60% ] 1/2 VUs      1m47.8s/3m0s  1.00 iters/s
+spike     [  60% ] 300/300 VUs  1m47.8s/3m00.0s
+
+running (1m48.8s), 302/302 VUs, 2753 complete and 0 interrupted iterations
+sampler   [  60% ] 2/2 VUs      1m48.8s/3m0s  1.00 iters/s
+spike     [  60% ] 300/300 VUs  1m48.8s/3m00.0s
+time="2026-11-19T17:41:10Z" level=info msg="SAMPLER,2026-11-19T17:41:10.323Z,adc-sandbox,200,2349" source=console
+
+running (1m49.8s), 301/302 VUs, 2759 complete and 0 interrupted iterations
+sampler   [  61% ] 1/2 VUs      1m49.8s/3m0s  1.00 iters/s
+spike     [  61% ] 300/300 VUs  1m49.8s/3m00.0s
+time="2026-11-19T17:41:10Z" level=info msg="SAMPLER,2026-11-19T17:41:10.951Z,adc-sandbox,200,1978" source=console
+time="2026-11-19T17:41:10Z" level=info msg="SAMPLER,2026-11-19T17:41:10.984Z,adc-sandbox,200,11" source=console
+
+running (1m50.8s), 300/302 VUs, 2812 complete and 0 interrupted iterations
+sampler   [  62% ] 0/2 VUs      1m50.8s/3m0s  1.00 iters/s
+spike     [  62% ] 300/300 VUs  1m50.8s/3m00.0s
+
+running (1m51.8s), 301/302 VUs, 2830 complete and 0 interrupted iterations
+sampler   [  62% ] 1/2 VUs      1m51.8s/3m0s  1.00 iters/s
+spike     [  62% ] 300/300 VUs  1m51.8s/3m00.0s
+time="2026-11-19T17:41:12Z" level=info msg="SAMPLER,2026-11-19T17:41:12.802Z,adc-sandbox,200,829" source=console
+
+running (1m52.8s), 301/302 VUs, 2852 complete and 0 interrupted iterations
+sampler   [  63% ] 1/2 VUs      1m52.8s/3m0s  1.00 iters/s
+spike     [  63% ] 300/300 VUs  1m52.8s/3m00.0s
+
+running (1m53.8s), 302/302 VUs, 2857 complete and 0 interrupted iterations
+sampler   [  63% ] 2/2 VUs      1m53.8s/3m0s  1.00 iters/s
+spike     [  63% ] 300/300 VUs  1m53.8s/3m00.0s
+time="2026-11-19T17:41:15Z" level=info msg="SAMPLER,2026-11-19T17:41:15.251Z,adc-sandbox,200,2278" source=console
+time="2026-11-19T17:41:15Z" level=info msg="SAMPLER,2026-11-19T17:41:15.252Z,adc-sandbox,200,1279" source=console
+
+running (1m54.8s), 300/302 VUs, 2868 complete and 0 interrupted iterations
+sampler   [  64% ] 0/2 VUs      1m54.8s/3m0s  1.00 iters/s
+spike     [  64% ] 300/300 VUs  1m54.8s/3m00.0s
+
+running (1m55.8s), 301/302 VUs, 2880 complete and 0 interrupted iterations
+sampler   [  64% ] 1/2 VUs      1m55.8s/3m0s  1.00 iters/s
+spike     [  64% ] 300/300 VUs  1m55.8s/3m00.0s
+time="2026-11-19T17:41:16Z" level=info msg="SAMPLER,2026-11-19T17:41:16.985Z,adc-sandbox,200,12" source=console
+
+running (1m56.8s), 301/302 VUs, 2926 complete and 0 interrupted iterations
+sampler   [  65% ] 1/2 VUs      1m56.8s/3m0s  1.00 iters/s
+spike     [  65% ] 300/300 VUs  1m56.8s/3m00.0s
+time="2026-11-19T17:41:18Z" level=info msg="SAMPLER,2026-11-19T17:41:18.317Z,adc-sandbox,200,2344" source=console
+time="2026-11-19T17:41:18Z" level=info msg="SAMPLER,2026-11-19T17:41:18.419Z,adc-sandbox,200,446" source=console
+
+running (1m57.8s), 300/302 VUs, 2944 complete and 0 interrupted iterations
+sampler   [  65% ] 0/2 VUs      1m57.8s/3m0s  1.00 iters/s
+spike     [  65% ] 300/300 VUs  1m57.8s/3m00.0s
+time="2026-11-19T17:41:19Z" level=info msg="SAMPLER,2026-11-19T17:41:19.720Z,adc-sandbox,200,747" source=console
+
+running (1m58.8s), 300/302 VUs, 3040 complete and 0 interrupted iterations
+sampler   [  66% ] 0/2 VUs      1m58.8s/3m0s  1.00 iters/s
+spike     [  66% ] 300/300 VUs  1m58.8s/3m00.0s
+
+running (1m59.8s), 301/302 VUs, 3088 complete and 0 interrupted iterations
+sampler   [  67% ] 1/2 VUs      1m59.8s/3m0s  1.00 iters/s
+spike     [  67% ] 300/300 VUs  1m59.8s/3m00.0s
+
+running (2m00.8s), 302/302 VUs, 3093 complete and 0 interrupted iterations
+sampler   [  67% ] 2/2 VUs      2m00.8s/3m0s  1.00 iters/s
+spike     [  67% ] 300/300 VUs  2m00.8s/3m00.0s
+
+running (2m01.8s), 302/302 VUs, 3096 complete and 0 interrupted iterations
+sampler   [  68% ] 2/2 VUs      2m01.8s/3m0s  1.00 iters/s
+spike     [  68% ] 300/300 VUs  2m01.8s/3m00.0s
+
+running (2m02.8s), 302/302 VUs, 3138 complete and 0 interrupted iterations
+sampler   [  68% ] 2/2 VUs      2m02.8s/3m0s  1.00 iters/s
+spike     [  68% ] 300/300 VUs  2m02.8s/3m00.0s
+time="2026-11-19T17:41:24Z" level=info msg="SAMPLER,2026-11-19T17:41:24.641Z,adc-sandbox,200,4668" source=console
+time="2026-11-19T17:41:24Z" level=info msg="SAMPLER,2026-11-19T17:41:24.655Z,adc-sandbox,200,3682" source=console
+
+running (2m03.8s), 300/302 VUs, 3181 complete and 0 interrupted iterations
+sampler   [  69% ] 0/2 VUs      2m03.8s/3m0s  1.00 iters/s
+spike     [  69% ] 300/300 VUs  2m03.8s/3m00.0s
+
+running (2m04.8s), 301/302 VUs, 3188 complete and 0 interrupted iterations
+sampler   [  69% ] 1/2 VUs      2m04.8s/3m0s  1.00 iters/s
+spike     [  69% ] 300/300 VUs  2m04.8s/3m00.0s
+time="2026-11-19T17:41:25Z" level=info msg="SAMPLER,2026-11-19T17:41:25.918Z,adc-sandbox,200,945" source=console
+time="2026-11-19T17:41:25Z" level=info msg="SAMPLER,2026-11-19T17:41:25.985Z,adc-sandbox,200,11" source=console
+
+running (2m05.8s), 300/302 VUs, 3253 complete and 0 interrupted iterations
+sampler   [  70% ] 0/2 VUs      2m05.8s/3m0s  1.00 iters/s
+spike     [  70% ] 300/300 VUs  2m05.8s/3m00.0s
+time="2026-11-19T17:41:26Z" level=info msg="SAMPLER,2026-11-19T17:41:26.983Z,adc-sandbox,200,10" source=console
+
+running (2m06.8s), 300/302 VUs, 3363 complete and 0 interrupted iterations
+sampler   [  70% ] 0/2 VUs      2m06.8s/3m0s  1.00 iters/s
+spike     [  70% ] 300/300 VUs  2m06.8s/3m00.0s
+
+running (2m07.8s), 301/302 VUs, 3428 complete and 0 interrupted iterations
+sampler   [  71% ] 1/2 VUs      2m07.8s/3m0s  1.00 iters/s
+spike     [  71% ] 300/300 VUs  2m07.8s/3m00.0s
+
+running (2m08.8s), 302/302 VUs, 3434 complete and 0 interrupted iterations
+sampler   [  72% ] 2/2 VUs      2m08.8s/3m0s  1.00 iters/s
+spike     [  72% ] 300/300 VUs  2m08.8s/3m00.0s
+time="2026-11-19T17:41:30Z" level=info msg="SAMPLER,2026-11-19T17:41:30.538Z,adc-sandbox,200,2564" source=console
+time="2026-11-19T17:41:30Z" level=info msg="SAMPLER,2026-11-19T17:41:30.564Z,adc-sandbox,200,1591" source=console
+
+running (2m09.8s), 300/302 VUs, 3439 complete and 0 interrupted iterations
+sampler   [  72% ] 0/2 VUs      2m09.8s/3m0s  1.00 iters/s
+spike     [  72% ] 300/300 VUs  2m09.8s/3m00.0s
+
+running (2m10.8s), 301/302 VUs, 3498 complete and 0 interrupted iterations
+sampler   [  73% ] 1/2 VUs      2m10.8s/3m0s  1.00 iters/s
+spike     [  73% ] 300/300 VUs  2m10.8s/3m00.0s
+
+running (2m11.8s), 302/302 VUs, 3500 complete and 0 interrupted iterations
+sampler   [  73% ] 2/2 VUs      2m11.8s/3m0s  1.00 iters/s
+spike     [  73% ] 300/300 VUs  2m11.8s/3m00.0s
+time="2026-11-19T17:41:33Z" level=info msg="SAMPLER,2026-11-19T17:41:33.392Z,adc-sandbox,200,2418" source=console
+time="2026-11-19T17:41:33Z" level=info msg="SAMPLER,2026-11-19T17:41:33.392Z,adc-sandbox,200,1419" source=console
+
+running (2m12.8s), 300/302 VUs, 3506 complete and 0 interrupted iterations
+sampler   [  74% ] 0/2 VUs      2m12.8s/3m0s  1.00 iters/s
+spike     [  74% ] 300/300 VUs  2m12.8s/3m00.0s
+
+running (2m13.8s), 301/302 VUs, 3570 complete and 0 interrupted iterations
+sampler   [  74% ] 1/2 VUs      2m13.8s/3m0s  1.00 iters/s
+spike     [  74% ] 300/300 VUs  2m13.8s/3m00.0s
+
+running (2m14.8s), 302/302 VUs, 3573 complete and 0 interrupted iterations
+sampler   [  75% ] 2/2 VUs      2m14.8s/3m0s  1.00 iters/s
+spike     [  75% ] 300/300 VUs  2m14.8s/3m00.0s
+time="2026-11-19T17:41:36Z" level=info msg="SAMPLER,2026-11-19T17:41:36.099Z,adc-sandbox,200,2126" source=console
+time="2026-11-19T17:41:36Z" level=info msg="SAMPLER,2026-11-19T17:41:36.252Z,adc-sandbox,200,1279" source=console
+
+running (2m15.8s), 300/302 VUs, 3602 complete and 0 interrupted iterations
+sampler   [  75% ] 0/2 VUs      2m15.8s/3m0s  1.00 iters/s
+spike     [  75% ] 300/300 VUs  2m15.8s/3m00.0s
+time="2026-11-19T17:41:37Z" level=info msg="SAMPLER,2026-11-19T17:41:37.445Z,adc-sandbox,200,472" source=console
+
+running (2m16.8s), 300/302 VUs, 3636 complete and 0 interrupted iterations
+sampler   [  76% ] 0/2 VUs      2m16.8s/3m0s  1.00 iters/s
+spike     [  76% ] 300/300 VUs  2m16.8s/3m00.0s
+
+running (2m17.8s), 301/302 VUs, 3736 complete and 0 interrupted iterations
+sampler   [  77% ] 1/2 VUs      2m17.8s/3m0s  1.00 iters/s
+spike     [  77% ] 300/300 VUs  2m17.8s/3m00.0s
+
+running (2m18.8s), 302/302 VUs, 3739 complete and 0 interrupted iterations
+sampler   [  77% ] 2/2 VUs      2m18.8s/3m0s  1.00 iters/s
+spike     [  77% ] 300/300 VUs  2m18.8s/3m00.0s
+time="2026-11-19T17:41:40Z" level=info msg="SAMPLER,2026-11-19T17:41:40.260Z,adc-sandbox,200,1288" source=console
+
+running (2m19.8s), 301/302 VUs, 3747 complete and 0 interrupted iterations
+sampler   [  78% ] 1/2 VUs      2m19.8s/3m0s  1.00 iters/s
+spike     [  78% ] 300/300 VUs  2m19.8s/3m00.0s
+
+running (2m20.8s), 302/302 VUs, 3756 complete and 0 interrupted iterations
+sampler   [  78% ] 2/2 VUs      2m20.8s/3m0s  1.00 iters/s
+spike     [  78% ] 300/300 VUs  2m20.8s/3m00.0s
+
+running (2m21.8s), 302/302 VUs, 3758 complete and 0 interrupted iterations
+sampler   [  79% ] 2/2 VUs      2m21.8s/3m0s  1.00 iters/s
+spike     [  79% ] 300/300 VUs  2m21.8s/3m00.0s
+
+running (2m22.8s), 302/302 VUs, 3761 complete and 0 interrupted iterations
+sampler   [  79% ] 2/2 VUs      2m22.8s/3m0s  1.00 iters/s
+spike     [  79% ] 300/300 VUs  2m22.8s/3m00.0s
+time="2026-11-19T17:41:43Z" level=info msg="SAMPLER,2026-11-19T17:41:43.990Z,adc-sandbox,200,6017" source=console
+time="2026-11-19T17:41:44Z" level=info msg="SAMPLER,2026-11-19T17:41:44.006Z,adc-sandbox,200,3033" source=console
+
+running (2m23.8s), 300/302 VUs, 3791 complete and 0 interrupted iterations
+sampler   [  80% ] 0/2 VUs      2m23.8s/3m0s  1.00 iters/s
+spike     [  80% ] 300/300 VUs  2m23.8s/3m00.0s
+time="2026-11-19T17:41:45Z" level=info msg="SAMPLER,2026-11-19T17:41:45.146Z,adc-sandbox,200,173" source=console
+
+running (2m24.8s), 300/302 VUs, 3817 complete and 0 interrupted iterations
+sampler   [  80% ] 0/2 VUs      2m24.8s/3m0s  1.00 iters/s
+spike     [  80% ] 300/300 VUs  2m24.8s/3m00.0s
+
+running (2m25.8s), 301/302 VUs, 3854 complete and 0 interrupted iterations
+sampler   [  81% ] 1/2 VUs      2m25.8s/3m0s  1.00 iters/s
+spike     [  81% ] 300/300 VUs  2m25.8s/3m00.0s
+
+running (2m26.8s), 302/302 VUs, 3883 complete and 0 interrupted iterations
+sampler   [  82% ] 2/2 VUs      2m26.8s/3m0s  1.00 iters/s
+spike     [  82% ] 300/300 VUs  2m26.8s/3m00.0s
+time="2026-11-19T17:41:47Z" level=info msg="SAMPLER,2026-11-19T17:41:47.980Z,adc-sandbox,200,2007" source=console
+
+running (2m27.8s), 301/302 VUs, 3900 complete and 0 interrupted iterations
+sampler   [  82% ] 1/2 VUs      2m27.8s/3m0s  1.00 iters/s
+spike     [  82% ] 300/300 VUs  2m27.8s/3m00.0s
+
+running (2m28.8s), 302/302 VUs, 3905 complete and 0 interrupted iterations
+sampler   [  83% ] 2/2 VUs      2m28.8s/3m0s  1.00 iters/s
+spike     [  83% ] 300/300 VUs  2m28.8s/3m00.0s
+time="2026-11-19T17:41:50Z" level=info msg="SAMPLER,2026-11-19T17:41:50.326Z,adc-sandbox,200,3353" source=console
+time="2026-11-19T17:41:50Z" level=info msg="SAMPLER,2026-11-19T17:41:50.329Z,adc-sandbox,200,1356" source=console
+
+running (2m29.8s), 300/302 VUs, 3956 complete and 0 interrupted iterations
+sampler   [  83% ] 0/2 VUs      2m29.8s/3m0s  1.00 iters/s
+spike     [  83% ] 300/300 VUs  2m29.8s/3m00.0s
+
+running (2m30.8s), 300/302 VUs, 4085 complete and 0 interrupted iterations
+sampler   [  84% ] 1/2 VUs      2m30.8s/3m0s  1.00 iters/s
+spike     [  84% ] 299/300 VUs  2m30.8s/3m00.0s
+time="2026-11-19T17:41:51Z" level=info msg="SAMPLER,2026-11-19T17:41:51.984Z,adc-sandbox,200,11" source=console
+
+running (2m31.8s), 297/302 VUs, 4164 complete and 0 interrupted iterations
+sampler   [  84% ] 1/2 VUs      2m31.8s/3m0s  1.00 iters/s
+spike     [  84% ] 296/300 VUs  2m31.8s/3m00.0s
+time="2026-11-19T17:41:53Z" level=info msg="SAMPLER,2026-11-19T17:41:53.367Z,adc-sandbox,200,2395" source=console
+time="2026-11-19T17:41:53Z" level=info msg="SAMPLER,2026-11-19T17:41:53.373Z,adc-sandbox,200,401" source=console
+
+running (2m32.8s), 295/302 VUs, 4177 complete and 0 interrupted iterations
+sampler   [  85% ] 0/2 VUs      2m32.8s/3m0s  1.00 iters/s
+spike     [  85% ] 295/300 VUs  2m32.8s/3m00.0s
+
+running (2m33.8s), 291/302 VUs, 4216 complete and 0 interrupted iterations
+sampler   [  85% ] 1/2 VUs      2m33.8s/3m0s  1.00 iters/s
+spike     [  85% ] 290/300 VUs  2m33.8s/3m00.0s
+
+running (2m34.8s), 292/302 VUs, 4218 complete and 0 interrupted iterations
+sampler   [  86% ] 2/2 VUs      2m34.8s/3m0s  1.00 iters/s
+spike     [  86% ] 290/300 VUs  2m34.8s/3m00.0s
+
+running (2m35.8s), 279/302 VUs, 4272 complete and 0 interrupted iterations
+sampler   [  87% ] 2/2 VUs      2m35.8s/3m0s  1.00 iters/s
+spike     [  87% ] 277/300 VUs  2m35.8s/3m00.0s
+time="2026-11-19T17:41:57Z" level=info msg="SAMPLER,2026-11-19T17:41:57.017Z,adc-sandbox,200,3044" source=console
+time="2026-11-19T17:41:57Z" level=info msg="SAMPLER,2026-11-19T17:41:57.018Z,adc-sandbox,200,2044" source=console
+
+running (2m36.8s), 276/302 VUs, 4277 complete and 0 interrupted iterations
+sampler   [  87% ] 0/2 VUs      2m36.8s/3m0s  1.00 iters/s
+spike     [  87% ] 276/300 VUs  2m36.8s/3m00.0s
+time="2026-11-19T17:41:58Z" level=info msg="SAMPLER,2026-11-19T17:41:58.116Z,adc-sandbox,200,143" source=console
+
+running (2m37.8s), 275/302 VUs, 4289 complete and 0 interrupted iterations
+sampler   [  88% ] 0/2 VUs      2m37.8s/3m0s  1.00 iters/s
+spike     [  88% ] 275/300 VUs  2m37.8s/3m00.0s
+time="2026-11-19T17:41:59Z" level=info msg="SAMPLER,2026-11-19T17:41:59.444Z,adc-sandbox,200,471" source=console
+
+running (2m38.8s), 275/302 VUs, 4301 complete and 0 interrupted iterations
+sampler   [  88% ] 0/2 VUs      2m38.8s/3m0s  1.00 iters/s
+spike     [  88% ] 275/300 VUs  2m38.8s/3m00.0s
+
+running (2m39.8s), 262/302 VUs, 4353 complete and 0 interrupted iterations
+sampler   [  89% ] 1/2 VUs      2m39.8s/3m0s  1.00 iters/s
+spike     [  89% ] 261/300 VUs  2m39.8s/3m00.0s
+
+running (2m40.8s), 263/302 VUs, 4356 complete and 0 interrupted iterations
+sampler   [  89% ] 2/2 VUs      2m40.8s/3m0s  1.00 iters/s
+spike     [  89% ] 261/300 VUs  2m40.8s/3m00.0s
+time="2026-11-19T17:42:01Z" level=info msg="SAMPLER,2026-11-19T17:42:01.852Z,adc-sandbox,200,1878" source=console
+time="2026-11-19T17:42:01Z" level=info msg="SAMPLER,2026-11-19T17:42:01.853Z,adc-sandbox,200,880" source=console
+time="2026-11-19T17:42:02Z" level=info msg="SAMPLER,2026-11-19T17:42:02.003Z,adc-sandbox,200,30" source=console
+
+running (2m41.8s), 240/302 VUs, 4433 complete and 0 interrupted iterations
+sampler   [  90% ] 0/2 VUs      2m41.8s/3m0s  1.00 iters/s
+spike     [  90% ] 240/300 VUs  2m41.8s/3m00.0s
+
+running (2m42.8s), 213/302 VUs, 4517 complete and 0 interrupted iterations
+sampler   [  90% ] 1/2 VUs      2m42.8s/3m0s  1.00 iters/s
+spike     [  90% ] 212/300 VUs  2m42.8s/3m00.0s
+
+running (2m43.8s), 211/302 VUs, 4523 complete and 0 interrupted iterations
+sampler   [  91% ] 2/2 VUs      2m43.8s/3m0s  1.00 iters/s
+spike     [  91% ] 209/300 VUs  2m43.8s/3m00.0s
+
+running (2m44.8s), 211/302 VUs, 4524 complete and 0 interrupted iterations
+sampler   [  92% ] 2/2 VUs      2m44.8s/3m0s  1.00 iters/s
+spike     [  92% ] 209/300 VUs  2m44.8s/3m00.0s
+time="2026-11-19T17:42:06Z" level=info msg="SAMPLER,2026-11-19T17:42:06.369Z,adc-sandbox,200,3396" source=console
+
+running (2m45.8s), 199/302 VUs, 4582 complete and 0 interrupted iterations
+sampler   [  92% ] 1/2 VUs      2m45.8s/3m0s  1.00 iters/s
+spike     [  92% ] 198/300 VUs  2m45.8s/3m00.0s
+time="2026-11-19T17:42:07Z" level=info msg="SAMPLER,2026-11-19T17:42:07.479Z,adc-sandbox,200,3506" source=console
+
+running (2m46.8s), 199/302 VUs, 4586 complete and 0 interrupted iterations
+sampler   [  93% ] 1/2 VUs      2m46.8s/3m0s  1.00 iters/s
+spike     [  93% ] 198/300 VUs  2m46.8s/3m00.0s
+
+running (2m47.8s), 185/302 VUs, 4623 complete and 0 interrupted iterations
+sampler   [  93% ] 2/2 VUs      2m47.8s/3m0s  1.00 iters/s
+spike     [  93% ] 183/300 VUs  2m47.8s/3m00.0s
+time="2026-11-19T17:42:09Z" level=info msg="SAMPLER,2026-11-19T17:42:09.475Z,adc-sandbox,200,2502" source=console
+time="2026-11-19T17:42:09Z" level=info msg="SAMPLER,2026-11-19T17:42:09.476Z,adc-sandbox,200,1503" source=console
+
+running (2m48.8s), 171/302 VUs, 4642 complete and 0 interrupted iterations
+sampler   [  94% ] 0/2 VUs      2m48.8s/3m0s  1.00 iters/s
+spike     [  94% ] 171/300 VUs  2m48.8s/3m00.0s
+
+running (2m49.8s), 164/302 VUs, 4680 complete and 0 interrupted iterations
+sampler   [  94% ] 1/2 VUs      2m49.8s/3m0s  1.00 iters/s
+spike     [  94% ] 163/300 VUs  2m49.8s/3m00.0s
+
+running (2m50.8s), 164/302 VUs, 4682 complete and 0 interrupted iterations
+sampler   [  95% ] 2/2 VUs      2m50.8s/3m0s  1.00 iters/s
+spike     [  95% ] 162/300 VUs  2m50.8s/3m00.0s
+
+running (2m51.8s), 162/302 VUs, 4701 complete and 0 interrupted iterations
+sampler   [  95% ] 2/2 VUs      2m51.8s/3m0s  1.00 iters/s
+spike     [  95% ] 160/300 VUs  2m51.8s/3m00.0s
+time="2026-11-19T17:42:13Z" level=info msg="SAMPLER,2026-11-19T17:42:13.668Z,adc-sandbox,200,3695" source=console
+time="2026-11-19T17:42:13Z" level=info msg="SAMPLER,2026-11-19T17:42:13.671Z,adc-sandbox,200,2698" source=console
+
+running (2m52.8s), 159/302 VUs, 4704 complete and 0 interrupted iterations
+sampler   [  96% ] 0/2 VUs      2m52.8s/3m0s  1.00 iters/s
+spike     [  96% ] 159/300 VUs  2m52.8s/3m00.0s
+
+running (2m53.8s), 121/302 VUs, 4769 complete and 0 interrupted iterations
+sampler   [  97% ] 1/2 VUs      2m53.8s/3m0s  1.00 iters/s
+spike     [  97% ] 120/300 VUs  2m53.8s/3m00.0s
+time="2026-11-19T17:42:14Z" level=info msg="SAMPLER,2026-11-19T17:42:14.955Z,adc-sandbox,200,982" source=console
+time="2026-11-19T17:42:14Z" level=info msg="SAMPLER,2026-11-19T17:42:14.990Z,adc-sandbox,200,17" source=console
+
+running (2m54.8s), 102/302 VUs, 4807 complete and 0 interrupted iterations
+sampler   [  97% ] 0/2 VUs      2m54.8s/3m0s  1.00 iters/s
+spike     [  97% ] 102/300 VUs  2m54.8s/3m00.0s
+
+running (2m55.8s), 103/302 VUs, 4812 complete and 0 interrupted iterations
+sampler   [  98% ] 1/2 VUs      2m55.8s/3m0s  1.00 iters/s
+spike     [  98% ] 102/300 VUs  2m55.8s/3m00.0s
+
+running (2m56.8s), 103/302 VUs, 4814 complete and 0 interrupted iterations
+sampler   [  98% ] 2/2 VUs      2m56.8s/3m0s  1.00 iters/s
+spike     [  98% ] 101/300 VUs  2m56.8s/3m00.0s
+time="2026-11-19T17:42:18Z" level=info msg="SAMPLER,2026-11-19T17:42:18.592Z,adc-sandbox,200,2619" source=console
+
+running (2m57.8s), 100/302 VUs, 4817 complete and 0 interrupted iterations
+sampler   [  99% ] 1/2 VUs      2m57.8s/3m0s  1.00 iters/s
+spike     [  99% ] 099/300 VUs  2m57.8s/3m00.0s
+
+running (2m58.8s), 100/302 VUs, 4818 complete and 0 interrupted iterations
+sampler   [  99% ] 2/2 VUs      2m58.8s/3m0s  1.00 iters/s
+spike     [  99% ] 098/300 VUs  2m58.8s/3m00.0s
+time="2026-11-19T17:42:19Z" level=info msg="SAMPLER,2026-11-19T17:42:19.803Z,adc-sandbox,200,2830" source=console
+time="2026-11-19T17:42:19Z" level=info msg="SAMPLER,2026-11-19T17:42:19.806Z,adc-sandbox,200,834" source=console
+time="2026-11-19T17:42:19Z" level=info msg="SAMPLER,2026-11-19T17:42:19.988Z,adc-sandbox,200,15" source=console
+
+running (2m59.8s), 093/302 VUs, 4827 complete and 0 interrupted iterations
+sampler   [ 100% ] 0/2 VUs      2m59.8s/3m0s  1.00 iters/s
+spike     [ 100% ] 093/300 VUs  2m59.8s/3m00.0s
+time="2026-11-19T17:42:20Z" level=info msg="SAMPLER,2026-11-19T17:42:20.987Z,adc-sandbox,200,15" source=console
+
+running (3m00.8s), 078/302 VUs, 4843 complete and 0 interrupted iterations
+sampler ✓ [ 100% ] 0/2 VUs      3m0s  1.00 iters/s
+spike   ↓ [ 100% ] 093/300 VUs  3m0s 
+
+running (3m01.8s), 077/302 VUs, 4844 complete and 0 interrupted iterations
+sampler ✓ [ 100% ] 0/2 VUs      3m0s  1.00 iters/s
+spike   ↓ [ 100% ] 093/300 VUs  3m0s 
+
+running (3m02.8s), 072/302 VUs, 4849 complete and 0 interrupted iterations
+sampler ✓ [ 100% ] 0/2 VUs      3m0s  1.00 iters/s
+spike   ↓ [ 100% ] 093/300 VUs  3m0s 
+
+running (3m03.8s), 042/302 VUs, 4879 complete and 0 interrupted iterations
+sampler ✓ [ 100% ] 0/2 VUs      3m0s  1.00 iters/s
+spike   ↓ [ 100% ] 093/300 VUs  3m0s 
+
+running (3m04.8s), 002/302 VUs, 4919 complete and 0 interrupted iterations
+sampler ✓ [ 100% ] 0/2 VUs      3m0s  1.00 iters/s
+spike   ↓ [ 100% ] 093/300 VUs  3m0s 
+
+Scenario: s3-spike   Environment: azure-aca   Target: https://catalog-orders.wonderfulriver-e99086d4.malaysiawest.azurecontainerapps.io
+
+metric                       avg      p50      p95      p99      max   (ms)
+latency_all                 9308.21  6879.97 25458.48 31381.56 44799.88
+latency_products_list      11827.80 11899.01 27921.29 31136.21 31379.43
+latency_products_detail     6587.40  5694.89 16002.13 20759.42 21127.29
+latency_orders_create       7081.96  6542.72 16257.55 20800.26 21091.64
+latency_report             18093.45 18222.84 38579.99 43337.68 44799.88
+server_time_ms              7846.90  5588.00 24333.80 30155.06 43886.60
+
+requests: 4781   rate: 25.74 req/s
+error rate: 0.00 %
+files: results/azure-aca/s3-spike/2026-11-19T17-42-26-683Z.json, results/azure-aca/s3-spike/2026-11-19T17-42-26-683Z.csv
+
+running (3m05.7s), 000/302 VUs, 4921 complete and 0 interrupted iterations
+sampler ✓ [ 100% ] 0/2 VUs      3m0s  1.00 iters/s
+spike   ✓ [ 100% ] 000/300 VUs  3m0s 

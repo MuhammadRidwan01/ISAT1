@@ -1,0 +1,20 @@
+{
+  "currency": "USD",
+  "vps": {
+    "monthlyPrice": null
+  },
+  "serverless": {
+    "vcpuRatePerSecond": null,
+    "memoryRatePerGiBSecond": null,
+    "requestRatePerMillion": null,
+    "freeGrant": {
+      "vcpuSeconds": 180000,
+      "gibSeconds": 360000,
+      "requests": 2000000
+    }
+  },
+  "instanceSpec": {
+    "vcpu": 1,
+    "memoryGiB": 2
+  }
+}

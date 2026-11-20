@@ -10,8 +10,8 @@ import {
   buildSummary,
   samplerScenarios,
   summaryTrendStats,
-} from './lib/common.js';
-export { sampler } from './lib/common.js';
+} from "./lib/common.js";
+export { sampler } from "./lib/common.js";
 
 const PEAK_VUS = Number(__ENV.PEAK_VUS || 300);
 const RAMP_UP_S = Number(__ENV.RAMP_UP_S || 30);
@@ -25,15 +25,15 @@ export const options = {
   summaryTrendStats,
   scenarios: {
     spike: {
-      executor: 'ramping-vus',
+      executor: "ramping-vus",
       startVUs: 0,
       stages: [
         { duration: `${RAMP_UP_S}s`, target: PEAK_VUS },
         { duration: `${HOLD_S}s`, target: PEAK_VUS },
         { duration: `${RAMP_DOWN_S}s`, target: 0 },
       ],
-      gracefulRampDown: '30s',
-      gracefulStop: '60s',
+      gracefulRampDown: "30s",
+      gracefulStop: "60s",
     },
     ...samplerScenarios(TOTAL_S),
   },
@@ -49,5 +49,5 @@ export default function () {
 }
 
 export function handleSummary(data) {
-  return buildSummary('s3-spike', data);
+  return buildSummary("s3-spike", data);
 }

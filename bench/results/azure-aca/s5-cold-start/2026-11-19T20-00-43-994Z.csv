@@ -1,0 +1,4 @@
+env,scenario,timestamp,metric,avg_ms,p50_ms,p95_ms,p99_ms,max_ms,rps,error_rate
+azure-aca,s5-cold-start,2026-11-19T20-00-43-994Z,cold_start_ms,1060.74,1119.22,1308.35,1316.46,1318.49,,0.00
+azure-aca,s5-cold-start,2026-11-19T20-00-43-994Z,cold_start_ttfb_ms,1058.92,1117.22,1306.49,1314.71,1316.76,,
+azure-aca,s5-cold-start,2026-11-19T20-00-43-994Z,warm_followup_ms,32.99,31.64,36.37,36.93,37.07,,

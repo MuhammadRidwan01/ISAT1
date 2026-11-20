@@ -1,0 +1,14 @@
+machine-type: projects/44295927964/machineTypes/n2d-standard-2
+zone: projects/44295927964/zones/asia-southeast1-a
+--- azure-vm (http://85.211.182.199) ---
+0.007063 0.014582
+0.007300 0.014804
+0.007255 0.014756
+0.006987 0.014051
+0.011740 0.018903
+--- azure-aca (https://catalog-orders.wonderfulriver-e99086d4.malaysiawest.azurecontainerapps.io) ---
+0.008648 0.057637
+0.008419 0.047535
+0.008700 0.080618
+0.007571 0.074125
+0.008257 0.048145

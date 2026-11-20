@@ -7,8 +7,8 @@ import {
   buildSummary,
   samplerScenarios,
   summaryTrendStats,
-} from './lib/common.js';
-export { sampler } from './lib/common.js';
+} from "./lib/common.js";
+export { sampler } from "./lib/common.js";
 
 const VUS = Number(__ENV.VUS || 50);
 const DURATION_S = Number(__ENV.DURATION_S || 300);
@@ -18,7 +18,11 @@ const LIST_SHARE = Number(__ENV.LIST_SHARE || 0.7); // 70% list, 30% detail
 export const options = {
   summaryTrendStats,
   scenarios: {
-    steady_read: { executor: 'constant-vus', vus: VUS, duration: `${DURATION_S}s` },
+    steady_read: {
+      executor: "constant-vus",
+      vus: VUS,
+      duration: `${DURATION_S}s`,
+    },
     ...samplerScenarios(DURATION_S),
   },
 };
@@ -30,5 +34,5 @@ export default function () {
 }
 
 export function handleSummary(data) {
-  return buildSummary('s1-steady-read', data);
+  return buildSummary("s1-steady-read", data);
 }

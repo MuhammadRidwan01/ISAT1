@@ -1,0 +1,5 @@
+env,scenario,timestamp,metric,avg_ms,p50_ms,p95_ms,p99_ms,max_ms,rps,error_rate
+azure-aca,s1-steady-read,2026-11-19T16-03-03-515Z,latency_all,37.20,30.42,72.50,104.33,2289.69,92.94,0.00
+azure-aca,s1-steady-read,2026-11-19T16-03-03-515Z,latency_products_list,40.09,31.47,75.95,106.52,2289.69,,
+azure-aca,s1-steady-read,2026-11-19T16-03-03-515Z,latency_products_detail,30.40,22.66,61.37,97.54,2203.92,,
+azure-aca,s1-steady-read,2026-11-19T16-03-03-515Z,server_time_ms,16.99,16.30,31.10,75.90,207.90,,
